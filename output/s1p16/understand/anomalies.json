@@ -1,0 +1,505 @@
+{
+  "count": 50,
+  "rows": [
+    {
+      "Shipment_ID": "SH-200007",
+      "Ship_Date": "2025-10-03 00:00:00",
+      "Lane": "New York - Los Angeles",
+      "Customer": "Ironbridge Distribution",
+      "anomaly_score": 0.6836,
+      "anomaly_reason": "net margin unusually low (-164.80 vs typical 12.23)",
+      "Total_Revenue": 402.47,
+      "net_profit": -663.26
+    },
+    {
+      "Shipment_ID": "SH-200793",
+      "Ship_Date": "2026-07-03 00:00:00",
+      "Lane": "Miami - Chicago",
+      "Customer": "Bluewave Retail Group",
+      "anomaly_score": 0.6686,
+      "anomaly_reason": "net margin unusually low (-136.80 vs typical 12.23)",
+      "Total_Revenue": 548.74,
+      "net_profit": -750.7
+    },
+    {
+      "Shipment_ID": "SH-200365",
+      "Ship_Date": "2026-01-28 00:00:00",
+      "Lane": "Los Angeles - Houston",
+      "Customer": "Summit Industries",
+      "anomaly_score": 0.6509,
+      "anomaly_reason": "accessorial share unusually high (0.33 vs typical 0.00)",
+      "Total_Revenue": 1202.4,
+      "net_profit": 470.61
+    },
+    {
+      "Shipment_ID": "SH-200594",
+      "Ship_Date": "2026-04-23 00:00:00",
+      "Lane": "Dallas - Houston",
+      "Customer": "Skyline Retail Group",
+      "anomaly_score": 0.6417,
+      "anomaly_reason": "accessorial share unusually high (0.28 vs typical 0.00)",
+      "Total_Revenue": 1442.51,
+      "net_profit": -190.23
+    },
+    {
+      "Shipment_ID": "SH-200868",
+      "Ship_Date": "2026-08-03 00:00:00",
+      "Lane": "Seattle - Chicago",
+      "Customer": "Evergreen Retail Group",
+      "anomaly_score": 0.6404,
+      "anomaly_reason": "net margin unusually low (-411.16 vs typical 12.23)",
+      "Total_Revenue": 352.61,
+      "net_profit": -1449.78
+    },
+    {
+      "Shipment_ID": "SH-200170",
+      "Ship_Date": "2025-11-21 00:00:00",
+      "Lane": "Memphis - Chicago",
+      "Customer": "Atlas Foods",
+      "anomaly_score": 0.6336,
+      "anomaly_reason": "accessorial share unusually high (0.48 vs typical 0.00)",
+      "Total_Revenue": 526.17,
+      "net_profit": 241.0
+    },
+    {
+      "Shipment_ID": "SH-200107",
+      "Ship_Date": "2025-11-09 00:00:00",
+      "Lane": "Atlanta - Memphis",
+      "Customer": "Skyline Retail Group",
+      "anomaly_score": 0.6303,
+      "anomaly_reason": "accessorial share unusually high (0.60 vs typical 0.00)",
+      "Total_Revenue": 415.81,
+      "net_profit": 205.47
+    },
+    {
+      "Shipment_ID": "SH-200545",
+      "Ship_Date": "2026-04-07 00:00:00",
+      "Lane": "Denver - Dallas",
+      "Customer": "Pioneer Industries",
+      "anomaly_score": 0.6263,
+      "anomaly_reason": "net margin unusually low (-81.30 vs typical 12.23)",
+      "Total_Revenue": 495.15,
+      "net_profit": -402.54
+    },
+    {
+      "Shipment_ID": "SH-200046",
+      "Ship_Date": "2025-10-21 00:00:00",
+      "Lane": "Denver - Dallas",
+      "Customer": "Titan Foods",
+      "anomaly_score": 0.6194,
+      "anomaly_reason": "delay days unusually high (3.00 vs typical 0.00)",
+      "Total_Revenue": 2676.88,
+      "net_profit": -56.08
+    },
+    {
+      "Shipment_ID": "SH-200660",
+      "Ship_Date": "2026-05-15 00:00:00",
+      "Lane": "Chicago - Miami",
+      "Customer": "Atlas Pharma",
+      "anomaly_score": 0.6097,
+      "anomaly_reason": "accessorial share unusually high (0.30 vs typical 0.00)",
+      "Total_Revenue": 493.22,
+      "net_profit": -281.22
+    },
+    {
+      "Shipment_ID": "SH-200263",
+      "Ship_Date": "2025-12-18 00:00:00",
+      "Lane": "Miami - Atlanta",
+      "Customer": "Ironbridge Pharma",
+      "anomaly_score": 0.6066,
+      "anomaly_reason": "net margin unusually low (-87.57 vs typical 12.23)",
+      "Total_Revenue": 474.89,
+      "net_profit": -415.85
+    },
+    {
+      "Shipment_ID": "SH-200358",
+      "Ship_Date": "2026-01-25 00:00:00",
+      "Lane": "Chicago - Atlanta",
+      "Customer": "Harbor Distribution",
+      "anomaly_score": 0.6045,
+      "anomaly_reason": "accessorial share unusually high (0.27 vs typical 0.00)",
+      "Total_Revenue": 278.92,
+      "net_profit": -127.63
+    },
+    {
+      "Shipment_ID": "SH-200214",
+      "Ship_Date": "2025-12-05 00:00:00",
+      "Lane": "Seattle - New York",
+      "Customer": "Harbor Distribution",
+      "anomaly_score": 0.6033,
+      "anomaly_reason": "delay days unusually high (5.00 vs typical 0.00)",
+      "Total_Revenue": 10587.46,
+      "net_profit": -246.61
+    },
+    {
+      "Shipment_ID": "SH-200427",
+      "Ship_Date": "2026-02-24 00:00:00",
+      "Lane": "Atlanta - Chicago",
+      "Customer": "Orchard Distribution",
+      "anomaly_score": 0.6032,
+      "anomaly_reason": "delay days unusually high (5.00 vs typical 0.00)",
+      "Total_Revenue": 2088.63,
+      "net_profit": 493.58
+    },
+    {
+      "Shipment_ID": "SH-200906",
+      "Ship_Date": "2026-08-20 00:00:00",
+      "Lane": "Seattle - Dallas",
+      "Customer": "Atlas Retail Group",
+      "anomaly_score": 0.6031,
+      "anomaly_reason": "delay days unusually high (4.00 vs typical 0.00)",
+      "Total_Revenue": 4626.01,
+      "net_profit": 1229.74
+    },
+    {
+      "Shipment_ID": "SH-200392",
+      "Ship_Date": "2026-02-10 00:00:00",
+      "Lane": "Denver - Atlanta",
+      "Customer": "Redwood Retail Group",
+      "anomaly_score": 0.6001,
+      "anomaly_reason": "delay days unusually high (5.00 vs typical 0.00)",
+      "Total_Revenue": 4198.67,
+      "net_profit": -845.35
+    },
+    {
+      "Shipment_ID": "SH-200614",
+      "Ship_Date": "2026-04-29 00:00:00",
+      "Lane": "Memphis - Dallas",
+      "Customer": "Orchard Supply Co",
+      "anomaly_score": 0.5997,
+      "anomaly_reason": "load factor unusually low (12.80 vs typical 73.30)",
+      "Total_Revenue": 475.82,
+      "net_profit": -87.43
+    },
+    {
+      "Shipment_ID": "SH-200840",
+      "Ship_Date": "2026-07-25 00:00:00",
+      "Lane": "Denver - Chicago",
+      "Customer": "Redwood Electronics",
+      "anomaly_score": 0.5994,
+      "anomaly_reason": "net margin unusually low (-83.63 vs typical 12.23)",
+      "Total_Revenue": 679.29,
+      "net_profit": -568.06
+    },
+    {
+      "Shipment_ID": "SH-200191",
+      "Ship_Date": "2025-11-29 00:00:00",
+      "Lane": "Denver - Miami",
+      "Customer": "Cascade Foods",
+      "anomaly_score": 0.597,
+      "anomaly_reason": "delay days unusually high (4.00 vs typical 0.00)",
+      "Total_Revenue": 7206.49,
+      "net_profit": 2682.14
+    },
+    {
+      "Shipment_ID": "SH-200161",
+      "Ship_Date": "2025-11-20 00:00:00",
+      "Lane": "Houston - Miami",
+      "Customer": "Atlas Retail Group",
+      "anomaly_score": 0.5962,
+      "anomaly_reason": "load factor unusually low (11.30 vs typical 73.30)",
+      "Total_Revenue": 522.67,
+      "net_profit": 79.95
+    },
+    {
+      "Shipment_ID": "SH-200404",
+      "Ship_Date": "2026-02-17 00:00:00",
+      "Lane": "Denver - Dallas",
+      "Customer": "Pioneer Components",
+      "anomaly_score": 0.586,
+      "anomaly_reason": "empty-return share unusually high (0.53 vs typical 0.09)",
+      "Total_Revenue": 1231.98,
+      "net_profit": -66.43
+    },
+    {
+      "Shipment_ID": "SH-200798",
+      "Ship_Date": "2026-07-06 00:00:00",
+      "Lane": "Dallas - Miami",
+      "Customer": "Titan Motors",
+      "anomaly_score": 0.5829,
+      "anomaly_reason": "load factor unusually low (18.30 vs typical 73.30)",
+      "Total_Revenue": 1275.94,
+      "net_profit": 354.56
+    },
+    {
+      "Shipment_ID": "SH-200354",
+      "Ship_Date": "2026-01-24 00:00:00",
+      "Lane": "Denver - Miami",
+      "Customer": "Orchard Brands",
+      "anomaly_score": 0.5812,
+      "anomaly_reason": "net margin unusually low (-63.94 vs typical 12.23)",
+      "Total_Revenue": 1461.6,
+      "net_profit": -934.55
+    },
+    {
+      "Shipment_ID": "SH-200480",
+      "Ship_Date": "2026-03-13 00:00:00",
+      "Lane": "Houston - Chicago",
+      "Customer": "Redwood Electronics",
+      "anomaly_score": 0.5804,
+      "anomaly_reason": "net margin unusually low (-163.53 vs typical 12.23)",
+      "Total_Revenue": 207.38,
+      "net_profit": -339.13
+    },
+    {
+      "Shipment_ID": "SH-200950",
+      "Ship_Date": "2026-09-05 00:00:00",
+      "Lane": "Chicago - Seattle",
+      "Customer": "Redwood Electronics",
+      "anomaly_score": 0.5803,
+      "anomaly_reason": "delay days unusually high (4.00 vs typical 0.00)",
+      "Total_Revenue": 2635.07,
+      "net_profit": 1127.85
+    },
+    {
+      "Shipment_ID": "SH-200090",
+      "Ship_Date": "2025-11-04 00:00:00",
+      "Lane": "Miami - Houston",
+      "Customer": "Atlas Retail Group",
+      "anomaly_score": 0.5791,
+      "anomaly_reason": "net margin unusually low (-110.21 vs typical 12.23)",
+      "Total_Revenue": 536.78,
+      "net_profit": -591.59
+    },
+    {
+      "Shipment_ID": "SH-200668",
+      "Ship_Date": "2026-05-19 00:00:00",
+      "Lane": "Atlanta - Denver",
+      "Customer": "Ironbridge Distribution",
+      "anomaly_score": 0.5777,
+      "anomaly_reason": "net margin unusually low (-179.77 vs typical 12.23)",
+      "Total_Revenue": 237.37,
+      "net_profit": -426.72
+    },
+    {
+      "Shipment_ID": "SH-200360",
+      "Ship_Date": "2026-01-26 00:00:00",
+      "Lane": "New York - Miami",
+      "Customer": "Titan Foods",
+      "anomaly_score": 0.5776,
+      "anomaly_reason": "delay days unusually high (4.00 vs typical 0.00)",
+      "Total_Revenue": 4315.41,
+      "net_profit": -239.67
+    },
+    {
+      "Shipment_ID": "SH-200380",
+      "Ship_Date": "2026-02-04 00:00:00",
+      "Lane": "New York - Seattle",
+      "Customer": "Crestview Retail Group",
+      "anomaly_score": 0.5764,
+      "anomaly_reason": "delay days unusually high (5.00 vs typical 0.00)",
+      "Total_Revenue": 7204.82,
+      "net_profit": 2150.1
+    },
+    {
+      "Shipment_ID": "SH-200118",
+      "Ship_Date": "2025-11-11 00:00:00",
+      "Lane": "Miami - Los Angeles",
+      "Customer": "Meridian Industries",
+      "anomaly_score": 0.5739,
+      "anomaly_reason": "load factor unusually low (11.10 vs typical 73.30)",
+      "Total_Revenue": 1350.39,
+      "net_profit": 239.23
+    },
+    {
+      "Shipment_ID": "SH-200565",
+      "Ship_Date": "2026-04-12 00:00:00",
+      "Lane": "Memphis - Atlanta",
+      "Customer": "Skyline Distribution",
+      "anomaly_score": 0.5737,
+      "anomaly_reason": "accessorial share unusually high (0.32 vs typical 0.00)",
+      "Total_Revenue": 1244.18,
+      "net_profit": 747.06
+    },
+    {
+      "Shipment_ID": "SH-200863",
+      "Ship_Date": "2026-08-01 00:00:00",
+      "Lane": "Atlanta - Miami",
+      "Customer": "Evergreen Industries",
+      "anomaly_score": 0.5736,
+      "anomaly_reason": "accessorial share unusually high (0.26 vs typical 0.00)",
+      "Total_Revenue": 286.77,
+      "net_profit": 52.31
+    },
+    {
+      "Shipment_ID": "SH-200531",
+      "Ship_Date": "2026-04-02 00:00:00",
+      "Lane": "Denver - Chicago",
+      "Customer": "Evergreen Industries",
+      "anomaly_score": 0.5725,
+      "anomaly_reason": "net margin unusually low (-121.88 vs typical 12.23)",
+      "Total_Revenue": 464.9,
+      "net_profit": -566.62
+    },
+    {
+      "Shipment_ID": "SH-200920",
+      "Ship_Date": "2026-08-22 00:00:00",
+      "Lane": "Memphis - Chicago",
+      "Customer": "Ironbridge Pharma",
+      "anomaly_score": 0.5715,
+      "anomaly_reason": "accessorial share unusually high (0.48 vs typical 0.00)",
+      "Total_Revenue": 835.82,
+      "net_profit": 333.56
+    },
+    {
+      "Shipment_ID": "SH-200168",
+      "Ship_Date": "2025-11-21 00:00:00",
+      "Lane": "Atlanta - Chicago",
+      "Customer": "Harbor Distribution",
+      "anomaly_score": 0.5707,
+      "anomaly_reason": "accessorial share unusually high (0.19 vs typical 0.00)",
+      "Total_Revenue": 1322.05,
+      "net_profit": 649.79
+    },
+    {
+      "Shipment_ID": "SH-200680",
+      "Ship_Date": "2026-05-23 00:00:00",
+      "Lane": "Dallas - Chicago",
+      "Customer": "Atlas Retail Group",
+      "anomaly_score": 0.5703,
+      "anomaly_reason": "load factor unusually low (5.40 vs typical 73.30)",
+      "Total_Revenue": 253.36,
+      "net_profit": -17.13
+    },
+    {
+      "Shipment_ID": "SH-201000",
+      "Ship_Date": "2026-09-18 00:00:00",
+      "Lane": "Memphis - Atlanta",
+      "Customer": "Skyline Electronics",
+      "anomaly_score": 0.5696,
+      "anomaly_reason": "accessorial share unusually high (0.27 vs typical 0.00)",
+      "Total_Revenue": 452.38,
+      "net_profit": 96.02
+    },
+    {
+      "Shipment_ID": "SH-200907",
+      "Ship_Date": "2026-08-20 00:00:00",
+      "Lane": "Atlanta - New York",
+      "Customer": "Orchard Brands",
+      "anomaly_score": 0.5682,
+      "anomaly_reason": "delay days unusually high (3.00 vs typical 0.00)",
+      "Total_Revenue": 428.49,
+      "net_profit": -163.89
+    },
+    {
+      "Shipment_ID": "SH-200128",
+      "Ship_Date": "2025-11-14 00:00:00",
+      "Lane": "Memphis - New York",
+      "Customer": "Skyline Distribution",
+      "anomaly_score": 0.565,
+      "anomaly_reason": "delay days unusually high (4.00 vs typical 0.00)",
+      "Total_Revenue": 930.49,
+      "net_profit": 16.13
+    },
+    {
+      "Shipment_ID": "SH-200219",
+      "Ship_Date": "2025-12-06 00:00:00",
+      "Lane": "Chicago - Dallas",
+      "Customer": "Atlas Retail Group",
+      "anomaly_score": 0.565,
+      "anomaly_reason": "net margin unusually low (-143.61 vs typical 12.23)",
+      "Total_Revenue": 206.96,
+      "net_profit": -297.22
+    },
+    {
+      "Shipment_ID": "SH-200100",
+      "Ship_Date": "2025-11-07 00:00:00",
+      "Lane": "Atlanta - Chicago",
+      "Customer": "Summit Industries",
+      "anomaly_score": 0.5644,
+      "anomaly_reason": "delay days unusually high (4.00 vs typical 0.00)",
+      "Total_Revenue": 1248.48,
+      "net_profit": 285.6
+    },
+    {
+      "Shipment_ID": "SH-200866",
+      "Ship_Date": "2026-08-03 00:00:00",
+      "Lane": "Chicago - Atlanta",
+      "Customer": "Northstar Brands",
+      "anomaly_score": 0.5644,
+      "anomaly_reason": "delay days unusually high (4.00 vs typical 0.00)",
+      "Total_Revenue": 2842.36,
+      "net_profit": 562.45
+    },
+    {
+      "Shipment_ID": "SH-200593",
+      "Ship_Date": "2026-04-23 00:00:00",
+      "Lane": "Denver - Houston",
+      "Customer": "Redwood Electronics",
+      "anomaly_score": 0.5627,
+      "anomaly_reason": "delay days unusually high (2.00 vs typical 0.00)",
+      "Total_Revenue": 4763.8,
+      "net_profit": 1215.43
+    },
+    {
+      "Shipment_ID": "SH-200421",
+      "Ship_Date": "2026-02-23 00:00:00",
+      "Lane": "Atlanta - Miami",
+      "Customer": "Ironbridge Electronics",
+      "anomaly_score": 0.562,
+      "anomaly_reason": "accessorial share unusually high (0.28 vs typical 0.00)",
+      "Total_Revenue": 879.83,
+      "net_profit": 269.37
+    },
+    {
+      "Shipment_ID": "SH-200949",
+      "Ship_Date": "2026-09-05 00:00:00",
+      "Lane": "Chicago - Memphis",
+      "Customer": "Skyline Distribution",
+      "anomaly_score": 0.5603,
+      "anomaly_reason": "accessorial share unusually high (0.31 vs typical 0.00)",
+      "Total_Revenue": 1272.58,
+      "net_profit": 604.44
+    },
+    {
+      "Shipment_ID": "SH-200178",
+      "Ship_Date": "2025-11-25 00:00:00",
+      "Lane": "Memphis - Atlanta",
+      "Customer": "Evergreen Industries",
+      "anomaly_score": 0.5581,
+      "anomaly_reason": "accessorial share unusually high (0.21 vs typical 0.00)",
+      "Total_Revenue": 721.06,
+      "net_profit": 302.42
+    },
+    {
+      "Shipment_ID": "SH-200466",
+      "Ship_Date": "2026-03-10 00:00:00",
+      "Lane": "Atlanta - Los Angeles",
+      "Customer": "Cascade Foods",
+      "anomaly_score": 0.5576,
+      "anomaly_reason": "delay days unusually high (4.00 vs typical 0.00)",
+      "Total_Revenue": 9121.59,
+      "net_profit": 1018.55
+    },
+    {
+      "Shipment_ID": "SH-200712",
+      "Ship_Date": "2026-06-02 00:00:00",
+      "Lane": "Houston - Los Angeles",
+      "Customer": "Meridian Industries",
+      "anomaly_score": 0.5573,
+      "anomaly_reason": "accessorial share unusually high (0.29 vs typical 0.00)",
+      "Total_Revenue": 1393.91,
+      "net_profit": 416.42
+    },
+    {
+      "Shipment_ID": "SH-200371",
+      "Ship_Date": "2026-01-30 00:00:00",
+      "Lane": "New York - Denver",
+      "Customer": "Orchard Distribution",
+      "anomaly_score": 0.5567,
+      "anomaly_reason": "load factor unusually low (11.10 vs typical 73.30)",
+      "Total_Revenue": 720.8,
+      "net_profit": 60.77
+    },
+    {
+      "Shipment_ID": "SH-200058",
+      "Ship_Date": "2025-10-24 00:00:00",
+      "Lane": "Houston - Memphis",
+      "Customer": "Ironbridge Pharma",
+      "anomaly_score": 0.5555,
+      "anomaly_reason": "accessorial share unusually high (0.15 vs typical 0.00)",
+      "Total_Revenue": 2648.7,
+      "net_profit": 1053.22
+    }
+  ]
+}

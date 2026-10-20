@@ -1,0 +1,51 @@
+{
+  "id": "revenue_by_lane_top10",
+  "title": "Top 10 lanes by revenue",
+  "business_question": "Which lanes drive my revenue?",
+  "outcome": "UNDERSTAND",
+  "type": "bar",
+  "x_label": "Lane",
+  "y_label": "Revenue",
+  "data": [
+    {
+      "label": "New York - Los Angeles",
+      "value": 134288.93
+    },
+    {
+      "label": "Chicago - Los Angeles",
+      "value": 113091.85
+    },
+    {
+      "label": "Miami - Los Angeles",
+      "value": 101063.52
+    },
+    {
+      "label": "Los Angeles - Miami",
+      "value": 99938.37
+    },
+    {
+      "label": "Los Angeles - Houston",
+      "value": 91359.28
+    },
+    {
+      "label": "Los Angeles - New York",
+      "value": 86979.44
+    },
+    {
+      "label": "Houston - New York",
+      "value": 79741.35
+    },
+    {
+      "label": "Los Angeles - Memphis",
+      "value": 76063.79
+    },
+    {
+      "label": "Los Angeles - Dallas",
+      "value": 74623.89
+    },
+    {
+      "label": "Atlanta - Los Angeles",
+      "value": 71316.34
+    }
+  ]
+}

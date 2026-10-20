@@ -1,0 +1,92 @@
+{
+  "period_days": 353,
+  "period_months": 11.6,
+  "currency": "USD",
+  "baseline_revenue": 3464931.34,
+  "baseline_net_profit": 445130.9,
+  "variable": "empty_reduction_pct",
+  "own_fleet_cost_per_km": 0.8532,
+  "own_fleet_empty_km": 264296.0,
+  "assumptions": {
+    "note": "Own-fleet shipments only (Purchased_Transport_Cost = 0); saved empty km valued at fuel + driver cost per km"
+  },
+  "scenarios": [
+    {
+      "empty_reduction_pct": 0,
+      "empty_km_saved": 0.0,
+      "savings_period": 0.0,
+      "savings_per_month": 0.0,
+      "co2_kg_saved": 0.0
+    },
+    {
+      "empty_reduction_pct": 5,
+      "empty_km_saved": 13215.0,
+      "savings_period": 11275.39,
+      "savings_per_month": 972.3,
+      "co2_kg_saved": 7717.0
+    },
+    {
+      "empty_reduction_pct": 10,
+      "empty_km_saved": 26430.0,
+      "savings_period": 22550.77,
+      "savings_per_month": 1944.6,
+      "co2_kg_saved": 15433.0
+    },
+    {
+      "empty_reduction_pct": 15,
+      "empty_km_saved": 39644.0,
+      "savings_period": 33826.16,
+      "savings_per_month": 2916.91,
+      "co2_kg_saved": 23150.0
+    },
+    {
+      "empty_reduction_pct": 20,
+      "empty_km_saved": 52859.0,
+      "savings_period": 45101.54,
+      "savings_per_month": 3889.21,
+      "co2_kg_saved": 30867.0
+    },
+    {
+      "empty_reduction_pct": 25,
+      "empty_km_saved": 66074.0,
+      "savings_period": 56376.93,
+      "savings_per_month": 4861.51,
+      "co2_kg_saved": 38584.0
+    },
+    {
+      "empty_reduction_pct": 30,
+      "empty_km_saved": 79289.0,
+      "savings_period": 67652.31,
+      "savings_per_month": 5833.81,
+      "co2_kg_saved": 46300.0
+    },
+    {
+      "empty_reduction_pct": 35,
+      "empty_km_saved": 92504.0,
+      "savings_period": 78927.7,
+      "savings_per_month": 6806.12,
+      "co2_kg_saved": 54017.0
+    },
+    {
+      "empty_reduction_pct": 40,
+      "empty_km_saved": 105718.0,
+      "savings_period": 90203.08,
+      "savings_per_month": 7778.42,
+      "co2_kg_saved": 61734.0
+    },
+    {
+      "empty_reduction_pct": 45,
+      "empty_km_saved": 118933.0,
+      "savings_period": 101478.47,
+      "savings_per_month": 8750.72,
+      "co2_kg_saved": 69451.0
+    },
+    {
+      "empty_reduction_pct": 50,
+      "empty_km_saved": 132148.0,
+      "savings_period": 112753.85,
+      "savings_per_month": 9723.02,
+      "co2_kg_saved": 77167.0
+    }
+  ]
+}

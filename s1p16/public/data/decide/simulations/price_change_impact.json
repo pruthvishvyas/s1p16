@@ -1,0 +1,131 @@
+{
+  "period_days": 353,
+  "period_months": 11.6,
+  "currency": "USD",
+  "baseline_revenue": 3464931.34,
+  "baseline_net_profit": 445130.9,
+  "variable": "price_change_pct",
+  "assumptions": {
+    "elasticity": {
+      "contract": -0.3,
+      "spot": -1.2,
+      "default": -0.6
+    },
+    "note": "Volume response to price by Rate_Type; confirm with account managers"
+  },
+  "best_price_change_pct": 15,
+  "scenarios": [
+    {
+      "price_change_pct": 0,
+      "revenue": 3464931.34,
+      "net_profit": 445130.9,
+      "delta_net_profit": -0.0,
+      "volume_change_pct": 0.0
+    },
+    {
+      "price_change_pct": 1,
+      "revenue": 3481208.9,
+      "net_profit": 476806.57,
+      "delta_net_profit": 31675.67,
+      "volume_change_pct": -0.52
+    },
+    {
+      "price_change_pct": 2,
+      "revenue": 3497122.66,
+      "net_profit": 508118.45,
+      "delta_net_profit": 62987.55,
+      "volume_change_pct": -1.05
+    },
+    {
+      "price_change_pct": 3,
+      "revenue": 3512672.63,
+      "net_profit": 539066.53,
+      "delta_net_profit": 93935.63,
+      "volume_change_pct": -1.57
+    },
+    {
+      "price_change_pct": 4,
+      "revenue": 3527858.79,
+      "net_profit": 569650.81,
+      "delta_net_profit": 124519.91,
+      "volume_change_pct": -2.1
+    },
+    {
+      "price_change_pct": 5,
+      "revenue": 3542681.17,
+      "net_profit": 599871.29,
+      "delta_net_profit": 154740.39,
+      "volume_change_pct": -2.62
+    },
+    {
+      "price_change_pct": 6,
+      "revenue": 3557139.74,
+      "net_profit": 629727.98,
+      "delta_net_profit": 184597.08,
+      "volume_change_pct": -3.15
+    },
+    {
+      "price_change_pct": 7,
+      "revenue": 3571234.52,
+      "net_profit": 659220.87,
+      "delta_net_profit": 214089.97,
+      "volume_change_pct": -3.67
+    },
+    {
+      "price_change_pct": 8,
+      "revenue": 3584965.5,
+      "net_profit": 688349.97,
+      "delta_net_profit": 243219.07,
+      "volume_change_pct": -4.2
+    },
+    {
+      "price_change_pct": 9,
+      "revenue": 3598332.68,
+      "net_profit": 717115.26,
+      "delta_net_profit": 271984.36,
+      "volume_change_pct": -4.72
+    },
+    {
+      "price_change_pct": 10,
+      "revenue": 3611336.06,
+      "net_profit": 745516.76,
+      "delta_net_profit": 300385.86,
+      "volume_change_pct": -5.25
+    },
+    {
+      "price_change_pct": 11,
+      "revenue": 3623975.65,
+      "net_profit": 773554.46,
+      "delta_net_profit": 328423.56,
+      "volume_change_pct": -5.77
+    },
+    {
+      "price_change_pct": 12,
+      "revenue": 3636251.44,
+      "net_profit": 801228.37,
+      "delta_net_profit": 356097.47,
+      "volume_change_pct": -6.3
+    },
+    {
+      "price_change_pct": 13,
+      "revenue": 3648163.44,
+      "net_profit": 828538.48,
+      "delta_net_profit": 383407.58,
+      "volume_change_pct": -6.82
+    },
+    {
+      "price_change_pct": 14,
+      "revenue": 3659711.63,
+      "net_profit": 855484.79,
+      "delta_net_profit": 410353.89,
+      "volume_change_pct": -7.35
+    },
+    {
+      "price_change_pct": 15,
+      "revenue": 3670896.03,
+      "net_profit": 882067.3,
+      "delta_net_profit": 436936.4,
+      "volume_change_pct": -7.87
+    }
+  ]
+}

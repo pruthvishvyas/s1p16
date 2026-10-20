@@ -1,0 +1,609 @@
+{
+  "generated_at": "2026-10-15T10:59:56",
+  "pipeline_version": "2.0",
+  "project": {
+    "name": "Freight Operations",
+    "domain": "logistics_freight",
+    "client_id": "s1p16",
+    "description": "Freight operator: shipment-level revenue, cost, delivery and cash-collection analytics"
+  },
+  "terminology": {
+    "revenue": "Freight Revenue",
+    "customer": "Shipper",
+    "product": "Lane",
+    "transaction": "Shipment"
+  },
+  "source": {
+    "type": "csv",
+    "file": "data/processed/s1p16/enriched_data.csv"
+  },
+  "outcomes": {
+    "understand": {
+      "kpis": "understand/kpis.json",
+      "charts": "understand/charts/",
+      "segments": "understand/segments.json",
+      "anomalies": "understand/anomalies.json"
+    },
+    "decide": {
+      "insights": "decide/insights.json",
+      "recommendations": "decide/recommendations.json",
+      "simulations": "decide/simulations/",
+      "goals": "decide/goals.json"
+    },
+    "monitor": {
+      "forecast": "monitor/forecast.json",
+      "goal_progress": "monitor/goal_progress.json",
+      "alerts": "monitor/alerts.json"
+    }
+  },
+  "model": {
+    "type": "RandomForest",
+    "mode": "ml",
+    "pkl_file": "models/s1p16/best_classifier.pkl",
+    "feature_cols_file": "models/s1p16/feature_cols.pkl",
+    "input_fields": [
+      {
+        "name": "Distance_km",
+        "type": "float",
+        "range": [
+          442.0,
+          5364.0
+        ]
+      },
+      {
+        "name": "Weight_kg",
+        "type": "float",
+        "range": [
+          81.0,
+          25966.0
+        ]
+      },
+      {
+        "name": "Volume_cbm",
+        "type": "float",
+        "range": [
+          0.3,
+          145.0
+        ]
+      },
+      {
+        "name": "Load_Factor_pct",
+        "type": "float",
+        "range": [
+          5.4,
+          100.0
+        ]
+      },
+      {
+        "name": "Empty_Return_km",
+        "type": "float",
+        "range": [
+          0.0,
+          1600.0
+        ]
+      },
+      {
+        "name": "Planned_Transit_Days",
+        "type": "float",
+        "range": [
+          1.0,
+          14.0
+        ]
+      },
+      {
+        "name": "planned_km_per_day",
+        "type": "float",
+        "range": [
+          189.6,
+          5364.0
+        ]
+      },
+      {
+        "name": "weight_per_cbm",
+        "type": "float",
+        "range": [
+          159.7674,
+          305.4545
+        ]
+      },
+      {
+        "name": "empty_return_ratio",
+        "type": "float",
+        "range": [
+          0.0,
+          0.5421
+        ]
+      },
+      {
+        "name": "is_subcontracted",
+        "type": "float",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "name": "ship_dow",
+        "type": "float",
+        "range": [
+          0.0,
+          6.0
+        ]
+      },
+      {
+        "name": "lane_prior_late_rate",
+        "type": "float",
+        "range": [
+          0.0323,
+          0.471
+        ]
+      },
+      {
+        "name": "customer_prior_late_rate",
+        "type": "float",
+        "range": [
+          0.0284,
+          0.5191
+        ]
+      },
+      {
+        "name": "Customer_Segment",
+        "type": "str",
+        "allowed_values": [
+          "Automotive",
+          "Retail",
+          "Pharma",
+          "Industrial",
+          "Electronics",
+          "FMCG"
+        ]
+      },
+      {
+        "name": "Origin_Hub",
+        "type": "str",
+        "allowed_values": [
+          "Seattle",
+          "Chicago",
+          "Memphis",
+          "New York",
+          "Miami",
+          "Dallas",
+          "Atlanta",
+          "Los Angeles",
+          "Denver",
+          "Houston"
+        ]
+      },
+      {
+        "name": "Destination_Hub",
+        "type": "str",
+        "allowed_values": [
+          "Houston",
+          "Atlanta",
+          "Dallas",
+          "New York",
+          "Los Angeles",
+          "Memphis",
+          "Denver",
+          "Chicago",
+          "Miami",
+          "Seattle"
+        ]
+      },
+      {
+        "name": "Service_Mode",
+        "type": "str",
+        "allowed_values": [
+          "Road FTL",
+          "Road LTL",
+          "Rail Intermodal",
+          "Air Freight"
+        ]
+      },
+      {
+        "name": "Shipment_Type",
+        "type": "str",
+        "allowed_values": [
+          "Express",
+          "Hazmat",
+          "Standard",
+          "Temperature-Controlled"
+        ]
+      },
+      {
+        "name": "Carrier_Type",
+        "type": "str",
+        "allowed_values": [
+          "Subcontracted Trucker",
+          "Own Fleet",
+          "Rail Operator",
+          "Airline"
+        ]
+      },
+      {
+        "name": "Rate_Type",
+        "type": "str",
+        "allowed_values": [
+          "Contract",
+          "Spot"
+        ]
+      }
+    ],
+    "output_label": "late_delivery_probability",
+    "threshold": 0.23,
+    "output_schema": {
+      "prediction": "int",
+      "probability": "float",
+      "risk_band": "str"
+    },
+    "horizon": 30,
+    "forecast_pkl_file": "models/s1p16/forecast_model.pkl"
+  },
+  "frontend": {
+    "framework": "vanilla HTML/JS",
+    "deploy_target": "cloudflare_pages"
+  },
+  "saas_ready": true,
+  "files": [
+    {
+      "filename": "output/s1p16/understand/kpis.json",
+      "purpose": "KPI Overview cards",
+      "schema": [
+        "period_start",
+        "period_end",
+        "total_shipments",
+        "active_lanes",
+        "active_customers",
+        "total_revenue",
+        "total_cost",
+        "late_penalties",
+        "claims",
+        "net_profit",
+        "net_margin_pct",
+        "on_time_pct",
+        "avg_load_factor_pct",
+        "empty_return_ratio_pct",
+        "outstanding_ar",
+        "overdue_ar",
+        "avg_days_to_pay",
+        "anomalous_shipments",
+        "p1_urgent_shipments",
+        "revenue_last_30d",
+        "net_margin_last_30d_pct",
+        "on_time_last_30d_pct",
+        "late_model_auc",
+        "late_model_recall",
+        "forecast_method"
+      ],
+      "kb": 0.78
+    },
+    {
+      "filename": "output/s1p16/understand/charts/revenue_by_lane_top10.json",
+      "purpose": "Chart: Top 10 lanes by revenue",
+      "schema": [
+        "id",
+        "title",
+        "business_question",
+        "outcome",
+        "type",
+        "x_label",
+        "y_label",
+        "data"
+      ],
+      "kb": 1.03
+    },
+    {
+      "filename": "output/s1p16/understand/charts/net_margin_by_service_mode.json",
+      "purpose": "Chart: Net margin by service mode",
+      "schema": [
+        "id",
+        "title",
+        "business_question",
+        "outcome",
+        "type",
+        "x_label",
+        "y_label",
+        "data"
+      ],
+      "kb": 0.54
+    },
+    {
+      "filename": "output/s1p16/understand/charts/net_margin_by_carrier_type.json",
+      "purpose": "Chart: Net margin by carrier type",
+      "schema": [
+        "id",
+        "title",
+        "business_question",
+        "outcome",
+        "type",
+        "x_label",
+        "y_label",
+        "data"
+      ],
+      "kb": 0.54
+    },
+    {
+      "filename": "output/s1p16/understand/charts/monthly_revenue.json",
+      "purpose": "Chart: Monthly revenue",
+      "schema": [
+        "id",
+        "title",
+        "business_question",
+        "outcome",
+        "type",
+        "x_label",
+        "y_label",
+        "data"
+      ],
+      "kb": 1.02
+    },
+    {
+      "filename": "output/s1p16/understand/charts/on_time_rate_weekly.json",
+      "purpose": "Chart: Weekly on-time delivery %",
+      "schema": [
+        "id",
+        "title",
+        "business_question",
+        "outcome",
+        "type",
+        "x_label",
+        "y_label",
+        "data"
+      ],
+      "kb": 4.1
+    },
+    {
+      "filename": "output/s1p16/understand/charts/late_cost_by_reason.json",
+      "purpose": "Chart: Penalties + claims by delay reason",
+      "schema": [
+        "id",
+        "title",
+        "business_question",
+        "outcome",
+        "type",
+        "x_label",
+        "y_label",
+        "data"
+      ],
+      "kb": 0.68
+    },
+    {
+      "filename": "output/s1p16/understand/charts/priority_breakdown.json",
+      "purpose": "Chart: Shipments by action priority",
+      "schema": [
+        "id",
+        "title",
+        "business_question",
+        "outcome",
+        "type",
+        "x_label",
+        "y_label",
+        "data"
+      ],
+      "kb": 0.49
+    },
+    {
+      "filename": "output/s1p16/understand/charts/load_factor_distribution.json",
+      "purpose": "Chart: Load factor distribution",
+      "schema": [
+        "id",
+        "title",
+        "business_question",
+        "outcome",
+        "type",
+        "x_label",
+        "y_label",
+        "data"
+      ],
+      "kb": 0.85
+    },
+    {
+      "filename": "output/s1p16/understand/charts/top_receivables_by_customer.json",
+      "purpose": "Chart: Top receivables by shipper",
+      "schema": [
+        "id",
+        "title",
+        "business_question",
+        "outcome",
+        "type",
+        "x_label",
+        "y_label",
+        "data"
+      ],
+      "kb": 1.01
+    },
+    {
+      "filename": "output/s1p16/understand/charts/lane_segment_sizes.json",
+      "purpose": "Chart: Lanes by segment",
+      "schema": [
+        "id",
+        "title",
+        "business_question",
+        "outcome",
+        "type",
+        "x_label",
+        "y_label",
+        "data"
+      ],
+      "kb": 0.5
+    },
+    {
+      "filename": "output/s1p16/understand/charts/index.json",
+      "purpose": "Index of chart files",
+      "schema": [
+        "charts"
+      ],
+      "kb": 0.32
+    },
+    {
+      "filename": "output/s1p16/understand/segments.json",
+      "purpose": "Segment Explorer (lane segments)",
+      "schema": [
+        "summary",
+        "lanes"
+      ],
+      "kb": 34.2
+    },
+    {
+      "filename": "output/s1p16/understand/anomalies.json",
+      "purpose": "Anomaly Explorer",
+      "schema": [
+        "count",
+        "rows"
+      ],
+      "kb": 16.76
+    },
+    {
+      "filename": "output/s1p16/decide/insights.json",
+      "purpose": "Insights tab (copied verbatim from reports)",
+      "schema": [
+        "severity",
+        "category",
+        "finding",
+        "evidence",
+        "action",
+        "outcome",
+        "impact_value"
+      ],
+      "kb": 5.27
+    },
+    {
+      "filename": "output/s1p16/decide/recommendations.json",
+      "purpose": "Recommendation Engine tab",
+      "schema": [
+        "shipment_actions",
+        "lane_actions",
+        "customer_actions"
+      ],
+      "kb": 114.74
+    },
+    {
+      "filename": "output/s1p16/decide/simulations/empty_return_reduction.json",
+      "purpose": "What-If Simulator: empty_return_reduction.json",
+      "schema": [
+        "period_days",
+        "period_months",
+        "currency",
+        "baseline_revenue",
+        "baseline_net_profit",
+        "variable",
+        "own_fleet_cost_per_km",
+        "own_fleet_empty_km",
+        "assumptions",
+        "scenarios"
+      ],
+      "kb": 2.4
+    },
+    {
+      "filename": "output/s1p16/decide/simulations/late_reduction_impact.json",
+      "purpose": "What-If Simulator: late_reduction_impact.json",
+      "schema": [
+        "period_days",
+        "period_months",
+        "currency",
+        "baseline_revenue",
+        "baseline_net_profit",
+        "variable",
+        "baseline_penalties_claims",
+        "assumptions",
+        "scenarios"
+      ],
+      "kb": 2.22
+    },
+    {
+      "filename": "output/s1p16/decide/simulations/price_change_impact.json",
+      "purpose": "What-If Simulator: price_change_impact.json",
+      "schema": [
+        "period_days",
+        "period_months",
+        "currency",
+        "baseline_revenue",
+        "baseline_net_profit",
+        "variable",
+        "assumptions",
+        "best_price_change_pct",
+        "scenarios"
+      ],
+      "kb": 3.22
+    },
+    {
+      "filename": "output/s1p16/decide/goals.json",
+      "purpose": "Goal Tracker config (client editable)",
+      "schema": [
+        "revenue_target",
+        "margin_floor_pct",
+        "on_time_target_pct",
+        "alert_drop_pct",
+        "forecast_horizon",
+        "load_factor_min",
+        "empty_ratio_max",
+        "overdue_grace_days"
+      ],
+      "kb": 1.13
+    },
+    {
+      "filename": "output/s1p16/monitor/forecast.json",
+      "purpose": "Forecaster output",
+      "schema": [
+        "metrics",
+        "forecast",
+        "recent_actuals"
+      ],
+      "kb": 11.07
+    },
+    {
+      "filename": "output/s1p16/monitor/goal_progress.json",
+      "purpose": "Goal progress vs actuals",
+      "schema": [
+        "as_of",
+        "goals"
+      ],
+      "kb": 1.38
+    },
+    {
+      "filename": "output/s1p16/monitor/alerts.json",
+      "purpose": "Alert Center triggers",
+      "schema": [
+        "as_of",
+        "alerts"
+      ],
+      "kb": 0.76
+    },
+    {
+      "filename": "output/s1p16/meta/summary.json",
+      "purpose": "Project summary",
+      "schema": [
+        "project",
+        "domain",
+        "client_id",
+        "last_run",
+        "data_as_of",
+        "rows",
+        "source"
+      ],
+      "kb": 0.21
+    },
+    {
+      "filename": "output/s1p16/meta/terminology.json",
+      "purpose": "Client's business language",
+      "schema": [
+        "revenue",
+        "customer",
+        "product",
+        "transaction"
+      ],
+      "kb": 0.11
+    },
+    {
+      "filename": "output/s1p16/meta/run_log.json",
+      "purpose": "Pipeline run history",
+      "schema": [
+        "run_at",
+        "source",
+        "rows",
+        "data_as_of"
+      ],
+      "kb": 0.24
+    }
+  ]
+}

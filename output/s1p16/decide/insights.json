@@ -1,0 +1,128 @@
+[
+  {
+    "severity": "HIGH",
+    "category": "Revenue Leakage",
+    "finding": "Fuel surcharges recover 18.1% of own-fleet fuel cost",
+    "evidence": "Fuel cost $470,728 vs surcharge $85,106",
+    "action": "Index the surcharge table to the fuel price and apply it on every contract",
+    "outcome": "DECIDE",
+    "impact_value": 385621.58
+  },
+  {
+    "severity": "HIGH",
+    "category": "Cash Collection",
+    "finding": "$372,910 is outstanding, $0 of it overdue",
+    "evidence": "Largest balances: Redwood Electronics $78,201; Atlas Retail Group $60,218; Pioneer Components $19,930. Paid invoices average 3.7 days vs terms.",
+    "action": "Chase the top 3 balances this week and tighten terms for repeat late payers",
+    "outcome": "DECIDE",
+    "impact_value": 372909.89
+  },
+  {
+    "severity": "HIGH",
+    "category": "Asset Utilization",
+    "finding": "Own-fleet empty return km equal 22.7% of loaded km (limit 30%)",
+    "evidence": "264,296 empty km x 0.85 per km = $225,508 of fuel and driver cost",
+    "action": "Match backhaul loads on the highest-deadhead lanes",
+    "outcome": "DECIDE",
+    "impact_value": 225507.71
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Carrier Cost",
+    "finding": "Subcontracted Trucker earns 10.2% net margin vs 17.7% for Rail Operator",
+    "evidence": "Subcontracted Trucker revenue $896,886; best carrier type Rail Operator revenue $310,071",
+    "action": "Renegotiate purchased-transport rates or shift volume toward Rail Operator",
+    "outcome": "DECIDE",
+    "impact_value": 66572.24
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Customer Concentration",
+    "finding": "Top 3 shippers generate 28.5% of revenue",
+    "evidence": "Atlas Retail Group 13.4%, Redwood Electronics 10.5%, Orchard Supply Co 4.6%",
+    "action": "Lock in multi-year contracts with the top 3 and build pipeline to dilute dependence",
+    "outcome": "DECIDE",
+    "impact_value": 44507.85
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Revenue Leakage",
+    "finding": "Late penalties and claims consume 0.8% of revenue",
+    "evidence": "Late penalties $9,562 + claims $18,390 = $27,952 on $3,464,931 revenue (1,000 shipments)",
+    "action": "Agree corrective actions with carriers for the 3 costliest delay reasons this week",
+    "outcome": "DECIDE",
+    "impact_value": 27952.16
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Lane Profitability",
+    "finding": "18 of 83 lanes earn below the 8.0% net margin floor",
+    "evidence": "Worst lanes by profit shortfall - Seattle - Houston: -3.3% on $42,314; Miami - Dallas: -5.2% on $28,246; Seattle - Memphis: 3.3% on $45,979. Total shortfall vs floor $26,009",
+    "action": "Reprice or exit the worst 3 lanes; see price_increase_to_floor_pct in Lane Performance",
+    "outcome": "DECIDE",
+    "impact_value": 26008.52
+  },
+  {
+    "severity": "LOW",
+    "category": "Asset Utilization",
+    "finding": "37.0% of shipments move below 65% load factor",
+    "evidence": "Net margin 12.3% (under-filled) vs 13.1% (well-filled)",
+    "action": "Consolidate partial loads and set minimum-charge rules for under-filled shipments",
+    "outcome": "DECIDE",
+    "impact_value": 9782.86
+  },
+  {
+    "severity": "LOW",
+    "category": "Data & Pricing Quality",
+    "finding": "50 shipments are statistically unusual (rate, cost, load or delay)",
+    "evidence": "Their average net margin is -22.8% vs 10.3% overall; net profit $7,230",
+    "action": "Audit the flagged shipments for pricing or cost-entry errors",
+    "outcome": "DECIDE",
+    "impact_value": 9727.69
+  },
+  {
+    "severity": "LOW",
+    "category": "On-Time Delivery",
+    "finding": "On-time delivery is 85.8% vs 95.0% target; top cost driver is Hub Congestion",
+    "evidence": "142 late shipments; Hub Congestion = 35 late shipments costing $2,797",
+    "action": "Assign an owner to Hub Congestion and review the worst lanes weekly",
+    "outcome": "DECIDE",
+    "impact_value": 2797.06
+  },
+  {
+    "severity": "LOW",
+    "category": "Demand Outlook",
+    "finding": "Next 30 days revenue forecast is -8.45% vs the last 30 days",
+    "evidence": "Forecast $299,965 vs trailing $327,642 (GradientBoostingRegressor)",
+    "action": "Plan driver and subcontractor capacity to the forecast",
+    "outcome": "DECIDE",
+    "impact_value": 2767.76
+  },
+  {
+    "severity": "LOW",
+    "category": "Network Summary",
+    "finding": "Network earned $445,131 net profit on $3,464,931 revenue (12.8% net margin)",
+    "evidence": "1,000 shipments from 2025-10-01 to 2026-09-18",
+    "action": "Use this as the baseline for the margin goal",
+    "outcome": "DECIDE",
+    "impact_value": 0.0
+  },
+  {
+    "severity": "LOW",
+    "category": "Lane Profitability",
+    "finding": "Best lane is Los Angeles - New York with $17,751 net profit",
+    "evidence": "14 shipments at 20.4% net margin",
+    "action": "Protect capacity and service quality on this lane",
+    "outcome": "DECIDE",
+    "impact_value": 0.0
+  },
+  {
+    "severity": "LOW",
+    "category": "Demand Patterns",
+    "finding": "Busiest dispatch day is Tue and quietest is Sun",
+    "evidence": "Tue $669,926 vs Sun $125,875",
+    "action": "Shift staffing and driver rosters toward the peak day",
+    "outcome": "DECIDE",
+    "impact_value": 0.0
+  }
+]

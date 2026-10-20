@@ -1,0 +1,16 @@
+{
+  "rows_in": 1000,
+  "dropped_missing_id_or_date": 0,
+  "duplicate_shipments_removed": 0,
+  "dropped_invalid_revenue_or_distance": 0,
+  "on_time_vs_delay_days_mismatch": 0,
+  "outstanding_ar_missing_filled": 0,
+  "iqr_capped_values": {
+    "Weight_kg": 0,
+    "Volume_cbm": 0,
+    "Empty_Return_km": 22,
+    "Revenue_per_km": 0,
+    "Cost_per_km": 0
+  },
+  "rows_out": 1000
+}

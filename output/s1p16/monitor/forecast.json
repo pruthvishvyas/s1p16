@@ -1,0 +1,500 @@
+{
+  "metrics": {
+    "history_days": 353,
+    "horizon_days": 30,
+    "holdout_days": 14,
+    "mae": 7155.27,
+    "r2": -0.0747,
+    "wape_model": 0.5572,
+    "wape_seasonal_naive": 0.6541,
+    "method": "GradientBoostingRegressor",
+    "forecast_total_revenue": 299964.77,
+    "trailing_30d_revenue": 327642.37,
+    "forecast_vs_trailing_pct": -8.45,
+    "last_actual_date": "2026-09-18"
+  },
+  "forecast": [
+    {
+      "date": "2026-09-19",
+      "forecast_revenue": 11517.54,
+      "lower_80": 0.0,
+      "upper_80": 23428.9,
+      "forecast_net_profit_est": 1512.81,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-09-20",
+      "forecast_revenue": 3868.5,
+      "lower_80": 0.0,
+      "upper_80": 15779.86,
+      "forecast_net_profit_est": 508.12,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-09-21",
+      "forecast_revenue": 14858.03,
+      "lower_80": 2946.68,
+      "upper_80": 26769.39,
+      "forecast_net_profit_est": 1951.58,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-09-22",
+      "forecast_revenue": 7930.77,
+      "lower_80": 0.0,
+      "upper_80": 19842.13,
+      "forecast_net_profit_est": 1041.7,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-09-23",
+      "forecast_revenue": 7057.7,
+      "lower_80": 0.0,
+      "upper_80": 18969.05,
+      "forecast_net_profit_est": 927.02,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-09-24",
+      "forecast_revenue": 9997.06,
+      "lower_80": 0.0,
+      "upper_80": 21908.42,
+      "forecast_net_profit_est": 1313.1,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-09-25",
+      "forecast_revenue": 10690.05,
+      "lower_80": 0.0,
+      "upper_80": 22601.41,
+      "forecast_net_profit_est": 1404.13,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-09-26",
+      "forecast_revenue": 8978.58,
+      "lower_80": 0.0,
+      "upper_80": 20889.93,
+      "forecast_net_profit_est": 1179.32,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-09-27",
+      "forecast_revenue": 2646.56,
+      "lower_80": 0.0,
+      "upper_80": 14557.91,
+      "forecast_net_profit_est": 347.62,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-09-28",
+      "forecast_revenue": 12667.21,
+      "lower_80": 755.85,
+      "upper_80": 24578.56,
+      "forecast_net_profit_est": 1663.82,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-09-29",
+      "forecast_revenue": 14269.48,
+      "lower_80": 2358.12,
+      "upper_80": 26180.83,
+      "forecast_net_profit_est": 1874.28,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-09-30",
+      "forecast_revenue": 11262.45,
+      "lower_80": 0.0,
+      "upper_80": 23173.81,
+      "forecast_net_profit_est": 1479.31,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-01",
+      "forecast_revenue": 9188.57,
+      "lower_80": 0.0,
+      "upper_80": 21099.92,
+      "forecast_net_profit_est": 1206.91,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-02",
+      "forecast_revenue": 9498.75,
+      "lower_80": 0.0,
+      "upper_80": 21410.1,
+      "forecast_net_profit_est": 1247.65,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-03",
+      "forecast_revenue": 9974.17,
+      "lower_80": 0.0,
+      "upper_80": 21885.52,
+      "forecast_net_profit_est": 1310.09,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-04",
+      "forecast_revenue": 465.08,
+      "lower_80": 0.0,
+      "upper_80": 12376.44,
+      "forecast_net_profit_est": 61.09,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-05",
+      "forecast_revenue": 13904.99,
+      "lower_80": 1993.64,
+      "upper_80": 25816.35,
+      "forecast_net_profit_est": 1826.4,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-06",
+      "forecast_revenue": 14326.93,
+      "lower_80": 2415.58,
+      "upper_80": 26238.29,
+      "forecast_net_profit_est": 1881.82,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-07",
+      "forecast_revenue": 9923.49,
+      "lower_80": 0.0,
+      "upper_80": 21834.85,
+      "forecast_net_profit_est": 1303.44,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-08",
+      "forecast_revenue": 13297.56,
+      "lower_80": 1386.2,
+      "upper_80": 25208.91,
+      "forecast_net_profit_est": 1746.62,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-09",
+      "forecast_revenue": 11913.61,
+      "lower_80": 2.26,
+      "upper_80": 23824.97,
+      "forecast_net_profit_est": 1564.84,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-10",
+      "forecast_revenue": 10594.13,
+      "lower_80": 0.0,
+      "upper_80": 22505.49,
+      "forecast_net_profit_est": 1391.53,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-11",
+      "forecast_revenue": 3289.57,
+      "lower_80": 0.0,
+      "upper_80": 15200.92,
+      "forecast_net_profit_est": 432.08,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-12",
+      "forecast_revenue": 9515.77,
+      "lower_80": 0.0,
+      "upper_80": 21427.13,
+      "forecast_net_profit_est": 1249.88,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-13",
+      "forecast_revenue": 12441.59,
+      "lower_80": 530.24,
+      "upper_80": 24352.95,
+      "forecast_net_profit_est": 1634.19,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-14",
+      "forecast_revenue": 11309.97,
+      "lower_80": 0.0,
+      "upper_80": 23221.32,
+      "forecast_net_profit_est": 1485.55,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-15",
+      "forecast_revenue": 17620.87,
+      "lower_80": 5709.51,
+      "upper_80": 29532.22,
+      "forecast_net_profit_est": 2314.48,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-16",
+      "forecast_revenue": 14534.51,
+      "lower_80": 2623.15,
+      "upper_80": 26445.86,
+      "forecast_net_profit_est": 1909.09,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-17",
+      "forecast_revenue": 9777.84,
+      "lower_80": 0.0,
+      "upper_80": 21689.2,
+      "forecast_net_profit_est": 1284.31,
+      "method": "GradientBoostingRegressor"
+    },
+    {
+      "date": "2026-10-18",
+      "forecast_revenue": 2643.44,
+      "lower_80": 0.0,
+      "upper_80": 14554.8,
+      "forecast_net_profit_est": 347.21,
+      "method": "GradientBoostingRegressor"
+    }
+  ],
+  "recent_actuals": [
+    {
+      "date": "2026-07-11",
+      "revenue": 10842.78
+    },
+    {
+      "date": "2026-07-12",
+      "revenue": 13293.56
+    },
+    {
+      "date": "2026-07-13",
+      "revenue": 16533.2
+    },
+    {
+      "date": "2026-07-14",
+      "revenue": 9532.11
+    },
+    {
+      "date": "2026-07-15",
+      "revenue": 396.22
+    },
+    {
+      "date": "2026-07-16",
+      "revenue": 4455.88
+    },
+    {
+      "date": "2026-07-18",
+      "revenue": 3674.9
+    },
+    {
+      "date": "2026-07-19",
+      "revenue": 1976.2
+    },
+    {
+      "date": "2026-07-20",
+      "revenue": 10766.87
+    },
+    {
+      "date": "2026-07-21",
+      "revenue": 8214.38
+    },
+    {
+      "date": "2026-07-22",
+      "revenue": 12162.85
+    },
+    {
+      "date": "2026-07-23",
+      "revenue": 1342.48
+    },
+    {
+      "date": "2026-07-25",
+      "revenue": 13043.23
+    },
+    {
+      "date": "2026-07-26",
+      "revenue": 6746.86
+    },
+    {
+      "date": "2026-07-28",
+      "revenue": 19862.19
+    },
+    {
+      "date": "2026-07-29",
+      "revenue": 807.85
+    },
+    {
+      "date": "2026-07-30",
+      "revenue": 17921.6
+    },
+    {
+      "date": "2026-07-31",
+      "revenue": 24746.05
+    },
+    {
+      "date": "2026-08-01",
+      "revenue": 5962.21
+    },
+    {
+      "date": "2026-08-02",
+      "revenue": 3073.5
+    },
+    {
+      "date": "2026-08-03",
+      "revenue": 8699.91
+    },
+    {
+      "date": "2026-08-04",
+      "revenue": 8753.51
+    },
+    {
+      "date": "2026-08-05",
+      "revenue": 24420.02
+    },
+    {
+      "date": "2026-08-06",
+      "revenue": 5992.6
+    },
+    {
+      "date": "2026-08-08",
+      "revenue": 8357.21
+    },
+    {
+      "date": "2026-08-10",
+      "revenue": 10298.35
+    },
+    {
+      "date": "2026-08-11",
+      "revenue": 229.46
+    },
+    {
+      "date": "2026-08-12",
+      "revenue": 6125.88
+    },
+    {
+      "date": "2026-08-13",
+      "revenue": 7002.48
+    },
+    {
+      "date": "2026-08-14",
+      "revenue": 11548.37
+    },
+    {
+      "date": "2026-08-16",
+      "revenue": 5223.36
+    },
+    {
+      "date": "2026-08-18",
+      "revenue": 11406.02
+    },
+    {
+      "date": "2026-08-19",
+      "revenue": 20375.55
+    },
+    {
+      "date": "2026-08-20",
+      "revenue": 27029.62
+    },
+    {
+      "date": "2026-08-21",
+      "revenue": 6781.01
+    },
+    {
+      "date": "2026-08-22",
+      "revenue": 18527.15
+    },
+    {
+      "date": "2026-08-24",
+      "revenue": 5776.93
+    },
+    {
+      "date": "2026-08-25",
+      "revenue": 4685.31
+    },
+    {
+      "date": "2026-08-26",
+      "revenue": 16969.12
+    },
+    {
+      "date": "2026-08-27",
+      "revenue": 1509.68
+    },
+    {
+      "date": "2026-08-28",
+      "revenue": 24382.64
+    },
+    {
+      "date": "2026-08-29",
+      "revenue": 6390.72
+    },
+    {
+      "date": "2026-08-31",
+      "revenue": 1762.5
+    },
+    {
+      "date": "2026-09-01",
+      "revenue": 9421.64
+    },
+    {
+      "date": "2026-09-02",
+      "revenue": 12499.99
+    },
+    {
+      "date": "2026-09-03",
+      "revenue": 2581.94
+    },
+    {
+      "date": "2026-09-04",
+      "revenue": 9542.37
+    },
+    {
+      "date": "2026-09-05",
+      "revenue": 13078.73
+    },
+    {
+      "date": "2026-09-06",
+      "revenue": 2539.72
+    },
+    {
+      "date": "2026-09-07",
+      "revenue": 9341.86
+    },
+    {
+      "date": "2026-09-08",
+      "revenue": 14996.44
+    },
+    {
+      "date": "2026-09-09",
+      "revenue": 5601.05
+    },
+    {
+      "date": "2026-09-10",
+      "revenue": 16354.27
+    },
+    {
+      "date": "2026-09-11",
+      "revenue": 14642.36
+    },
+    {
+      "date": "2026-09-12",
+      "revenue": 19971.78
+    },
+    {
+      "date": "2026-09-14",
+      "revenue": 3964.63
+    },
+    {
+      "date": "2026-09-15",
+      "revenue": 37896.16
+    },
+    {
+      "date": "2026-09-16",
+      "revenue": 27622.61
+    },
+    {
+      "date": "2026-09-17",
+      "revenue": 8433.69
+    },
+    {
+      "date": "2026-09-18",
+      "revenue": 5338.45
+    }
+  ]
+}

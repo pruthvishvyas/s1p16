@@ -1,0 +1,1001 @@
+Shipment_ID,Ship_Date,Lane,Customer,late_flag,pred_late_prob,pred_late,late_risk_band,pred_split
+SH-200001,2025-10-01,Seattle - Houston,Skyline Retail Group,0,0.267,1,High,train
+SH-200002,2025-10-01,Chicago - Atlanta,Atlas Retail Group,0,0.084,0,Low,train
+SH-200003,2025-10-01,Memphis - Dallas,Pioneer Components,0,0.1436,0,Medium,train
+SH-200004,2025-10-01,New York - Atlanta,Redwood Retail Group,0,0.0917,0,Low,train
+SH-200005,2025-10-02,Miami - New York,Atlas Retail Group,0,0.0991,0,Low,train
+SH-200006,2025-10-02,Dallas - Los Angeles,Atlas Retail Group,0,0.0872,0,Low,train
+SH-200007,2025-10-03,New York - Los Angeles,Ironbridge Distribution,1,0.5833,1,High,train
+SH-200008,2025-10-04,Atlanta - Memphis,Atlas Retail Group,0,0.1095,0,Low,train
+SH-200009,2025-10-04,Chicago - Los Angeles,Ironbridge Electronics,0,0.2433,1,High,train
+SH-200010,2025-10-05,Seattle - Denver,Pioneer Components,0,0.1216,0,Medium,train
+SH-200011,2025-10-05,Los Angeles - Memphis,Evergreen Brands,0,0.154,0,Medium,train
+SH-200012,2025-10-05,Dallas - Denver,Crestview Industries,0,0.1332,0,Medium,train
+SH-200013,2025-10-06,New York - Los Angeles,Crestview Retail Group,0,0.1118,0,Low,train
+SH-200014,2025-10-06,Miami - Houston,Cascade Foods,1,0.6535,1,High,train
+SH-200015,2025-10-06,Denver - Dallas,Harbor Distribution,0,0.316,1,High,train
+SH-200016,2025-10-07,Los Angeles - Chicago,Atlas Pharma,0,0.1509,0,Medium,train
+SH-200017,2025-10-07,Los Angeles - Dallas,Ironbridge Distribution,0,0.1005,0,Low,train
+SH-200018,2025-10-07,New York - Miami,Ironbridge Retail Group,0,0.3157,1,High,train
+SH-200019,2025-10-07,Atlanta - Miami,Orchard Distribution,0,0.077,0,Low,train
+SH-200020,2025-10-07,Chicago - New York,Evergreen Industries,0,0.1617,0,Medium,train
+SH-200021,2025-10-08,Houston - Los Angeles,Pioneer Components,0,0.15,0,Medium,train
+SH-200022,2025-10-08,Seattle - Memphis,Evergreen Industries,1,0.6717,1,High,train
+SH-200023,2025-10-09,Seattle - Chicago,Skyline Distribution,0,0.1323,0,Medium,train
+SH-200024,2025-10-09,Chicago - Atlanta,Atlas Retail Group,0,0.1401,0,Medium,train
+SH-200025,2025-10-10,Chicago - Memphis,Orchard Supply Co,0,0.0783,0,Low,train
+SH-200026,2025-10-10,Chicago - Seattle,Redwood Electronics,0,0.1686,0,Medium,train
+SH-200027,2025-10-13,Dallas - Los Angeles,Titan Motors,0,0.2091,0,Medium,train
+SH-200028,2025-10-14,Dallas - Los Angeles,Crestview Retail Group,0,0.1917,0,Medium,train
+SH-200029,2025-10-15,Denver - Los Angeles,Northstar Brands,0,0.0916,0,Low,train
+SH-200030,2025-10-15,Los Angeles - Chicago,Evergreen Brands,0,0.2423,1,High,train
+SH-200031,2025-10-15,Seattle - Memphis,Redwood Pharma,0,0.1843,0,Medium,train
+SH-200032,2025-10-16,Dallas - Houston,Atlas Electronics,0,0.1671,0,Medium,train
+SH-200033,2025-10-17,Houston - New York,Pioneer Industries,1,0.658,1,High,train
+SH-200034,2025-10-17,Chicago - Memphis,Skyline Distribution,0,0.1736,0,Medium,train
+SH-200035,2025-10-17,Chicago - Los Angeles,Redwood Electronics,0,0.139,0,Medium,train
+SH-200036,2025-10-18,New York - Houston,Skyline Distribution,1,0.6035,1,High,train
+SH-200037,2025-10-18,Memphis - Dallas,Atlas Retail Group,0,0.0686,0,Low,train
+SH-200038,2025-10-18,Los Angeles - Dallas,Skyline Retail Group,0,0.1465,0,Medium,train
+SH-200039,2025-10-18,New York - Seattle,Meridian Components,0,0.2958,1,High,train
+SH-200040,2025-10-18,Chicago - New York,Meridian Components,0,0.1081,0,Low,train
+SH-200041,2025-10-18,Chicago - Los Angeles,Skyline Distribution,0,0.1701,0,Medium,train
+SH-200042,2025-10-20,Houston - Miami,Atlas Retail Group,0,0.1206,0,Medium,train
+SH-200043,2025-10-20,Denver - New York,Meridian Components,0,0.2357,1,High,train
+SH-200044,2025-10-20,New York - Los Angeles,Redwood Retail Group,0,0.3054,1,High,train
+SH-200045,2025-10-21,New York - Chicago,Atlas Retail Group,0,0.1871,0,Medium,train
+SH-200046,2025-10-21,Denver - Dallas,Titan Foods,1,0.6275,1,High,train
+SH-200047,2025-10-22,New York - Los Angeles,Redwood Electronics,0,0.2054,0,Medium,train
+SH-200048,2025-10-22,New York - Miami,Pioneer Motors,0,0.0594,0,Low,train
+SH-200049,2025-10-22,Houston - Atlanta,Northstar Brands,0,0.0494,0,Low,train
+SH-200050,2025-10-22,Dallas - Houston,Redwood Electronics,0,0.2083,0,Medium,train
+SH-200051,2025-10-22,New York - Houston,Orchard Supply Co,1,0.5817,1,High,train
+SH-200052,2025-10-23,Memphis - Miami,Atlas Electronics,0,0.1627,0,Medium,train
+SH-200053,2025-10-23,Denver - Miami,Atlas Foods,0,0.2807,1,High,train
+SH-200054,2025-10-23,Atlanta - Houston,Atlas Retail Group,0,0.1364,0,Medium,train
+SH-200055,2025-10-23,Los Angeles - New York,Summit Motors,0,0.233,1,High,train
+SH-200056,2025-10-24,Chicago - Miami,Redwood Retail Group,0,0.1617,0,Medium,train
+SH-200057,2025-10-24,Denver - Memphis,Atlas Pharma,0,0.1689,0,Medium,train
+SH-200058,2025-10-24,Houston - Memphis,Ironbridge Pharma,0,0.1433,0,Medium,train
+SH-200059,2025-10-24,Dallas - Chicago,Orchard Brands,0,0.2672,1,High,train
+SH-200060,2025-10-24,New York - Chicago,Skyline Motors,0,0.1363,0,Medium,train
+SH-200061,2025-10-24,New York - Denver,Skyline Supply Co,0,0.1038,0,Low,train
+SH-200062,2025-10-25,Chicago - Memphis,Pioneer Industries,1,0.6366,1,High,train
+SH-200063,2025-10-25,Atlanta - New York,Ironbridge Distribution,0,0.2409,1,High,train
+SH-200064,2025-10-25,Los Angeles - Miami,Atlas Retail Group,0,0.2075,0,Medium,train
+SH-200065,2025-10-26,Los Angeles - Seattle,Atlas Pharma,1,0.4983,1,High,train
+SH-200066,2025-10-27,Chicago - Miami,Redwood Electronics,0,0.0596,0,Low,train
+SH-200067,2025-10-28,Seattle - Chicago,Redwood Retail Group,0,0.1632,0,Medium,train
+SH-200068,2025-10-28,Dallas - Memphis,Atlas Retail Group,0,0.2116,0,Medium,train
+SH-200069,2025-10-28,Los Angeles - Miami,Orchard Electronics,0,0.1959,0,Medium,train
+SH-200070,2025-10-29,Los Angeles - Atlanta,Pioneer Components,0,0.0426,0,Low,train
+SH-200071,2025-10-29,New York - Seattle,Ironbridge Electronics,0,0.2351,1,High,train
+SH-200072,2025-10-29,Seattle - Denver,Meridian Components,0,0.4524,1,High,train
+SH-200073,2025-10-30,Dallas - Houston,Ironbridge Pharma,0,0.2004,0,Medium,train
+SH-200074,2025-10-30,Chicago - Los Angeles,Evergreen Brands,0,0.1213,0,Medium,train
+SH-200075,2025-10-30,Seattle - Houston,Skyline Supply Co,0,0.1719,0,Medium,train
+SH-200076,2025-10-30,Dallas - Chicago,Skyline Distribution,0,0.0834,0,Low,train
+SH-200077,2025-10-31,Atlanta - Chicago,Redwood Retail Group,0,0.2544,1,High,train
+SH-200078,2025-10-31,Atlanta - Memphis,Meridian Components,1,0.6186,1,High,train
+SH-200079,2025-11-01,Seattle - Los Angeles,Redwood Electronics,0,0.1736,0,Medium,train
+SH-200080,2025-11-01,New York - Houston,Evergreen Industries,0,0.1976,0,Medium,train
+SH-200081,2025-11-01,Houston - Los Angeles,Meridian Industries,0,0.1037,0,Low,train
+SH-200082,2025-11-03,Chicago - Houston,Atlas Retail Group,0,0.0315,0,Low,train
+SH-200083,2025-11-03,New York - Houston,Crestview Industries,0,0.0935,0,Low,train
+SH-200084,2025-11-03,Miami - Los Angeles,Pioneer Motors,0,0.2122,0,Medium,train
+SH-200085,2025-11-03,Dallas - Chicago,Redwood Electronics,0,0.2499,1,High,train
+SH-200086,2025-11-03,New York - Dallas,Atlas Retail Group,0,0.2635,1,High,train
+SH-200087,2025-11-04,Houston - Denver,Redwood Retail Group,0,0.1306,0,Medium,train
+SH-200088,2025-11-04,Los Angeles - Dallas,Redwood Electronics,0,0.2392,1,High,train
+SH-200089,2025-11-04,Seattle - Chicago,Evergreen Industries,0,0.1688,0,Medium,train
+SH-200090,2025-11-04,Miami - Houston,Atlas Retail Group,0,0.1661,0,Medium,train
+SH-200091,2025-11-05,Dallas - Memphis,Orchard Distribution,1,0.5773,1,High,train
+SH-200092,2025-11-05,New York - Dallas,Evergreen Brands,0,0.3099,1,High,train
+SH-200093,2025-11-05,Denver - Atlanta,Pioneer Industries,0,0.1942,0,Medium,train
+SH-200094,2025-11-06,Houston - Seattle,Evergreen Brands,0,0.0839,0,Low,train
+SH-200095,2025-11-06,Chicago - New York,Ironbridge Pharma,1,0.5209,1,High,train
+SH-200096,2025-11-07,New York - Miami,Pioneer Components,0,0.2301,1,High,train
+SH-200097,2025-11-07,Seattle - Houston,Atlas Retail Group,0,0.0841,0,Low,train
+SH-200098,2025-11-07,Denver - Chicago,Ironbridge Pharma,0,0.1395,0,Medium,train
+SH-200099,2025-11-07,Dallas - Denver,Orchard Supply Co,0,0.2133,0,Medium,train
+SH-200100,2025-11-07,Atlanta - Chicago,Summit Industries,1,0.7219,1,High,train
+SH-200101,2025-11-07,Los Angeles - New York,Pioneer Components,0,0.0805,0,Low,train
+SH-200102,2025-11-08,Chicago - New York,Orchard Distribution,0,0.1454,0,Medium,train
+SH-200103,2025-11-08,Houston - Dallas,Atlas Pharma,0,0.2188,0,Medium,train
+SH-200104,2025-11-08,Atlanta - Houston,Cascade Foods,0,0.1543,0,Medium,train
+SH-200105,2025-11-08,Dallas - Memphis,Redwood Electronics,0,0.1907,0,Medium,train
+SH-200106,2025-11-09,New York - Atlanta,Crestview Retail Group,0,0.0829,0,Low,train
+SH-200107,2025-11-09,Atlanta - Memphis,Skyline Retail Group,0,0.2003,0,Medium,train
+SH-200108,2025-11-09,Seattle - Chicago,Atlas Retail Group,0,0.1699,0,Medium,train
+SH-200109,2025-11-10,Los Angeles - Houston,Atlas Retail Group,0,0.0761,0,Low,train
+SH-200110,2025-11-10,Chicago - Dallas,Redwood Retail Group,0,0.1007,0,Low,train
+SH-200111,2025-11-10,Houston - Memphis,Orchard Brands,0,0.2042,0,Medium,train
+SH-200112,2025-11-10,Chicago - Houston,Atlas Retail Group,0,0.0559,0,Low,train
+SH-200113,2025-11-10,Miami - Houston,Orchard Supply Co,0,0.1314,0,Medium,train
+SH-200114,2025-11-10,Los Angeles - Houston,Meridian Industries,0,0.1023,0,Low,train
+SH-200115,2025-11-10,Seattle - Memphis,Northstar Brands,1,0.6703,1,High,train
+SH-200116,2025-11-10,Atlanta - Memphis,Atlas Retail Group,0,0.2472,1,High,train
+SH-200117,2025-11-11,New York - Dallas,Redwood Electronics,0,0.1496,0,Medium,train
+SH-200118,2025-11-11,Miami - Los Angeles,Meridian Industries,0,0.2885,1,High,train
+SH-200119,2025-11-11,Chicago - New York,Orchard Distribution,0,0.1864,0,Medium,train
+SH-200120,2025-11-12,Los Angeles - Atlanta,Atlas Retail Group,1,0.6658,1,High,train
+SH-200121,2025-11-12,Atlanta - Houston,Orchard Supply Co,0,0.1791,0,Medium,train
+SH-200122,2025-11-12,Memphis - Houston,Ironbridge Pharma,0,0.1711,0,Medium,train
+SH-200123,2025-11-12,Denver - Memphis,Atlas Retail Group,0,0.1553,0,Medium,train
+SH-200124,2025-11-12,Memphis - New York,Atlas Retail Group,0,0.2405,1,High,train
+SH-200125,2025-11-13,Houston - Chicago,Orchard Distribution,0,0.2436,1,High,train
+SH-200126,2025-11-13,Chicago - Los Angeles,Orchard Electronics,0,0.1472,0,Medium,train
+SH-200127,2025-11-14,New York - Houston,Redwood Retail Group,0,0.1793,0,Medium,train
+SH-200128,2025-11-14,Memphis - New York,Skyline Distribution,1,0.6337,1,High,train
+SH-200129,2025-11-15,Houston - Seattle,Skyline Distribution,0,0.1585,0,Medium,train
+SH-200130,2025-11-15,Memphis - Denver,Atlas Retail Group,0,0.091,0,Low,train
+SH-200131,2025-11-15,Houston - Denver,Redwood Electronics,0,0.1693,0,Medium,train
+SH-200132,2025-11-15,Chicago - New York,Crestview Retail Group,0,0.0816,0,Low,train
+SH-200133,2025-11-15,Chicago - Los Angeles,Skyline Distribution,0,0.1575,0,Medium,train
+SH-200134,2025-11-15,Atlanta - Los Angeles,Redwood Electronics,0,0.0967,0,Low,train
+SH-200135,2025-11-15,Dallas - Atlanta,Evergreen Motors,0,0.0663,0,Low,train
+SH-200136,2025-11-15,Seattle - Dallas,Orchard Supply Co,1,0.5594,1,High,train
+SH-200137,2025-11-16,Memphis - Chicago,Redwood Retail Group,0,0.2093,0,Medium,train
+SH-200138,2025-11-16,New York - Chicago,Pioneer Components,0,0.1232,0,Medium,train
+SH-200139,2025-11-16,Chicago - Houston,Orchard Supply Co,0,0.1514,0,Medium,train
+SH-200140,2025-11-17,Atlanta - Chicago,Titan Motors,0,0.1207,0,Medium,train
+SH-200141,2025-11-17,Chicago - Memphis,Evergreen Retail Group,0,0.178,0,Medium,train
+SH-200142,2025-11-17,New York - Seattle,Redwood Pharma,1,0.5642,1,High,train
+SH-200143,2025-11-18,Seattle - Houston,Pioneer Components,0,0.2247,0,Medium,train
+SH-200144,2025-11-18,Dallas - Los Angeles,Skyline Motors,1,0.6102,1,High,train
+SH-200145,2025-11-18,Miami - Dallas,Pioneer Components,0,0.0554,0,Low,train
+SH-200146,2025-11-18,Seattle - New York,Skyline Retail Group,0,0.1487,0,Medium,train
+SH-200147,2025-11-18,Denver - Memphis,Titan Foods,0,0.1728,0,Medium,train
+SH-200148,2025-11-18,Houston - Los Angeles,Harbor Components,1,0.5896,1,High,train
+SH-200149,2025-11-19,Memphis - Atlanta,Harbor Distribution,0,0.1797,0,Medium,train
+SH-200150,2025-11-19,Memphis - New York,Summit Industries,0,0.2476,1,High,train
+SH-200151,2025-11-19,Miami - Atlanta,Pioneer Industries,0,0.1042,0,Low,train
+SH-200152,2025-11-19,Atlanta - Dallas,Atlas Retail Group,0,0.0831,0,Low,train
+SH-200153,2025-11-19,Houston - Chicago,Ironbridge Electronics,1,0.6458,1,High,train
+SH-200154,2025-11-19,Memphis - Los Angeles,Ironbridge Pharma,0,0.1528,0,Medium,train
+SH-200155,2025-11-20,Seattle - New York,Atlas Retail Group,0,0.378,1,High,train
+SH-200156,2025-11-20,Miami - Chicago,Atlas Retail Group,1,0.7315,1,High,train
+SH-200157,2025-11-20,Denver - Seattle,Redwood Electronics,0,0.283,1,High,train
+SH-200158,2025-11-20,Los Angeles - Denver,Summit Motors,0,0.0245,0,Low,train
+SH-200159,2025-11-20,Atlanta - Memphis,Pioneer Components,1,0.5809,1,High,train
+SH-200160,2025-11-20,Dallas - Chicago,Pioneer Components,0,0.079,0,Low,train
+SH-200161,2025-11-20,Houston - Miami,Atlas Retail Group,0,0.113,0,Low,train
+SH-200162,2025-11-20,Chicago - Atlanta,Crestview Retail Group,0,0.1097,0,Low,train
+SH-200163,2025-11-21,Dallas - New York,Orchard Supply Co,0,0.1282,0,Medium,train
+SH-200164,2025-11-21,Houston - Miami,Pioneer Components,0,0.0552,0,Low,train
+SH-200165,2025-11-21,Los Angeles - Miami,Redwood Pharma,0,0.2369,1,High,train
+SH-200166,2025-11-21,Seattle - Chicago,Bluewave Retail Group,0,0.1824,0,Medium,train
+SH-200167,2025-11-21,Chicago - Denver,Evergreen Motors,0,0.1851,0,Medium,train
+SH-200168,2025-11-21,Atlanta - Chicago,Harbor Distribution,1,0.6991,1,High,train
+SH-200169,2025-11-21,Los Angeles - Memphis,Titan Foods,0,0.1476,0,Medium,train
+SH-200170,2025-11-21,Memphis - Chicago,Atlas Foods,1,0.6527,1,High,train
+SH-200171,2025-11-22,Chicago - Dallas,Orchard Electronics,0,0.0843,0,Low,train
+SH-200172,2025-11-22,Dallas - New York,Redwood Electronics,0,0.1819,0,Medium,train
+SH-200173,2025-11-22,Atlanta - New York,Atlas Retail Group,0,0.1284,0,Medium,train
+SH-200174,2025-11-24,New York - Chicago,Atlas Retail Group,0,0.1426,0,Medium,train
+SH-200175,2025-11-24,Atlanta - Chicago,Titan Motors,0,0.1376,0,Medium,train
+SH-200176,2025-11-24,Dallas - Miami,Atlas Retail Group,0,0.1025,0,Low,train
+SH-200177,2025-11-25,Houston - Atlanta,Atlas Retail Group,0,0.0868,0,Low,train
+SH-200178,2025-11-25,Memphis - Atlanta,Evergreen Industries,1,0.5565,1,High,train
+SH-200179,2025-11-25,Seattle - Chicago,Cascade Foods,1,0.6384,1,High,train
+SH-200180,2025-11-25,Atlanta - Dallas,Orchard Brands,0,0.219,0,Medium,train
+SH-200181,2025-11-26,Dallas - Chicago,Skyline Supply Co,0,0.1587,0,Medium,train
+SH-200182,2025-11-26,Chicago - New York,Redwood Electronics,0,0.0771,0,Low,train
+SH-200183,2025-11-27,Chicago - Houston,Ironbridge Pharma,0,0.1247,0,Medium,train
+SH-200184,2025-11-27,Houston - Miami,Redwood Electronics,0,0.193,0,Medium,train
+SH-200185,2025-11-27,Seattle - Memphis,Ironbridge Distribution,0,0.1475,0,Medium,train
+SH-200186,2025-11-28,Miami - Houston,Titan Foods,0,0.2013,0,Medium,train
+SH-200187,2025-11-28,New York - Los Angeles,Harbor Distribution,0,0.1533,0,Medium,train
+SH-200188,2025-11-28,Miami - New York,Skyline Distribution,0,0.2186,0,Medium,train
+SH-200189,2025-11-28,Los Angeles - Houston,Meridian Components,0,0.2038,0,Medium,train
+SH-200190,2025-11-29,Atlanta - Denver,Atlas Pharma,0,0.1308,0,Medium,train
+SH-200191,2025-11-29,Denver - Miami,Cascade Foods,1,0.6207,1,High,train
+SH-200192,2025-11-29,Denver - Memphis,Summit Industries,0,0.2534,1,High,train
+SH-200193,2025-11-29,Chicago - New York,Redwood Electronics,0,0.317,1,High,train
+SH-200194,2025-11-29,Houston - New York,Summit Industries,1,0.6137,1,High,train
+SH-200195,2025-12-01,Seattle - Chicago,Pioneer Components,0,0.0811,0,Low,train
+SH-200196,2025-12-01,Atlanta - Memphis,Titan Motors,0,0.1153,0,Medium,train
+SH-200197,2025-12-01,Seattle - Los Angeles,Evergreen Brands,0,0.2143,0,Medium,train
+SH-200198,2025-12-02,Miami - Houston,Redwood Electronics,1,0.5558,1,High,train
+SH-200199,2025-12-02,Los Angeles - Houston,Atlas Retail Group,0,0.1484,0,Medium,train
+SH-200200,2025-12-02,Dallas - Denver,Summit Industries,0,0.1615,0,Medium,train
+SH-200201,2025-12-02,Memphis - Chicago,Atlas Foods,0,0.1285,0,Medium,train
+SH-200202,2025-12-02,Dallas - Houston,Orchard Supply Co,1,0.6522,1,High,train
+SH-200203,2025-12-02,Atlanta - Seattle,Northstar Brands,0,0.2584,1,High,train
+SH-200204,2025-12-02,Los Angeles - Dallas,Skyline Supply Co,1,0.6593,1,High,train
+SH-200205,2025-12-03,Miami - Los Angeles,Redwood Retail Group,0,0.3239,1,High,train
+SH-200206,2025-12-03,Memphis - Dallas,Atlas Retail Group,0,0.067,0,Low,train
+SH-200207,2025-12-03,New York - Memphis,Atlas Pharma,0,0.074,0,Low,train
+SH-200208,2025-12-04,Houston - Memphis,Skyline Distribution,0,0.1679,0,Medium,train
+SH-200209,2025-12-04,Dallas - Houston,Orchard Electronics,0,0.23,0,Medium,train
+SH-200210,2025-12-04,New York - Chicago,Pioneer Components,0,0.1017,0,Low,train
+SH-200211,2025-12-05,Chicago - Atlanta,Evergreen Brands,0,0.1315,0,Medium,train
+SH-200212,2025-12-05,Dallas - Memphis,Redwood Retail Group,1,0.5676,1,High,train
+SH-200213,2025-12-05,Memphis - Chicago,Bluewave Retail Group,0,0.1322,0,Medium,train
+SH-200214,2025-12-05,Seattle - New York,Harbor Distribution,1,0.7274,1,High,train
+SH-200215,2025-12-06,Houston - Chicago,Skyline Distribution,1,0.5481,1,High,train
+SH-200216,2025-12-06,Miami - Seattle,Redwood Electronics,0,0.2606,1,High,train
+SH-200217,2025-12-06,Los Angeles - Atlanta,Atlas Retail Group,0,0.1879,0,Medium,train
+SH-200218,2025-12-06,Los Angeles - New York,Atlas Retail Group,1,0.6639,1,High,train
+SH-200219,2025-12-06,Chicago - Dallas,Atlas Retail Group,0,0.1334,0,Medium,train
+SH-200220,2025-12-08,Memphis - Dallas,Orchard Supply Co,0,0.3291,1,High,train
+SH-200221,2025-12-08,Miami - Seattle,Atlas Retail Group,0,0.2223,0,Medium,train
+SH-200222,2025-12-08,Houston - Memphis,Orchard Brands,0,0.2232,0,Medium,train
+SH-200223,2025-12-08,Dallas - Chicago,Atlas Retail Group,0,0.0834,0,Low,train
+SH-200224,2025-12-08,Atlanta - Chicago,Harbor Distribution,0,0.1215,0,Medium,train
+SH-200225,2025-12-08,Houston - Chicago,Summit Industries,0,0.1957,0,Medium,train
+SH-200226,2025-12-09,Memphis - Los Angeles,Cascade Foods,1,0.6608,1,High,train
+SH-200227,2025-12-09,Houston - Seattle,Meridian Industries,0,0.1205,0,Medium,train
+SH-200228,2025-12-09,Memphis - Denver,Atlas Retail Group,1,0.559,1,High,train
+SH-200229,2025-12-09,Dallas - Los Angeles,Meridian Industries,1,0.6272,1,High,train
+SH-200230,2025-12-09,Seattle - Los Angeles,Orchard Electronics,0,0.0881,0,Low,train
+SH-200231,2025-12-09,Miami - Chicago,Pioneer Components,1,0.7654,1,High,train
+SH-200232,2025-12-09,Dallas - Memphis,Meridian Components,0,0.1618,0,Medium,train
+SH-200233,2025-12-11,Miami - New York,Evergreen Retail Group,0,0.1277,0,Medium,train
+SH-200234,2025-12-11,Miami - Houston,Evergreen Industries,0,0.2537,1,High,train
+SH-200235,2025-12-12,Chicago - New York,Orchard Electronics,0,0.228,0,Medium,train
+SH-200236,2025-12-12,Dallas - Los Angeles,Summit Industries,1,0.5986,1,High,train
+SH-200237,2025-12-12,Dallas - Houston,Bluewave Retail Group,0,0.1355,0,Medium,train
+SH-200238,2025-12-12,Atlanta - Chicago,Meridian Industries,0,0.0956,0,Low,train
+SH-200239,2025-12-12,Los Angeles - Miami,Atlas Electronics,0,0.1683,0,Medium,train
+SH-200240,2025-12-13,Houston - Seattle,Skyline Distribution,1,0.5362,1,High,train
+SH-200241,2025-12-13,Atlanta - Dallas,Pioneer Components,0,0.0969,0,Low,train
+SH-200242,2025-12-13,Atlanta - New York,Summit Motors,0,0.1135,0,Low,train
+SH-200243,2025-12-13,Houston - Denver,Harbor Distribution,0,0.1683,0,Medium,train
+SH-200244,2025-12-13,Atlanta - Denver,Atlas Foods,0,0.1041,0,Low,train
+SH-200245,2025-12-13,Houston - Atlanta,Pioneer Components,0,0.11,0,Low,train
+SH-200246,2025-12-13,Houston - New York,Northstar Brands,0,0.1999,0,Medium,train
+SH-200247,2025-12-15,Chicago - Houston,Harbor Distribution,0,0.1036,0,Low,train
+SH-200248,2025-12-15,Houston - Denver,Redwood Electronics,0,0.2002,0,Medium,train
+SH-200249,2025-12-15,Los Angeles - Atlanta,Pioneer Components,0,0.2229,0,Medium,train
+SH-200250,2025-12-16,Los Angeles - Houston,Evergreen Industries,0,0.1988,0,Medium,train
+SH-200251,2025-12-16,Seattle - Chicago,Skyline Retail Group,0,0.3086,1,High,train
+SH-200252,2025-12-16,Memphis - Chicago,Atlas Retail Group,0,0.2197,0,Medium,train
+SH-200253,2025-12-16,New York - Dallas,Pioneer Components,0,0.1174,0,Medium,train
+SH-200254,2025-12-16,New York - Dallas,Redwood Electronics,0,0.1324,0,Medium,train
+SH-200255,2025-12-16,Memphis - Los Angeles,Orchard Brands,0,0.1937,0,Medium,train
+SH-200256,2025-12-16,Miami - Houston,Meridian Industries,0,0.1113,0,Low,train
+SH-200257,2025-12-16,Houston - Chicago,Ironbridge Pharma,0,0.1778,0,Medium,train
+SH-200258,2025-12-17,Dallas - Miami,Atlas Electronics,0,0.1263,0,Medium,train
+SH-200259,2025-12-17,Atlanta - Memphis,Evergreen Industries,0,0.1018,0,Low,train
+SH-200260,2025-12-17,Los Angeles - Atlanta,Redwood Retail Group,0,0.1728,0,Medium,train
+SH-200261,2025-12-17,Seattle - Houston,Redwood Electronics,0,0.1592,0,Medium,train
+SH-200262,2025-12-17,Houston - Dallas,Bluewave Retail Group,1,0.6054,1,High,train
+SH-200263,2025-12-18,Miami - Atlanta,Ironbridge Pharma,1,0.6427,1,High,train
+SH-200264,2025-12-18,Atlanta - Miami,Northstar Brands,0,0.169,0,Medium,train
+SH-200265,2025-12-18,Los Angeles - Seattle,Northstar Brands,0,0.254,1,High,train
+SH-200266,2025-12-18,Dallas - Memphis,Evergreen Brands,0,0.2315,1,High,train
+SH-200267,2025-12-19,Chicago - Memphis,Atlas Retail Group,0,0.1217,0,Medium,train
+SH-200268,2025-12-19,New York - Miami,Pioneer Industries,0,0.269,1,High,train
+SH-200269,2025-12-20,Denver - Atlanta,Titan Foods,0,0.1914,0,Medium,train
+SH-200270,2025-12-20,Chicago - Denver,Crestview Industries,0,0.1675,0,Medium,train
+SH-200271,2025-12-21,Dallas - Seattle,Orchard Distribution,0,0.1361,0,Medium,train
+SH-200272,2025-12-21,Dallas - Los Angeles,Ironbridge Pharma,0,0.2273,0,Medium,train
+SH-200273,2025-12-22,Denver - Los Angeles,Redwood Electronics,0,0.1305,0,Medium,train
+SH-200274,2025-12-22,Atlanta - Seattle,Skyline Distribution,0,0.2375,1,High,train
+SH-200275,2025-12-22,Atlanta - Los Angeles,Redwood Electronics,0,0.2163,0,Medium,train
+SH-200276,2025-12-22,Seattle - Memphis,Skyline Retail Group,1,0.7632,1,High,train
+SH-200277,2025-12-22,New York - Chicago,Skyline Motors,1,0.6697,1,High,train
+SH-200278,2025-12-22,Houston - Seattle,Ironbridge Distribution,0,0.3592,1,High,train
+SH-200279,2025-12-23,Dallas - Atlanta,Redwood Pharma,0,0.2254,0,Medium,train
+SH-200280,2025-12-23,Houston - Memphis,Pioneer Industries,0,0.2752,1,High,train
+SH-200281,2025-12-23,Memphis - Seattle,Orchard Supply Co,1,0.7561,1,High,train
+SH-200282,2025-12-23,Houston - Memphis,Skyline Retail Group,0,0.1349,0,Medium,train
+SH-200283,2025-12-25,Houston - Seattle,Atlas Retail Group,0,0.3072,1,High,train
+SH-200284,2025-12-25,Atlanta - Chicago,Skyline Motors,0,0.1438,0,Medium,train
+SH-200285,2025-12-25,Los Angeles - Dallas,Summit Industries,1,0.5677,1,High,train
+SH-200286,2025-12-27,Los Angeles - Memphis,Harbor Components,0,0.1589,0,Medium,train
+SH-200287,2025-12-27,Chicago - Miami,Ironbridge Electronics,0,0.1471,0,Medium,train
+SH-200288,2025-12-29,Atlanta - Seattle,Harbor Distribution,0,0.2612,1,High,train
+SH-200289,2025-12-29,Los Angeles - Memphis,Ironbridge Electronics,0,0.1803,0,Medium,train
+SH-200290,2025-12-29,New York - Denver,Summit Motors,0,0.2746,1,High,train
+SH-200291,2025-12-29,Atlanta - Los Angeles,Atlas Retail Group,0,0.1334,0,Medium,train
+SH-200292,2025-12-29,New York - Seattle,Atlas Retail Group,0,0.1874,0,Medium,train
+SH-200293,2025-12-29,Houston - Dallas,Atlas Retail Group,1,0.6219,1,High,train
+SH-200294,2025-12-30,Los Angeles - Miami,Redwood Electronics,0,0.2139,0,Medium,train
+SH-200295,2025-12-30,Houston - Los Angeles,Evergreen Retail Group,0,0.1452,0,Medium,train
+SH-200296,2025-12-31,Los Angeles - Dallas,Redwood Retail Group,0,0.1985,0,Medium,train
+SH-200297,2025-12-31,Houston - New York,Orchard Supply Co,0,0.2492,1,High,train
+SH-200298,2025-12-31,New York - Atlanta,Atlas Pharma,0,0.0687,0,Low,train
+SH-200299,2025-12-31,Dallas - Los Angeles,Bluewave Retail Group,0,0.2406,1,High,train
+SH-200300,2025-12-31,Seattle - Atlanta,Orchard Distribution,0,0.364,1,High,train
+SH-200301,2025-12-31,Miami - Seattle,Summit Industries,0,0.2893,1,High,train
+SH-200302,2025-12-31,Dallas - Miami,Redwood Electronics,1,0.6509,1,High,train
+SH-200303,2026-01-01,Memphis - Denver,Redwood Electronics,0,0.1996,0,Medium,train
+SH-200304,2026-01-02,Los Angeles - Dallas,Atlas Retail Group,0,0.2344,1,High,train
+SH-200305,2026-01-02,Memphis - Dallas,Orchard Supply Co,0,0.2176,0,Medium,train
+SH-200306,2026-01-02,Seattle - Denver,Summit Motors,1,0.761,1,High,train
+SH-200307,2026-01-02,Seattle - Memphis,Atlas Retail Group,0,0.3295,1,High,train
+SH-200308,2026-01-03,Miami - Chicago,Evergreen Industries,0,0.2314,1,High,train
+SH-200309,2026-01-03,Dallas - Los Angeles,Cascade Foods,1,0.6822,1,High,train
+SH-200310,2026-01-04,Chicago - New York,Pioneer Components,1,0.6435,1,High,train
+SH-200311,2026-01-04,Dallas - Memphis,Bluewave Retail Group,0,0.1545,0,Medium,train
+SH-200312,2026-01-05,Denver - Dallas,Evergreen Retail Group,1,0.6243,1,High,train
+SH-200313,2026-01-05,Houston - Miami,Orchard Electronics,0,0.0898,0,Low,train
+SH-200314,2026-01-05,Atlanta - Chicago,Orchard Brands,0,0.3487,1,High,train
+SH-200315,2026-01-05,Memphis - Chicago,Redwood Electronics,1,0.6381,1,High,train
+SH-200316,2026-01-06,Miami - Houston,Evergreen Retail Group,0,0.1012,0,Low,train
+SH-200317,2026-01-06,Miami - Dallas,Skyline Distribution,0,0.1767,0,Medium,train
+SH-200318,2026-01-06,Dallas - New York,Atlas Retail Group,0,0.0918,0,Low,train
+SH-200319,2026-01-06,Miami - Dallas,Ironbridge Pharma,0,0.1469,0,Medium,train
+SH-200320,2026-01-06,Houston - New York,Titan Foods,0,0.1745,0,Medium,train
+SH-200321,2026-01-06,Chicago - Miami,Redwood Electronics,0,0.1103,0,Low,train
+SH-200322,2026-01-07,Atlanta - Houston,Ironbridge Retail Group,0,0.1904,0,Medium,train
+SH-200323,2026-01-07,Atlanta - Houston,Redwood Electronics,0,0.102,0,Low,train
+SH-200324,2026-01-09,Chicago - Seattle,Harbor Components,1,0.6244,1,High,train
+SH-200325,2026-01-09,New York - Los Angeles,Bluewave Retail Group,1,0.6904,1,High,train
+SH-200326,2026-01-10,Miami - Dallas,Orchard Supply Co,0,0.124,0,Medium,train
+SH-200327,2026-01-10,Atlanta - New York,Redwood Retail Group,1,0.6644,1,High,train
+SH-200328,2026-01-10,Houston - Chicago,Skyline Retail Group,0,0.2123,0,Medium,train
+SH-200329,2026-01-12,Dallas - New York,Redwood Electronics,0,0.2489,1,High,train
+SH-200330,2026-01-12,Denver - Memphis,Ironbridge Distribution,0,0.1634,0,Medium,train
+SH-200331,2026-01-13,Dallas - Seattle,Redwood Retail Group,0,0.2907,1,High,train
+SH-200332,2026-01-14,Atlanta - Los Angeles,Evergreen Motors,0,0.1967,0,Medium,train
+SH-200333,2026-01-14,Atlanta - Los Angeles,Redwood Retail Group,0,0.1765,0,Medium,train
+SH-200334,2026-01-14,Miami - Los Angeles,Atlas Retail Group,0,0.2158,0,Medium,train
+SH-200335,2026-01-15,Dallas - Memphis,Evergreen Industries,0,0.1437,0,Medium,train
+SH-200336,2026-01-15,Chicago - Dallas,Atlas Electronics,0,0.0728,0,Low,train
+SH-200337,2026-01-16,Atlanta - Miami,Crestview Industries,0,0.1752,0,Medium,train
+SH-200338,2026-01-16,Miami - Atlanta,Ironbridge Pharma,0,0.262,1,High,train
+SH-200339,2026-01-16,Atlanta - Dallas,Atlas Retail Group,0,0.2123,0,Medium,train
+SH-200340,2026-01-17,Chicago - Denver,Skyline Supply Co,0,0.1166,0,Medium,train
+SH-200341,2026-01-17,Dallas - Memphis,Skyline Motors,0,0.1878,0,Medium,train
+SH-200342,2026-01-17,Houston - Dallas,Evergreen Brands,0,0.1569,0,Medium,train
+SH-200343,2026-01-17,Atlanta - Miami,Skyline Motors,0,0.2127,0,Medium,train
+SH-200344,2026-01-17,Atlanta - Houston,Summit Industries,0,0.1412,0,Medium,train
+SH-200345,2026-01-19,Chicago - New York,Bluewave Retail Group,1,0.5588,1,High,train
+SH-200346,2026-01-19,Houston - New York,Ironbridge Distribution,0,0.0906,0,Low,train
+SH-200347,2026-01-19,Atlanta - Houston,Northstar Brands,0,0.1649,0,Medium,train
+SH-200348,2026-01-21,Atlanta - Houston,Redwood Electronics,0,0.1427,0,Medium,train
+SH-200349,2026-01-21,Atlanta - Seattle,Crestview Industries,1,0.6284,1,High,train
+SH-200350,2026-01-21,Miami - Dallas,Skyline Supply Co,0,0.2288,0,Medium,train
+SH-200351,2026-01-22,Chicago - New York,Pioneer Components,0,0.0931,0,Low,train
+SH-200352,2026-01-22,Los Angeles - Houston,Ironbridge Retail Group,1,0.7065,1,High,train
+SH-200353,2026-01-23,Los Angeles - Denver,Northstar Brands,0,0.1122,0,Low,train
+SH-200354,2026-01-24,Denver - Miami,Orchard Brands,0,0.2476,1,High,train
+SH-200355,2026-01-24,Los Angeles - Memphis,Redwood Electronics,1,0.6276,1,High,train
+SH-200356,2026-01-24,Chicago - New York,Atlas Pharma,1,0.6012,1,High,train
+SH-200357,2026-01-24,Chicago - Houston,Pioneer Motors,0,0.1353,0,Medium,train
+SH-200358,2026-01-25,Chicago - Atlanta,Harbor Distribution,0,0.1722,0,Medium,train
+SH-200359,2026-01-25,Chicago - Seattle,Pioneer Components,0,0.1037,0,Low,train
+SH-200360,2026-01-26,New York - Miami,Titan Foods,1,0.5579,1,High,train
+SH-200361,2026-01-26,Houston - Atlanta,Orchard Brands,0,0.1655,0,Medium,train
+SH-200362,2026-01-27,New York - Denver,Meridian Components,0,0.1303,0,Medium,train
+SH-200363,2026-01-27,Seattle - Miami,Skyline Distribution,0,0.3141,1,High,train
+SH-200364,2026-01-27,Atlanta - Houston,Northstar Brands,0,0.1391,0,Medium,train
+SH-200365,2026-01-28,Los Angeles - Houston,Summit Industries,0,0.1769,0,Medium,train
+SH-200366,2026-01-28,Atlanta - Chicago,Ironbridge Distribution,1,0.6205,1,High,train
+SH-200367,2026-01-28,Seattle - Chicago,Atlas Retail Group,0,0.1286,0,Medium,train
+SH-200368,2026-01-29,Dallas - New York,Atlas Electronics,0,0.1441,0,Medium,train
+SH-200369,2026-01-29,New York - Houston,Crestview Retail Group,0,0.2976,1,High,train
+SH-200370,2026-01-29,Chicago - Houston,Skyline Distribution,0,0.1433,0,Medium,train
+SH-200371,2026-01-30,New York - Denver,Orchard Distribution,0,0.0982,0,Low,train
+SH-200372,2026-01-30,Dallas - Chicago,Redwood Pharma,1,0.6526,1,High,train
+SH-200373,2026-01-31,Los Angeles - New York,Evergreen Motors,0,0.1854,0,Medium,train
+SH-200374,2026-02-02,Los Angeles - Houston,Evergreen Brands,0,0.1907,0,Medium,train
+SH-200375,2026-02-02,New York - Dallas,Atlas Retail Group,0,0.1583,0,Medium,train
+SH-200376,2026-02-02,Dallas - Miami,Orchard Supply Co,0,0.2468,1,High,train
+SH-200377,2026-02-03,Houston - New York,Pioneer Motors,0,0.165,0,Medium,train
+SH-200378,2026-02-03,New York - Houston,Evergreen Brands,0,0.0969,0,Low,train
+SH-200379,2026-02-03,Miami - Atlanta,Redwood Electronics,0,0.1382,0,Medium,train
+SH-200380,2026-02-04,New York - Seattle,Crestview Retail Group,1,0.6794,1,High,train
+SH-200381,2026-02-04,Chicago - Atlanta,Pioneer Industries,0,0.1456,0,Medium,train
+SH-200382,2026-02-06,Houston - Denver,Atlas Retail Group,0,0.1957,0,Medium,train
+SH-200383,2026-02-07,Atlanta - Los Angeles,Atlas Retail Group,0,0.3589,1,High,train
+SH-200384,2026-02-07,Los Angeles - Miami,Ironbridge Retail Group,0,0.1993,0,Medium,train
+SH-200385,2026-02-07,Atlanta - Houston,Evergreen Retail Group,0,0.1419,0,Medium,train
+SH-200386,2026-02-10,Chicago - Atlanta,Crestview Retail Group,0,0.0818,0,Low,train
+SH-200387,2026-02-10,New York - Chicago,Ironbridge Retail Group,0,0.1664,0,Medium,train
+SH-200388,2026-02-10,Houston - New York,Atlas Retail Group,0,0.2412,1,High,train
+SH-200389,2026-02-10,Memphis - New York,Pioneer Components,0,0.1261,0,Medium,train
+SH-200390,2026-02-10,New York - Dallas,Cascade Foods,0,0.283,1,High,train
+SH-200391,2026-02-10,Houston - Dallas,Harbor Distribution,1,0.5787,1,High,train
+SH-200392,2026-02-10,Denver - Atlanta,Redwood Retail Group,1,0.6522,1,High,train
+SH-200393,2026-02-11,Memphis - Dallas,Redwood Electronics,0,0.2048,0,Medium,train
+SH-200394,2026-02-11,Chicago - Houston,Meridian Components,1,0.5881,1,High,train
+SH-200395,2026-02-11,Dallas - Atlanta,Atlas Retail Group,0,0.2015,0,Medium,train
+SH-200396,2026-02-12,New York - Los Angeles,Ironbridge Pharma,0,0.1238,0,Medium,train
+SH-200397,2026-02-13,Denver - Dallas,Titan Foods,1,0.6482,1,High,train
+SH-200398,2026-02-13,Chicago - Atlanta,Atlas Retail Group,0,0.1855,0,Medium,train
+SH-200399,2026-02-13,Chicago - Los Angeles,Summit Industries,0,0.1609,0,Medium,train
+SH-200400,2026-02-16,Dallas - Los Angeles,Evergreen Industries,0,0.1137,0,Low,train
+SH-200401,2026-02-17,Houston - Los Angeles,Atlas Retail Group,0,0.2007,0,Medium,train
+SH-200402,2026-02-17,Memphis - Atlanta,Summit Industries,0,0.2167,0,Medium,train
+SH-200403,2026-02-17,Los Angeles - Chicago,Meridian Industries,0,0.1594,0,Medium,train
+SH-200404,2026-02-17,Denver - Dallas,Pioneer Components,1,0.6664,1,High,train
+SH-200405,2026-02-17,Chicago - Atlanta,Atlas Retail Group,0,0.1756,0,Medium,train
+SH-200406,2026-02-17,Atlanta - Houston,Pioneer Components,0,0.2965,1,High,train
+SH-200407,2026-02-17,Houston - Denver,Evergreen Retail Group,0,0.1777,0,Medium,train
+SH-200408,2026-02-18,Houston - Atlanta,Northstar Brands,0,0.3175,1,High,train
+SH-200409,2026-02-18,Los Angeles - Houston,Pioneer Components,0,0.1526,0,Medium,train
+SH-200410,2026-02-18,Houston - Chicago,Crestview Retail Group,0,0.1955,0,Medium,train
+SH-200411,2026-02-18,Denver - New York,Summit Motors,0,0.2588,1,High,train
+SH-200412,2026-02-18,Seattle - Dallas,Skyline Electronics,0,0.3362,1,High,train
+SH-200413,2026-02-19,Chicago - Memphis,Atlas Retail Group,0,0.1418,0,Medium,train
+SH-200414,2026-02-19,Miami - Houston,Ironbridge Distribution,0,0.042,0,Low,train
+SH-200415,2026-02-19,Dallas - New York,Atlas Retail Group,1,0.628,1,High,train
+SH-200416,2026-02-20,Memphis - New York,Northstar Brands,0,0.2413,1,High,train
+SH-200417,2026-02-20,Atlanta - Los Angeles,Redwood Electronics,1,0.6323,1,High,train
+SH-200418,2026-02-21,Atlanta - Memphis,Atlas Retail Group,0,0.0685,0,Low,train
+SH-200419,2026-02-22,Miami - Memphis,Skyline Supply Co,0,0.1306,0,Medium,train
+SH-200420,2026-02-22,Houston - Chicago,Crestview Industries,0,0.1597,0,Medium,train
+SH-200421,2026-02-23,Atlanta - Miami,Ironbridge Electronics,0,0.1732,0,Medium,train
+SH-200422,2026-02-24,Dallas - Houston,Meridian Industries,0,0.3103,1,High,train
+SH-200423,2026-02-24,Chicago - Atlanta,Orchard Distribution,0,0.1239,0,Medium,train
+SH-200424,2026-02-24,Memphis - Los Angeles,Ironbridge Retail Group,0,0.1931,0,Medium,train
+SH-200425,2026-02-24,New York - Miami,Meridian Industries,1,0.6266,1,High,train
+SH-200426,2026-02-24,Atlanta - New York,Atlas Retail Group,0,0.1778,0,Medium,train
+SH-200427,2026-02-24,Atlanta - Chicago,Orchard Distribution,1,0.7259,1,High,train
+SH-200428,2026-02-25,New York - Memphis,Orchard Supply Co,0,0.2042,0,Medium,train
+SH-200429,2026-02-25,Los Angeles - Miami,Crestview Retail Group,0,0.1736,0,Medium,train
+SH-200430,2026-02-25,Memphis - Seattle,Atlas Retail Group,1,0.6231,1,High,train
+SH-200431,2026-02-25,Memphis - New York,Atlas Electronics,0,0.3301,1,High,train
+SH-200432,2026-02-26,Los Angeles - New York,Redwood Retail Group,1,0.606,1,High,train
+SH-200433,2026-02-26,New York - Atlanta,Titan Motors,0,0.169,0,Medium,train
+SH-200434,2026-02-27,Memphis - Miami,Orchard Brands,0,0.1699,0,Medium,train
+SH-200435,2026-02-27,Chicago - Seattle,Evergreen Brands,0,0.1263,0,Medium,train
+SH-200436,2026-02-27,Chicago - Houston,Evergreen Retail Group,0,0.0912,0,Low,train
+SH-200437,2026-02-28,New York - Chicago,Pioneer Components,0,0.1305,0,Medium,train
+SH-200438,2026-02-28,Atlanta - Chicago,Atlas Retail Group,1,0.6915,1,High,train
+SH-200439,2026-02-28,Dallas - Miami,Atlas Retail Group,0,0.2197,0,Medium,train
+SH-200440,2026-03-01,Chicago - Los Angeles,Atlas Retail Group,0,0.1995,0,Medium,train
+SH-200441,2026-03-02,Dallas - Chicago,Atlas Retail Group,0,0.4602,1,High,train
+SH-200442,2026-03-02,Los Angeles - Dallas,Harbor Components,0,0.2171,0,Medium,train
+SH-200443,2026-03-03,Seattle - Dallas,Skyline Electronics,0,0.1608,0,Medium,train
+SH-200444,2026-03-03,Seattle - Houston,Atlas Retail Group,0,0.2112,0,Medium,train
+SH-200445,2026-03-03,Los Angeles - Memphis,Atlas Retail Group,0,0.1565,0,Medium,train
+SH-200446,2026-03-03,New York - Houston,Skyline Distribution,0,0.1295,0,Medium,train
+SH-200447,2026-03-03,New York - Los Angeles,Summit Industries,1,0.7101,1,High,train
+SH-200448,2026-03-04,Houston - Dallas,Atlas Foods,0,0.1257,0,Medium,train
+SH-200449,2026-03-04,Memphis - Seattle,Atlas Retail Group,0,0.1361,0,Medium,train
+SH-200450,2026-03-04,New York - Chicago,Evergreen Motors,0,0.3686,1,High,train
+SH-200451,2026-03-04,Atlanta - New York,Ironbridge Retail Group,0,0.2477,1,High,train
+SH-200452,2026-03-04,Denver - Memphis,Redwood Retail Group,0,0.1649,0,Medium,train
+SH-200453,2026-03-05,Memphis - Dallas,Atlas Pharma,0,0.2177,0,Medium,train
+SH-200454,2026-03-05,Houston - Chicago,Harbor Distribution,0,0.1821,0,Medium,train
+SH-200455,2026-03-05,Dallas - Denver,Harbor Distribution,0,0.2631,1,High,train
+SH-200456,2026-03-05,Chicago - Los Angeles,Pioneer Components,0,0.1086,0,Low,train
+SH-200457,2026-03-05,Memphis - Seattle,Harbor Distribution,0,0.1769,0,Medium,train
+SH-200458,2026-03-06,New York - Houston,Skyline Distribution,0,0.1466,0,Medium,train
+SH-200459,2026-03-06,New York - Chicago,Orchard Distribution,0,0.1584,0,Medium,train
+SH-200460,2026-03-06,Miami - Dallas,Orchard Supply Co,0,0.1418,0,Medium,train
+SH-200461,2026-03-07,Dallas - New York,Skyline Distribution,0,0.1397,0,Medium,train
+SH-200462,2026-03-07,Atlanta - Memphis,Atlas Retail Group,0,0.1205,0,Medium,train
+SH-200463,2026-03-07,Denver - Dallas,Atlas Retail Group,0,0.1822,0,Medium,train
+SH-200464,2026-03-09,Chicago - Dallas,Pioneer Components,0,0.2557,1,High,train
+SH-200465,2026-03-09,Dallas - Chicago,Evergreen Retail Group,0,0.0769,0,Low,train
+SH-200466,2026-03-10,Atlanta - Los Angeles,Cascade Foods,1,0.5979,1,High,train
+SH-200467,2026-03-10,Chicago - New York,Skyline Electronics,0,0.0794,0,Low,train
+SH-200468,2026-03-10,Chicago - Memphis,Ironbridge Electronics,0,0.0861,0,Low,train
+SH-200469,2026-03-10,Memphis - New York,Atlas Retail Group,0,0.1412,0,Medium,train
+SH-200470,2026-03-10,Memphis - Miami,Meridian Components,0,0.1317,0,Medium,train
+SH-200471,2026-03-10,Chicago - Dallas,Atlas Pharma,0,0.222,0,Medium,train
+SH-200472,2026-03-10,Houston - Denver,Meridian Industries,0,0.1541,0,Medium,train
+SH-200473,2026-03-11,Atlanta - Chicago,Summit Industries,0,0.1754,0,Medium,train
+SH-200474,2026-03-11,Miami - Houston,Redwood Electronics,0,0.1793,0,Medium,train
+SH-200475,2026-03-11,New York - Miami,Harbor Distribution,0,0.1592,0,Medium,train
+SH-200476,2026-03-12,Chicago - Seattle,Orchard Supply Co,0,0.1641,0,Medium,train
+SH-200477,2026-03-12,Los Angeles - Seattle,Skyline Retail Group,0,0.2589,1,High,train
+SH-200478,2026-03-12,Atlanta - Seattle,Atlas Retail Group,0,0.1811,0,Medium,train
+SH-200479,2026-03-13,Chicago - Dallas,Atlas Retail Group,0,0.1332,0,Medium,train
+SH-200480,2026-03-13,Houston - Chicago,Redwood Electronics,0,0.1542,0,Medium,train
+SH-200481,2026-03-13,Atlanta - Denver,Orchard Distribution,0,0.1584,0,Medium,train
+SH-200482,2026-03-13,Miami - Atlanta,Evergreen Brands,0,0.1331,0,Medium,train
+SH-200483,2026-03-13,Los Angeles - Miami,Northstar Brands,0,0.1613,0,Medium,train
+SH-200484,2026-03-14,Miami - Houston,Atlas Pharma,0,0.1055,0,Low,train
+SH-200485,2026-03-14,Atlanta - Memphis,Skyline Supply Co,0,0.1485,0,Medium,train
+SH-200486,2026-03-14,Houston - New York,Orchard Supply Co,0,0.2449,1,High,train
+SH-200487,2026-03-14,Miami - Memphis,Orchard Supply Co,0,0.308,1,High,train
+SH-200488,2026-03-16,Los Angeles - Dallas,Orchard Distribution,0,0.164,0,Medium,train
+SH-200489,2026-03-18,Seattle - Atlanta,Summit Industries,0,0.1815,0,Medium,train
+SH-200490,2026-03-18,Los Angeles - Chicago,Titan Motors,0,0.165,0,Medium,train
+SH-200491,2026-03-18,Memphis - Atlanta,Evergreen Industries,0,0.1624,0,Medium,train
+SH-200492,2026-03-19,Atlanta - Houston,Ironbridge Electronics,1,0.602,1,High,train
+SH-200493,2026-03-19,New York - Los Angeles,Crestview Retail Group,0,0.105,0,Low,train
+SH-200494,2026-03-20,Los Angeles - New York,Redwood Retail Group,0,0.3551,1,High,train
+SH-200495,2026-03-20,New York - Dallas,Atlas Retail Group,0,0.0709,0,Low,train
+SH-200496,2026-03-20,Dallas - New York,Skyline Motors,0,0.2232,0,Medium,train
+SH-200497,2026-03-20,Denver - Houston,Orchard Supply Co,0,0.1193,0,Medium,train
+SH-200498,2026-03-21,Los Angeles - Chicago,Orchard Supply Co,0,0.2037,0,Medium,train
+SH-200499,2026-03-23,Houston - Los Angeles,Ironbridge Pharma,0,0.0824,0,Low,train
+SH-200500,2026-03-23,Los Angeles - Memphis,Skyline Electronics,0,0.1927,0,Medium,train
+SH-200501,2026-03-23,Miami - Atlanta,Orchard Distribution,0,0.2674,1,High,train
+SH-200502,2026-03-23,Atlanta - New York,Orchard Distribution,0,0.137,0,Medium,train
+SH-200503,2026-03-23,Dallas - Los Angeles,Atlas Retail Group,0,0.1376,0,Medium,train
+SH-200504,2026-03-23,Los Angeles - Memphis,Evergreen Retail Group,0,0.1101,0,Low,train
+SH-200505,2026-03-24,Los Angeles - Houston,Ironbridge Retail Group,0,0.2672,1,High,train
+SH-200506,2026-03-24,Los Angeles - Miami,Meridian Components,0,0.1309,0,Medium,train
+SH-200507,2026-03-24,New York - Memphis,Redwood Electronics,0,0.1639,0,Medium,train
+SH-200508,2026-03-24,Chicago - Denver,Pioneer Motors,0,0.1082,0,Low,train
+SH-200509,2026-03-25,Chicago - Houston,Summit Motors,0,0.1382,0,Medium,train
+SH-200510,2026-03-25,Los Angeles - Denver,Harbor Distribution,0,0.1487,0,Medium,train
+SH-200511,2026-03-25,New York - Denver,Crestview Retail Group,0,0.1621,0,Medium,train
+SH-200512,2026-03-25,Los Angeles - Dallas,Atlas Retail Group,0,0.3073,1,High,train
+SH-200513,2026-03-26,Seattle - Denver,Pioneer Components,0,0.1347,0,Medium,train
+SH-200514,2026-03-27,Los Angeles - Denver,Orchard Supply Co,0,0.2535,1,High,train
+SH-200515,2026-03-27,Chicago - Atlanta,Orchard Distribution,0,0.1397,0,Medium,train
+SH-200516,2026-03-27,Denver - Dallas,Ironbridge Pharma,0,0.2982,1,High,train
+SH-200517,2026-03-27,Memphis - Houston,Redwood Electronics,0,0.2468,1,High,train
+SH-200518,2026-03-27,Los Angeles - Miami,Redwood Electronics,0,0.1451,0,Medium,train
+SH-200519,2026-03-28,New York - Miami,Atlas Pharma,0,0.1074,0,Low,train
+SH-200520,2026-03-28,Miami - Denver,Atlas Electronics,1,0.7365,1,High,train
+SH-200521,2026-03-30,New York - Denver,Evergreen Motors,1,0.6493,1,High,train
+SH-200522,2026-03-30,Los Angeles - New York,Atlas Retail Group,0,0.3069,1,High,train
+SH-200523,2026-03-31,New York - Atlanta,Skyline Distribution,0,0.1707,0,Medium,train
+SH-200524,2026-03-31,Memphis - Denver,Summit Industries,0,0.2667,1,High,train
+SH-200525,2026-03-31,Denver - New York,Bluewave Retail Group,0,0.3307,1,High,train
+SH-200526,2026-03-31,Denver - Chicago,Titan Foods,1,0.6676,1,High,train
+SH-200527,2026-04-01,Dallas - Seattle,Redwood Retail Group,0,0.2582,1,High,train
+SH-200528,2026-04-01,Miami - New York,Atlas Retail Group,0,0.2062,0,Medium,train
+SH-200529,2026-04-01,Atlanta - New York,Cascade Foods,0,0.1819,0,Medium,train
+SH-200530,2026-04-02,Denver - Memphis,Redwood Retail Group,0,0.1543,0,Medium,train
+SH-200531,2026-04-02,Denver - Chicago,Evergreen Industries,0,0.1641,0,Medium,train
+SH-200532,2026-04-03,Los Angeles - Houston,Orchard Brands,0,0.1499,0,Medium,train
+SH-200533,2026-04-03,Denver - Memphis,Atlas Pharma,0,0.2063,0,Medium,train
+SH-200534,2026-04-03,Miami - Denver,Atlas Retail Group,0,0.1315,0,Medium,train
+SH-200535,2026-04-04,Chicago - Los Angeles,Redwood Electronics,0,0.1441,0,Medium,train
+SH-200536,2026-04-04,Memphis - New York,Atlas Retail Group,0,0.1144,0,Low,train
+SH-200537,2026-04-05,Miami - Atlanta,Ironbridge Pharma,0,0.1327,0,Medium,train
+SH-200538,2026-04-05,Memphis - Atlanta,Skyline Distribution,0,0.1271,0,Medium,train
+SH-200539,2026-04-05,Los Angeles - Atlanta,Harbor Distribution,0,0.1558,0,Medium,train
+SH-200540,2026-04-06,Memphis - Chicago,Skyline Distribution,0,0.1335,0,Medium,train
+SH-200541,2026-04-06,Dallas - Atlanta,Redwood Electronics,0,0.1353,0,Medium,train
+SH-200542,2026-04-06,Chicago - Denver,Atlas Retail Group,0,0.1277,0,Medium,train
+SH-200543,2026-04-06,New York - Chicago,Redwood Retail Group,0,0.1704,0,Medium,train
+SH-200544,2026-04-07,Memphis - Houston,Atlas Pharma,1,0.6388,1,High,train
+SH-200545,2026-04-07,Denver - Dallas,Pioneer Industries,1,0.6701,1,High,train
+SH-200546,2026-04-07,Miami - Los Angeles,Cascade Foods,0,0.1683,0,Medium,train
+SH-200547,2026-04-07,Miami - Los Angeles,Skyline Retail Group,0,0.1963,0,Medium,train
+SH-200548,2026-04-08,Houston - Chicago,Harbor Distribution,0,0.1397,0,Medium,train
+SH-200549,2026-04-08,Denver - Los Angeles,Bluewave Retail Group,0,0.23,0,Medium,train
+SH-200550,2026-04-08,Dallas - Houston,Pioneer Components,0,0.1519,0,Medium,train
+SH-200551,2026-04-08,Memphis - Houston,Orchard Supply Co,0,0.1886,0,Medium,train
+SH-200552,2026-04-08,Dallas - Houston,Skyline Distribution,0,0.1127,0,Low,train
+SH-200553,2026-04-08,Dallas - New York,Skyline Electronics,0,0.2283,0,Medium,train
+SH-200554,2026-04-08,Dallas - New York,Atlas Retail Group,1,0.5988,1,High,train
+SH-200555,2026-04-09,Atlanta - Los Angeles,Evergreen Retail Group,0,0.2328,1,High,train
+SH-200556,2026-04-09,Los Angeles - New York,Evergreen Brands,0,0.1875,0,Medium,train
+SH-200557,2026-04-10,Memphis - Denver,Orchard Electronics,0,0.1281,0,Medium,train
+SH-200558,2026-04-10,Miami - Chicago,Meridian Components,0,0.1641,0,Medium,train
+SH-200559,2026-04-10,Chicago - Los Angeles,Northstar Brands,0,0.214,0,Medium,train
+SH-200560,2026-04-10,Chicago - Atlanta,Atlas Electronics,0,0.1145,0,Low,train
+SH-200561,2026-04-10,Dallas - Seattle,Summit Industries,0,0.2877,1,High,train
+SH-200562,2026-04-11,Miami - Dallas,Evergreen Motors,0,0.1227,0,Medium,train
+SH-200563,2026-04-11,Atlanta - Chicago,Ironbridge Retail Group,0,0.4353,1,High,train
+SH-200564,2026-04-12,Memphis - Denver,Redwood Electronics,0,0.1061,0,Low,train
+SH-200565,2026-04-12,Memphis - Atlanta,Skyline Distribution,0,0.1053,0,Low,train
+SH-200566,2026-04-13,Atlanta - Denver,Ironbridge Electronics,1,0.6467,1,High,train
+SH-200567,2026-04-13,Los Angeles - Houston,Summit Industries,1,0.569,1,High,train
+SH-200568,2026-04-14,Atlanta - Chicago,Pioneer Industries,0,0.1591,0,Medium,train
+SH-200569,2026-04-14,Chicago - New York,Harbor Components,0,0.1011,0,Low,train
+SH-200570,2026-04-14,New York - Houston,Redwood Electronics,0,0.1857,0,Medium,train
+SH-200571,2026-04-15,Atlanta - Denver,Crestview Retail Group,0,0.1485,0,Medium,train
+SH-200572,2026-04-15,Los Angeles - Miami,Summit Industries,0,0.1642,0,Medium,train
+SH-200573,2026-04-15,Chicago - New York,Bluewave Retail Group,0,0.1479,0,Medium,train
+SH-200574,2026-04-15,Dallas - Chicago,Redwood Retail Group,0,0.2581,1,High,train
+SH-200575,2026-04-16,Dallas - Seattle,Pioneer Components,0,0.144,0,Medium,train
+SH-200576,2026-04-16,Houston - Miami,Atlas Retail Group,0,0.2067,0,Medium,train
+SH-200577,2026-04-16,Chicago - Miami,Orchard Supply Co,1,0.7261,1,High,train
+SH-200578,2026-04-17,Denver - New York,Redwood Retail Group,0,0.4254,1,High,train
+SH-200579,2026-04-17,Los Angeles - Denver,Atlas Retail Group,0,0.1156,0,Medium,train
+SH-200580,2026-04-17,Houston - Denver,Pioneer Components,1,0.5377,1,High,train
+SH-200581,2026-04-18,Chicago - Dallas,Evergreen Industries,0,0.0944,0,Low,train
+SH-200582,2026-04-18,Houston - New York,Ironbridge Electronics,0,0.1596,0,Medium,train
+SH-200583,2026-04-18,Atlanta - Memphis,Skyline Supply Co,0,0.1119,0,Low,train
+SH-200584,2026-04-18,New York - Chicago,Atlas Foods,0,0.1159,0,Medium,train
+SH-200585,2026-04-19,Chicago - Dallas,Evergreen Brands,0,0.1282,0,Medium,train
+SH-200586,2026-04-20,Houston - Miami,Redwood Electronics,0,0.1832,0,Medium,train
+SH-200587,2026-04-20,Miami - Los Angeles,Redwood Electronics,1,0.6772,1,High,train
+SH-200588,2026-04-21,Chicago - Dallas,Orchard Distribution,0,0.1405,0,Medium,train
+SH-200589,2026-04-21,Houston - Los Angeles,Summit Industries,0,0.1608,0,Medium,train
+SH-200590,2026-04-22,Chicago - New York,Redwood Electronics,0,0.0632,0,Low,train
+SH-200591,2026-04-22,Dallas - Atlanta,Ironbridge Pharma,1,0.6564,1,High,train
+SH-200592,2026-04-22,Houston - Miami,Redwood Electronics,0,0.1554,0,Medium,train
+SH-200593,2026-04-23,Denver - Houston,Redwood Electronics,1,0.5785,1,High,train
+SH-200594,2026-04-23,Dallas - Houston,Skyline Retail Group,0,0.1594,0,Medium,train
+SH-200595,2026-04-23,Dallas - Atlanta,Pioneer Components,0,0.1634,0,Medium,train
+SH-200596,2026-04-23,Chicago - Houston,Harbor Distribution,0,0.1196,0,Medium,train
+SH-200597,2026-04-24,Houston - Chicago,Summit Industries,1,0.6001,1,High,train
+SH-200598,2026-04-24,Denver - Memphis,Atlas Electronics,0,0.1723,0,Medium,train
+SH-200599,2026-04-24,New York - Los Angeles,Evergreen Brands,0,0.2163,0,Medium,train
+SH-200600,2026-04-24,Houston - Chicago,Atlas Retail Group,0,0.1532,0,Medium,train
+SH-200601,2026-04-24,Dallas - Los Angeles,Orchard Supply Co,0,0.1193,0,Medium,train
+SH-200602,2026-04-24,Chicago - Los Angeles,Orchard Supply Co,0,0.1316,0,Medium,train
+SH-200603,2026-04-24,Atlanta - Miami,Skyline Distribution,1,0.5898,1,High,train
+SH-200604,2026-04-25,Miami - Houston,Meridian Components,0,0.1288,0,Medium,train
+SH-200605,2026-04-25,Chicago - Dallas,Harbor Distribution,1,0.5338,1,High,train
+SH-200606,2026-04-25,Atlanta - New York,Ironbridge Pharma,0,0.1319,0,Medium,train
+SH-200607,2026-04-26,Seattle - Houston,Skyline Motors,0,0.2453,1,High,train
+SH-200608,2026-04-27,Houston - Memphis,Ironbridge Retail Group,0,0.2977,1,High,train
+SH-200609,2026-04-27,New York - Dallas,Cascade Foods,0,0.293,1,High,train
+SH-200610,2026-04-28,New York - Miami,Redwood Retail Group,0,0.1717,0,Medium,train
+SH-200611,2026-04-28,Chicago - New York,Ironbridge Pharma,0,0.1522,0,Medium,train
+SH-200612,2026-04-28,Dallas - New York,Redwood Electronics,0,0.0928,0,Low,train
+SH-200613,2026-04-28,Houston - Miami,Pioneer Industries,0,0.1448,0,Medium,train
+SH-200614,2026-04-29,Memphis - Dallas,Orchard Supply Co,1,0.6347,1,High,train
+SH-200615,2026-05-01,Chicago - New York,Meridian Industries,0,0.0766,0,Low,train
+SH-200616,2026-05-02,Memphis - New York,Bluewave Retail Group,0,0.1019,0,Low,train
+SH-200617,2026-05-02,Los Angeles - Denver,Redwood Electronics,0,0.132,0,Medium,train
+SH-200618,2026-05-02,Chicago - Houston,Meridian Industries,0,0.202,0,Medium,train
+SH-200619,2026-05-04,Dallas - Memphis,Summit Motors,0,0.1839,0,Medium,train
+SH-200620,2026-05-04,Los Angeles - Dallas,Orchard Supply Co,0,0.1821,0,Medium,train
+SH-200621,2026-05-04,New York - Atlanta,Northstar Brands,1,0.5975,1,High,train
+SH-200622,2026-05-04,Miami - New York,Skyline Electronics,0,0.1372,0,Medium,train
+SH-200623,2026-05-04,Los Angeles - Miami,Orchard Supply Co,0,0.3231,1,High,train
+SH-200624,2026-05-05,Chicago - Dallas,Meridian Components,0,0.0831,0,Low,train
+SH-200625,2026-05-05,Seattle - Los Angeles,Meridian Industries,0,0.1425,0,Medium,train
+SH-200626,2026-05-05,Chicago - Dallas,Skyline Distribution,0,0.1075,0,Low,train
+SH-200627,2026-05-06,Chicago - Dallas,Evergreen Retail Group,0,0.1913,0,Medium,train
+SH-200628,2026-05-06,Los Angeles - Houston,Orchard Supply Co,0,0.2194,0,Medium,train
+SH-200629,2026-05-06,Dallas - Chicago,Meridian Industries,1,0.6877,1,High,train
+SH-200630,2026-05-06,New York - Memphis,Orchard Distribution,1,0.6012,1,High,train
+SH-200631,2026-05-06,Houston - Los Angeles,Pioneer Industries,0,0.1611,0,Medium,train
+SH-200632,2026-05-06,Miami - Memphis,Atlas Retail Group,0,0.0551,0,Low,train
+SH-200633,2026-05-06,Dallas - Chicago,Redwood Electronics,0,0.2202,0,Medium,train
+SH-200634,2026-05-07,Chicago - Dallas,Redwood Electronics,0,0.2054,0,Medium,train
+SH-200635,2026-05-07,Miami - Houston,Titan Foods,0,0.2263,0,Medium,train
+SH-200636,2026-05-07,Memphis - Dallas,Pioneer Components,0,0.1518,0,Medium,train
+SH-200637,2026-05-08,Chicago - Los Angeles,Meridian Components,0,0.0847,0,Low,train
+SH-200638,2026-05-08,Chicago - Denver,Evergreen Brands,0,0.1259,0,Medium,train
+SH-200639,2026-05-08,New York - Los Angeles,Pioneer Industries,0,0.2362,1,High,train
+SH-200640,2026-05-08,Chicago - New York,Orchard Supply Co,0,0.0633,0,Low,train
+SH-200641,2026-05-08,Chicago - Denver,Skyline Retail Group,0,0.2835,1,High,train
+SH-200642,2026-05-09,Chicago - Memphis,Redwood Retail Group,0,0.1106,0,Low,train
+SH-200643,2026-05-09,Los Angeles - New York,Pioneer Industries,0,0.3021,1,High,train
+SH-200644,2026-05-10,New York - Dallas,Evergreen Brands,0,0.2148,0,Medium,train
+SH-200645,2026-05-11,Houston - Chicago,Orchard Supply Co,0,0.1574,0,Medium,train
+SH-200646,2026-05-11,Atlanta - New York,Ironbridge Pharma,0,0.1521,0,Medium,train
+SH-200647,2026-05-11,Memphis - New York,Northstar Brands,0,0.1861,0,Medium,train
+SH-200648,2026-05-11,Los Angeles - New York,Redwood Retail Group,0,0.1462,0,Medium,train
+SH-200649,2026-05-11,Memphis - Houston,Meridian Components,0,0.2442,1,High,train
+SH-200650,2026-05-13,Chicago - Denver,Pioneer Components,0,0.1064,0,Low,train
+SH-200651,2026-05-13,Chicago - Memphis,Evergreen Retail Group,0,0.0973,0,Low,train
+SH-200652,2026-05-13,New York - Atlanta,Redwood Retail Group,0,0.163,0,Medium,train
+SH-200653,2026-05-13,Atlanta - Chicago,Evergreen Brands,0,0.135,0,Medium,train
+SH-200654,2026-05-13,Memphis - Dallas,Evergreen Brands,0,0.1931,0,Medium,train
+SH-200655,2026-05-14,New York - Dallas,Atlas Electronics,0,0.2015,0,Medium,train
+SH-200656,2026-05-14,Seattle - Atlanta,Redwood Electronics,0,0.1625,0,Medium,train
+SH-200657,2026-05-14,Los Angeles - Memphis,Bluewave Retail Group,0,0.1212,0,Medium,train
+SH-200658,2026-05-14,Memphis - Los Angeles,Northstar Brands,0,0.2182,0,Medium,train
+SH-200659,2026-05-14,Chicago - Houston,Atlas Retail Group,0,0.0558,0,Low,train
+SH-200660,2026-05-15,Chicago - Miami,Atlas Pharma,0,0.0977,0,Low,train
+SH-200661,2026-05-15,Miami - Denver,Orchard Supply Co,0,0.2883,1,High,train
+SH-200662,2026-05-15,Houston - Chicago,Atlas Retail Group,0,0.2095,0,Medium,train
+SH-200663,2026-05-15,Atlanta - Houston,Atlas Retail Group,0,0.0586,0,Low,train
+SH-200664,2026-05-15,New York - Memphis,Atlas Retail Group,0,0.0777,0,Low,train
+SH-200665,2026-05-15,Atlanta - Miami,Summit Motors,0,0.156,0,Medium,train
+SH-200666,2026-05-18,Denver - Los Angeles,Atlas Electronics,0,0.259,1,High,train
+SH-200667,2026-05-19,Los Angeles - New York,Atlas Retail Group,1,0.5797,1,High,train
+SH-200668,2026-05-19,Atlanta - Denver,Ironbridge Distribution,0,0.248,1,High,train
+SH-200669,2026-05-19,Miami - Los Angeles,Skyline Distribution,0,0.2544,1,High,train
+SH-200670,2026-05-19,New York - Memphis,Summit Industries,0,0.1015,0,Low,train
+SH-200671,2026-05-20,Houston - Chicago,Ironbridge Distribution,0,0.3307,1,High,train
+SH-200672,2026-05-20,Houston - Denver,Atlas Retail Group,0,0.1705,0,Medium,train
+SH-200673,2026-05-20,Memphis - New York,Orchard Brands,0,0.1266,0,Medium,train
+SH-200674,2026-05-20,Dallas - Chicago,Ironbridge Pharma,0,0.0814,0,Low,train
+SH-200675,2026-05-22,Los Angeles - Chicago,Evergreen Industries,0,0.3296,1,High,train
+SH-200676,2026-05-22,Houston - Miami,Redwood Electronics,0,0.0938,0,Low,train
+SH-200677,2026-05-23,New York - Dallas,Bluewave Retail Group,0,0.1591,0,Medium,train
+SH-200678,2026-05-23,Memphis - Atlanta,Evergreen Retail Group,0,0.1039,0,Low,train
+SH-200679,2026-05-23,Los Angeles - Dallas,Atlas Foods,0,0.1035,0,Low,train
+SH-200680,2026-05-23,Dallas - Chicago,Atlas Retail Group,0,0.1171,0,Medium,train
+SH-200681,2026-05-23,Denver - New York,Northstar Brands,1,0.721,1,High,train
+SH-200682,2026-05-23,New York - Memphis,Atlas Pharma,0,0.0615,0,Low,train
+SH-200683,2026-05-23,Seattle - Memphis,Evergreen Retail Group,1,0.6061,1,High,train
+SH-200684,2026-05-25,Memphis - New York,Summit Motors,1,0.6219,1,High,train
+SH-200685,2026-05-25,Miami - Los Angeles,Evergreen Brands,1,0.5354,1,High,train
+SH-200686,2026-05-25,Atlanta - Memphis,Meridian Industries,0,0.1192,0,Medium,train
+SH-200687,2026-05-25,New York - Los Angeles,Atlas Retail Group,0,0.1101,0,Low,train
+SH-200688,2026-05-25,Miami - Houston,Redwood Retail Group,0,0.4505,1,High,train
+SH-200689,2026-05-26,Dallas - Denver,Evergreen Motors,0,0.1035,0,Low,train
+SH-200690,2026-05-26,Houston - New York,Ironbridge Retail Group,0,0.0916,0,Low,train
+SH-200691,2026-05-26,Los Angeles - Memphis,Atlas Retail Group,0,0.0858,0,Low,train
+SH-200692,2026-05-26,Dallas - Chicago,Meridian Components,0,0.0581,0,Low,train
+SH-200693,2026-05-27,New York - Los Angeles,Redwood Electronics,0,0.2096,0,Medium,train
+SH-200694,2026-05-27,Memphis - Los Angeles,Summit Industries,0,0.1641,0,Medium,train
+SH-200695,2026-05-27,Los Angeles - Miami,Redwood Retail Group,0,0.1892,0,Medium,train
+SH-200696,2026-05-27,Houston - Dallas,Atlas Pharma,0,0.1955,0,Medium,train
+SH-200697,2026-05-27,Chicago - Denver,Orchard Distribution,0,0.1078,0,Low,train
+SH-200698,2026-05-27,Chicago - Atlanta,Atlas Retail Group,0,0.1021,0,Low,train
+SH-200699,2026-05-27,Dallas - Seattle,Orchard Supply Co,0,0.2216,0,Medium,train
+SH-200700,2026-05-28,Chicago - Dallas,Harbor Components,0,0.1721,0,Medium,train
+SH-200701,2026-05-28,Miami - Los Angeles,Orchard Distribution,0,0.1275,0,Medium,train
+SH-200702,2026-05-28,Atlanta - Memphis,Atlas Pharma,0,0.0969,0,Low,train
+SH-200703,2026-05-29,Chicago - Atlanta,Redwood Electronics,0,0.1419,0,Medium,train
+SH-200704,2026-05-29,Los Angeles - Houston,Ironbridge Pharma,0,0.1389,0,Medium,train
+SH-200705,2026-05-30,Dallas - Chicago,Evergreen Retail Group,0,0.0729,0,Low,train
+SH-200706,2026-05-30,Atlanta - Chicago,Meridian Components,0,0.1753,0,Medium,train
+SH-200707,2026-06-01,Los Angeles - New York,Evergreen Retail Group,1,0.7014,1,High,train
+SH-200708,2026-06-01,Memphis - Dallas,Skyline Distribution,0,0.1659,0,Medium,train
+SH-200709,2026-06-01,Seattle - Chicago,Summit Industries,1,0.6957,1,High,train
+SH-200710,2026-06-01,Miami - Dallas,Northstar Brands,0,0.2064,0,Medium,train
+SH-200711,2026-06-02,Los Angeles - Dallas,Summit Industries,0,0.2431,1,High,train
+SH-200712,2026-06-02,Houston - Los Angeles,Meridian Industries,0,0.1986,0,Medium,train
+SH-200713,2026-06-02,Chicago - Houston,Summit Industries,0,0.1761,0,Medium,train
+SH-200714,2026-06-02,Los Angeles - Memphis,Meridian Industries,0,0.087,0,Low,train
+SH-200715,2026-06-02,Memphis - Los Angeles,Atlas Retail Group,0,0.2516,1,High,train
+SH-200716,2026-06-02,Chicago - Memphis,Bluewave Retail Group,0,0.1379,0,Medium,train
+SH-200717,2026-06-03,Houston - Chicago,Harbor Distribution,1,0.5289,1,High,train
+SH-200718,2026-06-03,Denver - Seattle,Northstar Brands,0,0.1746,0,Medium,train
+SH-200719,2026-06-03,Dallas - Atlanta,Orchard Distribution,0,0.099,0,Low,train
+SH-200720,2026-06-03,Dallas - Miami,Evergreen Motors,0,0.1223,0,Medium,train
+SH-200721,2026-06-03,Denver - Chicago,Ironbridge Retail Group,0,0.1358,0,Medium,train
+SH-200722,2026-06-04,Chicago - Dallas,Evergreen Industries,1,0.6026,1,High,train
+SH-200723,2026-06-04,Houston - Atlanta,Atlas Retail Group,0,0.1531,0,Medium,train
+SH-200724,2026-06-04,Houston - Los Angeles,Skyline Distribution,0,0.1915,0,Medium,train
+SH-200725,2026-06-04,Denver - Houston,Atlas Electronics,0,0.1767,0,Medium,train
+SH-200726,2026-06-05,Los Angeles - Miami,Summit Industries,0,0.1216,0,Medium,train
+SH-200727,2026-06-06,Dallas - Memphis,Bluewave Retail Group,0,0.1497,0,Medium,train
+SH-200728,2026-06-06,Miami - New York,Skyline Supply Co,0,0.3191,1,High,train
+SH-200729,2026-06-06,Atlanta - New York,Orchard Supply Co,0,0.1122,0,Low,train
+SH-200730,2026-06-06,Chicago - Houston,Crestview Industries,0,0.0997,0,Low,train
+SH-200731,2026-06-06,Los Angeles - Seattle,Atlas Retail Group,0,0.0953,0,Low,train
+SH-200732,2026-06-07,Atlanta - New York,Skyline Distribution,0,0.2691,1,High,train
+SH-200733,2026-06-08,Chicago - Memphis,Ironbridge Retail Group,0,0.1634,0,Medium,train
+SH-200734,2026-06-08,Memphis - Atlanta,Atlas Foods,1,0.6568,1,High,train
+SH-200735,2026-06-10,Atlanta - Seattle,Titan Foods,0,0.1761,0,Medium,train
+SH-200736,2026-06-10,Memphis - Denver,Ironbridge Retail Group,0,0.1087,0,Low,train
+SH-200737,2026-06-10,Atlanta - Chicago,Pioneer Components,0,0.2962,1,High,train
+SH-200738,2026-06-11,New York - Chicago,Bluewave Retail Group,0,0.1213,0,Medium,train
+SH-200739,2026-06-11,Seattle - New York,Atlas Foods,0,0.4356,1,High,train
+SH-200740,2026-06-11,New York - Memphis,Titan Motors,0,0.2028,0,Medium,train
+SH-200741,2026-06-11,Chicago - Denver,Redwood Electronics,0,0.1233,0,Medium,train
+SH-200742,2026-06-11,Chicago - Houston,Redwood Electronics,0,0.1691,0,Medium,train
+SH-200743,2026-06-11,Dallas - Memphis,Redwood Retail Group,0,0.2831,1,High,train
+SH-200744,2026-06-12,Seattle - Dallas,Redwood Electronics,0,0.251,1,High,train
+SH-200745,2026-06-12,New York - Los Angeles,Titan Motors,0,0.3077,1,High,train
+SH-200746,2026-06-12,Houston - Memphis,Evergreen Retail Group,0,0.2012,0,Medium,train
+SH-200747,2026-06-12,Chicago - Memphis,Meridian Industries,0,0.0871,0,Low,train
+SH-200748,2026-06-13,Atlanta - Miami,Skyline Distribution,0,0.1286,0,Medium,train
+SH-200749,2026-06-13,Miami - Denver,Evergreen Industries,1,0.5552,1,High,train
+SH-200750,2026-06-13,Dallas - Atlanta,Ironbridge Electronics,0,0.1345,0,Medium,train
+SH-200751,2026-06-14,Atlanta - Dallas,Pioneer Components,0,0.153,0,Medium,train
+SH-200752,2026-06-15,Houston - Atlanta,Skyline Supply Co,0,0.1066,0,Low,train
+SH-200753,2026-06-16,Dallas - Los Angeles,Pioneer Components,0,0.3743,1,High,train
+SH-200754,2026-06-16,Seattle - New York,Evergreen Industries,0,0.1628,0,Medium,train
+SH-200755,2026-06-16,Chicago - Dallas,Ironbridge Pharma,0,0.1222,0,Medium,train
+SH-200756,2026-06-16,Miami - Houston,Summit Industries,0,0.1485,0,Medium,train
+SH-200757,2026-06-17,Los Angeles - Memphis,Orchard Electronics,0,0.0905,0,Low,train
+SH-200758,2026-06-17,Chicago - Los Angeles,Atlas Retail Group,0,0.0434,0,Low,train
+SH-200759,2026-06-17,Seattle - New York,Evergreen Industries,1,0.6092,1,High,train
+SH-200760,2026-06-18,Memphis - New York,Orchard Supply Co,0,0.2044,0,Medium,train
+SH-200761,2026-06-18,Houston - Chicago,Summit Motors,0,0.1935,0,Medium,train
+SH-200762,2026-06-18,Miami - Los Angeles,Ironbridge Pharma,1,0.7044,1,High,train
+SH-200763,2026-06-19,Dallas - New York,Skyline Supply Co,0,0.2326,1,High,train
+SH-200764,2026-06-19,Denver - Atlanta,Harbor Distribution,0,0.1738,0,Medium,train
+SH-200765,2026-06-19,Memphis - Houston,Orchard Distribution,0,0.1511,0,Medium,train
+SH-200766,2026-06-20,New York - Los Angeles,Atlas Retail Group,0,0.1623,0,Medium,train
+SH-200767,2026-06-20,Memphis - Atlanta,Orchard Supply Co,0,0.2352,1,High,train
+SH-200768,2026-06-20,Atlanta - Miami,Orchard Distribution,0,0.2201,0,Medium,train
+SH-200769,2026-06-21,Los Angeles - Dallas,Atlas Retail Group,0,0.1427,0,Medium,train
+SH-200770,2026-06-22,New York - Houston,Atlas Retail Group,0,0.2282,0,Medium,train
+SH-200771,2026-06-23,Los Angeles - Houston,Skyline Electronics,0,0.0768,0,Low,train
+SH-200772,2026-06-23,Dallas - New York,Orchard Brands,1,0.6216,1,High,train
+SH-200773,2026-06-23,Houston - Chicago,Redwood Pharma,0,0.1223,0,Medium,train
+SH-200774,2026-06-23,Miami - Atlanta,Summit Industries,0,0.1897,0,Medium,train
+SH-200775,2026-06-23,Houston - Denver,Titan Foods,0,0.245,1,High,train
+SH-200776,2026-06-25,Atlanta - Los Angeles,Harbor Components,0,0.1573,0,Medium,train
+SH-200777,2026-06-25,Seattle - Atlanta,Skyline Supply Co,0,0.2468,1,High,train
+SH-200778,2026-06-26,Dallas - Denver,Ironbridge Electronics,0,0.2829,1,High,train
+SH-200779,2026-06-26,Houston - Chicago,Harbor Distribution,0,0.1914,0,Medium,train
+SH-200780,2026-06-26,Seattle - Chicago,Summit Industries,0,0.2678,1,High,train
+SH-200781,2026-06-26,Chicago - Atlanta,Pioneer Components,0,0.1267,0,Medium,train
+SH-200782,2026-06-29,Houston - Chicago,Ironbridge Electronics,0,0.16,0,Medium,train
+SH-200783,2026-06-30,Denver - Atlanta,Orchard Supply Co,0,0.2434,1,High,train
+SH-200784,2026-06-30,Miami - Chicago,Skyline Electronics,0,0.1598,0,Medium,train
+SH-200785,2026-06-30,New York - Memphis,Summit Industries,0,0.1277,0,Medium,train
+SH-200786,2026-07-01,Chicago - Dallas,Redwood Electronics,0,0.0826,0,Low,train
+SH-200787,2026-07-01,Chicago - Los Angeles,Atlas Retail Group,0,0.2039,0,Medium,train
+SH-200788,2026-07-02,Chicago - Los Angeles,Atlas Retail Group,0,0.0434,0,Low,train
+SH-200789,2026-07-02,Los Angeles - Memphis,Atlas Retail Group,0,0.2594,1,High,train
+SH-200790,2026-07-03,Chicago - Dallas,Atlas Retail Group,0,0.0348,0,Low,train
+SH-200791,2026-07-03,New York - Memphis,Skyline Distribution,0,0.1788,0,Medium,train
+SH-200792,2026-07-03,New York - Chicago,Summit Motors,0,0.0686,0,Low,train
+SH-200793,2026-07-03,Miami - Chicago,Bluewave Retail Group,0,0.11,0,Low,train
+SH-200794,2026-07-03,New York - Denver,Pioneer Industries,0,0.1748,0,Medium,train
+SH-200795,2026-07-04,Denver - Memphis,Redwood Retail Group,0,0.2518,1,High,train
+SH-200796,2026-07-04,New York - Chicago,Orchard Distribution,0,0.1688,0,Medium,train
+SH-200797,2026-07-04,Chicago - Houston,Redwood Electronics,0,0.1317,0,Medium,train
+SH-200798,2026-07-06,Dallas - Miami,Titan Motors,0,0.0629,0,Low,train
+SH-200799,2026-07-06,Houston - Dallas,Redwood Retail Group,0,0.276,1,High,train
+SH-200800,2026-07-06,Chicago - Los Angeles,Orchard Supply Co,0,0.1354,0,Medium,train
+SH-200801,2026-07-06,Dallas - Los Angeles,Evergreen Retail Group,0,0.2174,0,Medium,test
+SH-200802,2026-07-07,Miami - Memphis,Ironbridge Pharma,0,0.1767,0,Medium,test
+SH-200803,2026-07-07,Memphis - Houston,Bluewave Retail Group,0,0.1846,0,Medium,test
+SH-200804,2026-07-08,Los Angeles - Memphis,Crestview Retail Group,0,0.0978,0,Low,test
+SH-200805,2026-07-08,Chicago - Atlanta,Pioneer Components,0,0.1276,0,Medium,test
+SH-200806,2026-07-09,Houston - Chicago,Atlas Retail Group,0,0.2351,1,High,test
+SH-200807,2026-07-09,Miami - Atlanta,Atlas Retail Group,0,0.3443,1,High,test
+SH-200808,2026-07-09,Atlanta - Chicago,Pioneer Components,0,0.2812,1,High,test
+SH-200809,2026-07-09,Houston - New York,Orchard Supply Co,0,0.2312,1,High,test
+SH-200810,2026-07-10,Atlanta - Houston,Orchard Supply Co,0,0.1546,0,Medium,test
+SH-200811,2026-07-11,Houston - Chicago,Skyline Distribution,0,0.2178,0,Medium,test
+SH-200812,2026-07-11,Los Angeles - Dallas,Evergreen Retail Group,1,0.2383,1,High,test
+SH-200813,2026-07-11,Seattle - Denver,Atlas Retail Group,0,0.203,0,Medium,test
+SH-200814,2026-07-12,Miami - Los Angeles,Evergreen Industries,0,0.5734,1,High,test
+SH-200815,2026-07-12,Los Angeles - New York,Orchard Supply Co,0,0.2471,1,High,test
+SH-200816,2026-07-13,Miami - Los Angeles,Harbor Distribution,1,0.355,1,High,test
+SH-200817,2026-07-13,Memphis - Seattle,Atlas Electronics,0,0.4548,1,High,test
+SH-200818,2026-07-13,Chicago - Los Angeles,Crestview Retail Group,1,0.2484,1,High,test
+SH-200819,2026-07-14,Dallas - Denver,Atlas Foods,0,0.1854,0,Medium,test
+SH-200820,2026-07-14,Los Angeles - Atlanta,Evergreen Brands,0,0.1138,0,Low,test
+SH-200821,2026-07-15,Houston - Dallas,Ironbridge Electronics,0,0.2387,1,High,test
+SH-200822,2026-07-16,New York - Miami,Meridian Industries,0,0.1156,0,Medium,test
+SH-200823,2026-07-16,Houston - Chicago,Summit Industries,0,0.2075,0,Medium,test
+SH-200824,2026-07-18,Los Angeles - Dallas,Atlas Retail Group,0,0.192,0,Medium,test
+SH-200825,2026-07-19,Memphis - Dallas,Skyline Retail Group,0,0.2647,1,High,test
+SH-200826,2026-07-20,Denver - Los Angeles,Atlas Retail Group,0,0.27,1,High,test
+SH-200827,2026-07-20,Dallas - Chicago,Skyline Supply Co,0,0.2838,1,High,test
+SH-200828,2026-07-20,Atlanta - Houston,Orchard Supply Co,0,0.3702,1,High,test
+SH-200829,2026-07-20,Los Angeles - Houston,Crestview Retail Group,0,0.1628,0,Medium,test
+SH-200830,2026-07-21,Los Angeles - Dallas,Atlas Retail Group,0,0.1906,0,Medium,test
+SH-200831,2026-07-21,Atlanta - Chicago,Ironbridge Pharma,0,0.319,1,High,test
+SH-200832,2026-07-21,Memphis - Chicago,Orchard Supply Co,0,0.1703,0,Medium,test
+SH-200833,2026-07-22,Denver - Atlanta,Ironbridge Electronics,0,0.189,0,Medium,test
+SH-200834,2026-07-22,Chicago - Miami,Skyline Motors,0,0.2363,1,High,test
+SH-200835,2026-07-22,Los Angeles - Atlanta,Skyline Retail Group,0,0.433,1,High,test
+SH-200836,2026-07-23,Chicago - Atlanta,Pioneer Industries,0,0.2169,0,Medium,test
+SH-200837,2026-07-25,New York - Denver,Summit Motors,1,0.2647,1,High,test
+SH-200838,2026-07-25,Atlanta - Houston,Harbor Distribution,0,0.2046,0,Medium,test
+SH-200839,2026-07-25,Memphis - Houston,Evergreen Retail Group,0,0.1194,0,Medium,test
+SH-200840,2026-07-25,Denver - Chicago,Redwood Electronics,1,0.2517,1,High,test
+SH-200841,2026-07-25,Los Angeles - Denver,Evergreen Brands,0,0.1221,0,Medium,test
+SH-200842,2026-07-26,Los Angeles - Chicago,Skyline Retail Group,0,0.4153,1,High,test
+SH-200843,2026-07-26,Atlanta - Dallas,Harbor Distribution,0,0.1915,0,Medium,test
+SH-200844,2026-07-28,Houston - New York,Redwood Retail Group,0,0.4254,1,High,test
+SH-200845,2026-07-28,Miami - New York,Redwood Electronics,0,0.2844,1,High,test
+SH-200846,2026-07-28,Memphis - Seattle,Crestview Retail Group,1,0.2982,1,High,test
+SH-200847,2026-07-28,New York - Dallas,Evergreen Industries,0,0.2403,1,High,test
+SH-200848,2026-07-28,Houston - Dallas,Orchard Distribution,0,0.2308,1,High,test
+SH-200849,2026-07-29,Memphis - Atlanta,Orchard Distribution,0,0.3011,1,High,test
+SH-200850,2026-07-30,Dallas - Denver,Redwood Electronics,0,0.3884,1,High,test
+SH-200851,2026-07-30,Memphis - Dallas,Atlas Retail Group,0,0.1842,0,Medium,test
+SH-200852,2026-07-30,Chicago - Memphis,Skyline Distribution,0,0.1742,0,Medium,test
+SH-200853,2026-07-30,Los Angeles - Chicago,Redwood Electronics,0,0.3007,1,High,test
+SH-200854,2026-07-30,Houston - Atlanta,Cascade Foods,0,0.21,0,Medium,test
+SH-200855,2026-07-30,New York - Chicago,Redwood Retail Group,0,0.2744,1,High,test
+SH-200856,2026-07-31,Houston - Chicago,Ironbridge Distribution,0,0.2698,1,High,test
+SH-200857,2026-07-31,Memphis - Seattle,Redwood Retail Group,0,0.2835,1,High,test
+SH-200858,2026-07-31,Los Angeles - Seattle,Bluewave Retail Group,0,0.1589,0,Medium,test
+SH-200859,2026-07-31,Houston - Memphis,Skyline Supply Co,0,0.321,1,High,test
+SH-200860,2026-07-31,Denver - Los Angeles,Skyline Distribution,0,0.3951,1,High,test
+SH-200861,2026-07-31,New York - Denver,Evergreen Industries,0,0.1508,0,Medium,test
+SH-200862,2026-08-01,Los Angeles - Houston,Redwood Electronics,0,0.1512,0,Medium,test
+SH-200863,2026-08-01,Atlanta - Miami,Evergreen Industries,0,0.2657,1,High,test
+SH-200864,2026-08-02,Chicago - New York,Skyline Distribution,0,0.1316,0,Medium,test
+SH-200865,2026-08-03,Memphis - New York,Redwood Pharma,0,0.1844,0,Medium,test
+SH-200866,2026-08-03,Chicago - Atlanta,Northstar Brands,1,0.1558,0,Medium,test
+SH-200867,2026-08-03,Miami - Atlanta,Redwood Electronics,0,0.2355,1,High,test
+SH-200868,2026-08-03,Seattle - Chicago,Evergreen Retail Group,0,0.3288,1,High,test
+SH-200869,2026-08-03,Atlanta - Chicago,Evergreen Industries,0,0.2832,1,High,test
+SH-200870,2026-08-04,Atlanta - Houston,Atlas Retail Group,0,0.1161,0,Medium,test
+SH-200871,2026-08-04,Seattle - Memphis,Northstar Brands,1,0.329,1,High,test
+SH-200872,2026-08-05,Los Angeles - Chicago,Titan Motors,0,0.3505,1,High,test
+SH-200873,2026-08-05,Dallas - Seattle,Evergreen Retail Group,0,0.1406,0,Medium,test
+SH-200874,2026-08-05,Chicago - Memphis,Pioneer Components,0,0.17,0,Medium,test
+SH-200875,2026-08-05,Los Angeles - Houston,Atlas Retail Group,0,0.1781,0,Medium,test
+SH-200876,2026-08-05,Chicago - Denver,Skyline Motors,0,0.1003,0,Low,test
+SH-200877,2026-08-05,Chicago - Houston,Summit Industries,0,0.1772,0,Medium,test
+SH-200878,2026-08-06,Los Angeles - Miami,Redwood Electronics,0,0.2444,1,High,test
+SH-200879,2026-08-08,Miami - Chicago,Cascade Foods,1,0.3006,1,High,test
+SH-200880,2026-08-08,Chicago - Dallas,Atlas Retail Group,0,0.1236,0,Medium,test
+SH-200881,2026-08-08,New York - Atlanta,Summit Industries,0,0.2698,1,High,test
+SH-200882,2026-08-10,Los Angeles - Denver,Atlas Retail Group,0,0.3146,1,High,test
+SH-200883,2026-08-10,Denver - New York,Orchard Brands,0,0.4185,1,High,test
+SH-200884,2026-08-10,New York - Atlanta,Crestview Industries,0,0.0773,0,Low,test
+SH-200885,2026-08-11,Atlanta - Memphis,Skyline Electronics,0,0.219,0,Medium,test
+SH-200886,2026-08-12,Miami - New York,Skyline Distribution,0,0.2365,1,High,test
+SH-200887,2026-08-12,Houston - Chicago,Harbor Distribution,0,0.1729,0,Medium,test
+SH-200888,2026-08-13,Seattle - Chicago,Redwood Electronics,0,0.4,1,High,test
+SH-200889,2026-08-13,Atlanta - Los Angeles,Evergreen Industries,1,0.3405,1,High,test
+SH-200890,2026-08-14,Dallas - Los Angeles,Harbor Distribution,0,0.1479,0,Medium,test
+SH-200891,2026-08-14,Memphis - Miami,Redwood Electronics,0,0.2993,1,High,test
+SH-200892,2026-08-14,Atlanta - Miami,Cascade Foods,0,0.2455,1,High,test
+SH-200893,2026-08-16,Seattle - Dallas,Atlas Retail Group,0,0.2347,1,High,test
+SH-200894,2026-08-18,Denver - New York,Redwood Electronics,0,0.253,1,High,test
+SH-200895,2026-08-18,Memphis - Dallas,Atlas Retail Group,1,0.236,1,High,test
+SH-200896,2026-08-18,Miami - Houston,Pioneer Industries,0,0.2111,0,Medium,test
+SH-200897,2026-08-18,Atlanta - Chicago,Evergreen Motors,0,0.1908,0,Medium,test
+SH-200898,2026-08-19,New York - Los Angeles,Skyline Supply Co,0,0.2348,1,High,test
+SH-200899,2026-08-19,Houston - Seattle,Summit Industries,0,0.309,1,High,test
+SH-200900,2026-08-19,Chicago - Seattle,Skyline Supply Co,0,0.217,0,Medium,test
+SH-200901,2026-08-19,New York - Chicago,Skyline Supply Co,0,0.1238,0,Medium,test
+SH-200902,2026-08-19,Denver - Atlanta,Harbor Distribution,0,0.1521,0,Medium,test
+SH-200903,2026-08-20,Memphis - Chicago,Atlas Retail Group,0,0.2339,1,High,test
+SH-200904,2026-08-20,Miami - Chicago,Pioneer Motors,1,0.3673,1,High,test
+SH-200905,2026-08-20,Dallas - Seattle,Evergreen Retail Group,0,0.244,1,High,test
+SH-200906,2026-08-20,Seattle - Dallas,Atlas Retail Group,1,0.3691,1,High,test
+SH-200907,2026-08-20,Atlanta - New York,Orchard Brands,1,0.3598,1,High,test
+SH-200908,2026-08-20,Houston - Memphis,Orchard Supply Co,1,0.2154,0,Medium,test
+SH-200909,2026-08-20,Memphis - Atlanta,Atlas Retail Group,0,0.1142,0,Low,test
+SH-200910,2026-08-20,New York - Miami,Harbor Distribution,0,0.2072,0,Medium,test
+SH-200911,2026-08-20,Denver - Los Angeles,Atlas Retail Group,0,0.2782,1,High,test
+SH-200912,2026-08-21,Atlanta - Chicago,Ironbridge Pharma,0,0.354,1,High,test
+SH-200913,2026-08-21,Chicago - New York,Summit Industries,0,0.1664,0,Medium,test
+SH-200914,2026-08-21,New York - Miami,Atlas Retail Group,0,0.0934,0,Low,test
+SH-200915,2026-08-22,Atlanta - New York,Atlas Pharma,0,0.1433,0,Medium,test
+SH-200916,2026-08-22,Memphis - Dallas,Orchard Supply Co,0,0.2624,1,High,test
+SH-200917,2026-08-22,Los Angeles - Chicago,Redwood Electronics,0,0.203,0,Medium,test
+SH-200918,2026-08-22,New York - Denver,Redwood Electronics,1,0.1588,0,Medium,test
+SH-200919,2026-08-22,Denver - New York,Atlas Retail Group,0,0.1903,0,Medium,test
+SH-200920,2026-08-22,Memphis - Chicago,Ironbridge Pharma,0,0.3595,1,High,test
+SH-200921,2026-08-24,Denver - Dallas,Skyline Distribution,0,0.274,1,High,test
+SH-200922,2026-08-24,Dallas - Atlanta,Crestview Industries,0,0.0991,0,Low,test
+SH-200923,2026-08-25,Dallas - Atlanta,Atlas Retail Group,0,0.1095,0,Low,test
+SH-200924,2026-08-25,Atlanta - Houston,Atlas Retail Group,0,0.1514,0,Medium,test
+SH-200925,2026-08-26,New York - Houston,Skyline Electronics,0,0.2712,1,High,test
+SH-200926,2026-08-26,Chicago - Atlanta,Redwood Electronics,1,0.0775,0,Low,test
+SH-200927,2026-08-26,Chicago - Atlanta,Redwood Electronics,0,0.0945,0,Low,test
+SH-200928,2026-08-26,Seattle - Los Angeles,Atlas Retail Group,0,0.2763,1,High,test
+SH-200929,2026-08-26,Los Angeles - Dallas,Atlas Retail Group,0,0.1642,0,Medium,test
+SH-200930,2026-08-27,Dallas - Denver,Meridian Components,0,0.4309,1,High,test
+SH-200931,2026-08-28,Miami - New York,Harbor Distribution,0,0.2638,1,High,test
+SH-200932,2026-08-28,Chicago - Los Angeles,Atlas Retail Group,0,0.1182,0,Medium,test
+SH-200933,2026-08-28,Seattle - New York,Pioneer Components,0,0.3987,1,High,test
+SH-200934,2026-08-28,Chicago - Denver,Redwood Electronics,0,0.139,0,Medium,test
+SH-200935,2026-08-28,Memphis - Chicago,Ironbridge Pharma,0,0.2928,1,High,test
+SH-200936,2026-08-29,Houston - Chicago,Crestview Retail Group,0,0.3477,1,High,test
+SH-200937,2026-08-29,Chicago - Miami,Skyline Supply Co,1,0.0851,0,Low,test
+SH-200938,2026-08-31,Memphis - Chicago,Skyline Distribution,0,0.1503,0,Medium,test
+SH-200939,2026-09-01,Los Angeles - Houston,Harbor Distribution,0,0.2774,1,High,test
+SH-200940,2026-09-01,Dallas - Houston,Redwood Electronics,0,0.2705,1,High,test
+SH-200941,2026-09-01,New York - Chicago,Skyline Supply Co,0,0.2235,0,Medium,test
+SH-200942,2026-09-02,Memphis - Chicago,Atlas Retail Group,0,0.2307,1,High,test
+SH-200943,2026-09-02,Los Angeles - Atlanta,Evergreen Industries,0,0.3097,1,High,test
+SH-200944,2026-09-02,Houston - New York,Atlas Electronics,0,0.1111,0,Low,test
+SH-200945,2026-09-02,Houston - New York,Summit Motors,0,0.189,0,Medium,test
+SH-200946,2026-09-03,New York - Miami,Redwood Electronics,0,0.2906,1,High,test
+SH-200947,2026-09-04,New York - Memphis,Evergreen Industries,0,0.2008,0,Medium,test
+SH-200948,2026-09-04,Chicago - Los Angeles,Evergreen Motors,0,0.1594,0,Medium,test
+SH-200949,2026-09-05,Chicago - Memphis,Skyline Distribution,0,0.2336,1,High,test
+SH-200950,2026-09-05,Chicago - Seattle,Redwood Electronics,1,0.2402,1,High,test
+SH-200951,2026-09-05,Chicago - Seattle,Atlas Foods,1,0.1402,0,Medium,test
+SH-200952,2026-09-05,Dallas - Chicago,Orchard Supply Co,1,0.2573,1,High,test
+SH-200953,2026-09-06,Los Angeles - Chicago,Atlas Retail Group,0,0.3453,1,High,test
+SH-200954,2026-09-07,Dallas - Miami,Redwood Electronics,0,0.1336,0,Medium,test
+SH-200955,2026-09-07,Memphis - Atlanta,Orchard Supply Co,0,0.139,0,Medium,test
+SH-200956,2026-09-07,Seattle - Chicago,Northstar Brands,0,0.4215,1,High,test
+SH-200957,2026-09-08,Seattle - Miami,Atlas Retail Group,0,0.39,1,High,test
+SH-200958,2026-09-08,Chicago - New York,Orchard Supply Co,0,0.2796,1,High,test
+SH-200959,2026-09-08,New York - Chicago,Pioneer Components,0,0.0962,0,Low,test
+SH-200960,2026-09-08,Dallas - Atlanta,Orchard Supply Co,0,0.3616,1,High,test
+SH-200961,2026-09-08,Atlanta - Miami,Evergreen Retail Group,0,0.1883,0,Medium,test
+SH-200962,2026-09-08,Atlanta - Miami,Atlas Electronics,0,0.2171,0,Medium,test
+SH-200963,2026-09-09,New York - Dallas,Pioneer Components,0,0.1277,0,Medium,test
+SH-200964,2026-09-09,Houston - New York,Atlas Retail Group,0,0.352,1,High,test
+SH-200965,2026-09-10,Los Angeles - New York,Orchard Supply Co,1,0.4206,1,High,test
+SH-200966,2026-09-10,Memphis - Miami,Pioneer Components,0,0.1743,0,Medium,test
+SH-200967,2026-09-10,Dallas - Los Angeles,Atlas Retail Group,0,0.338,1,High,test
+SH-200968,2026-09-10,Denver - Chicago,Pioneer Motors,0,0.2301,1,High,test
+SH-200969,2026-09-11,Dallas - New York,Redwood Pharma,0,0.2307,1,High,test
+SH-200970,2026-09-11,Atlanta - Denver,Crestview Retail Group,1,0.1928,0,Medium,test
+SH-200971,2026-09-11,Miami - Memphis,Ironbridge Electronics,0,0.1447,0,Medium,test
+SH-200972,2026-09-11,Denver - Memphis,Redwood Retail Group,1,0.2468,1,High,test
+SH-200973,2026-09-12,Chicago - Los Angeles,Redwood Electronics,0,0.117,0,Medium,test
+SH-200974,2026-09-12,Los Angeles - Dallas,Evergreen Motors,0,0.1611,0,Medium,test
+SH-200975,2026-09-12,Houston - Dallas,Harbor Components,1,0.2468,1,High,test
+SH-200976,2026-09-12,Dallas - Atlanta,Orchard Brands,0,0.2831,1,High,test
+SH-200977,2026-09-12,Los Angeles - Atlanta,Skyline Supply Co,0,0.2018,0,Medium,test
+SH-200978,2026-09-14,Atlanta - New York,Redwood Electronics,0,0.2145,0,Medium,test
+SH-200979,2026-09-14,Memphis - Atlanta,Atlas Electronics,0,0.291,1,High,test
+SH-200980,2026-09-15,New York - Chicago,Redwood Electronics,0,0.2824,1,High,test
+SH-200981,2026-09-15,Los Angeles - Memphis,Redwood Electronics,0,0.3632,1,High,test
+SH-200982,2026-09-15,New York - Seattle,Crestview Retail Group,0,0.1531,0,Medium,test
+SH-200983,2026-09-15,Houston - New York,Skyline Distribution,0,0.1138,0,Low,test
+SH-200984,2026-09-15,Houston - Miami,Harbor Components,0,0.3055,1,High,test
+SH-200985,2026-09-15,Atlanta - Los Angeles,Orchard Brands,0,0.3466,1,High,test
+SH-200986,2026-09-15,Seattle - Denver,Atlas Electronics,0,0.4017,1,High,test
+SH-200987,2026-09-15,Memphis - Los Angeles,Meridian Industries,0,0.0722,0,Low,test
+SH-200988,2026-09-15,Chicago - New York,Summit Industries,0,0.0769,0,Low,test
+SH-200989,2026-09-15,Chicago - New York,Harbor Components,0,0.1774,0,Medium,test
+SH-200990,2026-09-16,Chicago - Los Angeles,Redwood Electronics,0,0.233,1,High,test
+SH-200991,2026-09-16,Memphis - New York,Atlas Electronics,0,0.3589,1,High,test
+SH-200992,2026-09-16,Houston - Chicago,Titan Motors,0,0.214,0,Medium,test
+SH-200993,2026-09-16,Los Angeles - Houston,Atlas Electronics,0,0.193,0,Medium,test
+SH-200994,2026-09-16,Los Angeles - Seattle,Harbor Distribution,0,0.2021,0,Medium,test
+SH-200995,2026-09-16,Seattle - Chicago,Redwood Electronics,0,0.2628,1,High,test
+SH-200996,2026-09-16,Seattle - Dallas,Atlas Retail Group,0,0.3647,1,High,test
+SH-200997,2026-09-16,Los Angeles - Dallas,Redwood Electronics,0,0.2509,1,High,test
+SH-200998,2026-09-17,New York - Los Angeles,Skyline Retail Group,0,0.3335,1,High,test
+SH-200999,2026-09-18,Miami - Chicago,Summit Industries,0,0.173,0,Medium,test
+SH-201000,2026-09-18,Memphis - Atlanta,Skyline Electronics,1,0.291,1,High,test

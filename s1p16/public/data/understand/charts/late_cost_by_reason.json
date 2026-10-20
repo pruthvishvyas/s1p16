@@ -1,0 +1,35 @@
+{
+  "id": "late_cost_by_reason",
+  "title": "Penalties + claims by delay reason",
+  "business_question": "Which delay costs the most?",
+  "outcome": "DECIDE",
+  "type": "bar",
+  "x_label": "Delay reason",
+  "y_label": "Cost",
+  "data": [
+    {
+      "label": "Hub Congestion",
+      "value": 2797.06
+    },
+    {
+      "label": "Traffic/Congestion",
+      "value": 2768.77
+    },
+    {
+      "label": "Weather",
+      "value": 2034.77
+    },
+    {
+      "label": "Vehicle Breakdown",
+      "value": 1844.17
+    },
+    {
+      "label": "Documentation Error",
+      "value": 1065.21
+    },
+    {
+      "label": "Driver Shortage",
+      "value": 729.68
+    }
+  ]
+}

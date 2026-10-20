@@ -1,0 +1,14 @@
+{
+  "charts": [
+    "revenue_by_lane_top10",
+    "net_margin_by_service_mode",
+    "net_margin_by_carrier_type",
+    "monthly_revenue",
+    "on_time_rate_weekly",
+    "late_cost_by_reason",
+    "priority_breakdown",
+    "load_factor_distribution",
+    "top_receivables_by_customer",
+    "lane_segment_sizes"
+  ]
+}

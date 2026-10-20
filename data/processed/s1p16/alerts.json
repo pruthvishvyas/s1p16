@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-09-18",
+  "alerts": [
+    {
+      "id": "OTD_BELOW_TARGET",
+      "severity": "HIGH",
+      "metric": "on_time_pct_30d",
+      "actual": 84.7,
+      "threshold": 95.0,
+      "message": "On-time delivery is 84.7% vs target 95.0%",
+      "action": "Review the top delay reason and the worst 3 lanes with the carrier managers",
+      "outcome": "MONITOR",
+      "as_of": "2026-09-18"
+    },
+    {
+      "id": "LOSS_SHIPMENTS",
+      "severity": "MEDIUM",
+      "metric": "loss_making_shipments_30d",
+      "actual": 16,
+      "threshold": 0,
+      "message": "16 loss-making shipments in the last 30 days",
+      "action": "Review rate cards for the lanes involved",
+      "outcome": "MONITOR",
+      "as_of": "2026-09-18"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "revenue_target": {
+    "value": null,
+    "unit": "monthly",
+    "client_sets": true,
+    "description": "Monthly freight revenue target"
+  },
+  "margin_floor_pct": {
+    "value": 8.0,
+    "unit": "percent",
+    "client_sets": true,
+    "description": "Minimum net margin per lane/shipper"
+  },
+  "on_time_target_pct": {
+    "value": 95.0,
+    "unit": "percent",
+    "client_sets": true,
+    "description": "On-time delivery target"
+  },
+  "alert_drop_pct": {
+    "value": 20.0,
+    "unit": "percent",
+    "description": "Alert if weekly revenue drops by this % vs prior 4-week average"
+  },
+  "forecast_horizon": {
+    "value": 30,
+    "unit": "days"
+  },
+  "load_factor_min": {
+    "value": 65.0,
+    "unit": "percent",
+    "client_sets": true,
+    "description": "Minimum acceptable load factor"
+  },
+  "empty_ratio_max": {
+    "value": 0.3,
+    "unit": "ratio",
+    "client_sets": true,
+    "description": "Maximum empty km / loaded km"
+  },
+  "overdue_grace_days": {
+    "value": 10,
+    "unit": "days",
+    "client_sets": true,
+    "description": "Days after terms before an invoice is overdue"
+  }
+}

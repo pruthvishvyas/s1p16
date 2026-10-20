@@ -1,0 +1,27 @@
+{
+  "id": "priority_breakdown",
+  "title": "Shipments by action priority",
+  "business_question": "Where do I act first?",
+  "outcome": "DECIDE",
+  "type": "bar",
+  "x_label": "Priority",
+  "y_label": "Shipments",
+  "data": [
+    {
+      "label": "P1_URGENT",
+      "value": 65.0
+    },
+    {
+      "label": "P2_HIGH",
+      "value": 159.0
+    },
+    {
+      "label": "P3_MEDIUM",
+      "value": 414.0
+    },
+    {
+      "label": "P4_ROUTINE",
+      "value": 362.0
+    }
+  ]
+}

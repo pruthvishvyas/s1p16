@@ -1,0 +1,59 @@
+{
+  "id": "monthly_revenue",
+  "title": "Monthly revenue",
+  "business_question": "Is revenue trending up or down?",
+  "outcome": "MONITOR",
+  "type": "line",
+  "x_label": "Month",
+  "y_label": "Revenue",
+  "data": [
+    {
+      "label": "2025-10",
+      "value": 269954.48
+    },
+    {
+      "label": "2025-11",
+      "value": 393027.06
+    },
+    {
+      "label": "2025-12",
+      "value": 391607.98
+    },
+    {
+      "label": "2026-01",
+      "value": 232737.64
+    },
+    {
+      "label": "2026-02",
+      "value": 214298.76
+    },
+    {
+      "label": "2026-03",
+      "value": 331053.94
+    },
+    {
+      "label": "2026-04",
+      "value": 311951.9
+    },
+    {
+      "label": "2026-05",
+      "value": 346343.02
+    },
+    {
+      "label": "2026-06",
+      "value": 256893.1
+    },
+    {
+      "label": "2026-07",
+      "value": 251952.66
+    },
+    {
+      "label": "2026-08",
+      "value": 251283.11
+    },
+    {
+      "label": "2026-09",
+      "value": 213827.69
+    }
+  ]
+}

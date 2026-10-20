@@ -1,0 +1,14 @@
+{
+  "history_days": 353,
+  "horizon_days": 30,
+  "holdout_days": 14,
+  "mae": 7155.27,
+  "r2": -0.0747,
+  "wape_model": 0.5572,
+  "wape_seasonal_naive": 0.6541,
+  "method": "GradientBoostingRegressor",
+  "forecast_total_revenue": 299964.77,
+  "trailing_30d_revenue": 327642.37,
+  "forecast_vs_trailing_pct": -8.45,
+  "last_actual_date": "2026-09-18"
+}

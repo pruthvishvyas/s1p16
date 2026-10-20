@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+openpyxl
+joblib
+notebook
+ipykernel
+# optional BigQuery source for export_for_frontend.py:
+# google-cloud-bigquery
+# db-dtypes

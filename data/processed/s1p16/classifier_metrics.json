@@ -1,0 +1,56 @@
+{
+  "rows": 1000,
+  "late_rate_pct": 14.2,
+  "target": "late_flag (late delivery)",
+  "rule_baseline": {
+    "recall": 0.3873,
+    "precision": 0.1429
+  },
+  "split": "time_based: newest 20% of shipments held out",
+  "mode": "ml",
+  "best_model": "RandomForest",
+  "threshold": 0.23,
+  "models": {
+    "LogisticRegression": {
+      "cv_auc_mean": 0.5006,
+      "cv_auc_std": 0.0497,
+      "test_auc": 0.6178,
+      "test_pr_auc": 0.2144,
+      "test_acc": 0.575
+    },
+    "RandomForest": {
+      "cv_auc_mean": 0.5472,
+      "cv_auc_std": 0.0678,
+      "test_auc": 0.5975,
+      "test_pr_auc": 0.1685,
+      "test_acc": 0.865
+    },
+    "GradientBoosting": {
+      "cv_auc_mean": 0.506,
+      "cv_auc_std": 0.041,
+      "test_auc": 0.5369,
+      "test_pr_auc": 0.1371,
+      "test_acc": 0.855
+    }
+  },
+  "test_recall": 0.7308,
+  "test_precision": 0.1792,
+  "test_f2": 0.4524,
+  "test_roc_auc": 0.5975,
+  "test_pr_auc": 0.1685,
+  "test_rows": 200,
+  "train_rows": 800,
+  "signal": "weak",
+  "top_features": {
+    "num__Load_Factor_pct": 0.0833,
+    "num__weight_per_cbm": 0.0767,
+    "num__Weight_kg": 0.0741,
+    "num__Volume_cbm": 0.0734,
+    "num__planned_km_per_day": 0.0707,
+    "num__customer_prior_late_rate": 0.0702,
+    "num__lane_prior_late_rate": 0.0671,
+    "num__Distance_km": 0.0544,
+    "num__Empty_Return_km": 0.0445,
+    "num__empty_return_ratio": 0.0444
+  }
+}

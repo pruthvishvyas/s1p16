@@ -1,0 +1,91 @@
+{
+  "period_days": 353,
+  "period_months": 11.6,
+  "currency": "USD",
+  "baseline_revenue": 3464931.34,
+  "baseline_net_profit": 445130.9,
+  "variable": "late_reduction_pct",
+  "baseline_penalties_claims": 27952.16,
+  "assumptions": {
+    "note": "Penalties and claims scale with number of late shipments"
+  },
+  "scenarios": [
+    {
+      "late_reduction_pct": 0,
+      "late_shipments": 142,
+      "on_time_pct": 85.8,
+      "savings_period": 0.0,
+      "savings_per_month": 0.0
+    },
+    {
+      "late_reduction_pct": 5,
+      "late_shipments": 135,
+      "on_time_pct": 86.51,
+      "savings_period": 1397.61,
+      "savings_per_month": 120.52
+    },
+    {
+      "late_reduction_pct": 10,
+      "late_shipments": 128,
+      "on_time_pct": 87.22,
+      "savings_period": 2795.22,
+      "savings_per_month": 241.04
+    },
+    {
+      "late_reduction_pct": 15,
+      "late_shipments": 121,
+      "on_time_pct": 87.93,
+      "savings_period": 4192.82,
+      "savings_per_month": 361.56
+    },
+    {
+      "late_reduction_pct": 20,
+      "late_shipments": 114,
+      "on_time_pct": 88.64,
+      "savings_period": 5590.43,
+      "savings_per_month": 482.08
+    },
+    {
+      "late_reduction_pct": 25,
+      "late_shipments": 106,
+      "on_time_pct": 89.35,
+      "savings_period": 6988.04,
+      "savings_per_month": 602.59
+    },
+    {
+      "late_reduction_pct": 30,
+      "late_shipments": 99,
+      "on_time_pct": 90.06,
+      "savings_period": 8385.65,
+      "savings_per_month": 723.11
+    },
+    {
+      "late_reduction_pct": 35,
+      "late_shipments": 92,
+      "on_time_pct": 90.77,
+      "savings_period": 9783.26,
+      "savings_per_month": 843.63
+    },
+    {
+      "late_reduction_pct": 40,
+      "late_shipments": 85,
+      "on_time_pct": 91.48,
+      "savings_period": 11180.86,
+      "savings_per_month": 964.15
+    },
+    {
+      "late_reduction_pct": 45,
+      "late_shipments": 78,
+      "on_time_pct": 92.19,
+      "savings_period": 12578.47,
+      "savings_per_month": 1084.67
+    },
+    {
+      "late_reduction_pct": 50,
+      "late_shipments": 71,
+      "on_time_pct": 92.9,
+      "savings_period": 13976.08,
+      "savings_per_month": 1205.19
+    }
+  ]
+}

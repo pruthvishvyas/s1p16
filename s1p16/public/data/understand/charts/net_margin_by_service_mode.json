@@ -1,0 +1,27 @@
+{
+  "id": "net_margin_by_service_mode",
+  "title": "Net margin by service mode",
+  "business_question": "Which service earns the best margin?",
+  "outcome": "UNDERSTAND",
+  "type": "bar",
+  "x_label": "Service mode",
+  "y_label": "Net margin %",
+  "data": [
+    {
+      "label": "Air Freight",
+      "value": 14.3287
+    },
+    {
+      "label": "Rail Intermodal",
+      "value": 17.6563
+    },
+    {
+      "label": "Road FTL",
+      "value": 9.858
+    },
+    {
+      "label": "Road LTL",
+      "value": 19.8313
+    }
+  ]
+}

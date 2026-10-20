@@ -1,0 +1,27 @@
+{
+  "id": "net_margin_by_carrier_type",
+  "title": "Net margin by carrier type",
+  "business_question": "Is subcontracting hurting margin?",
+  "outcome": "DECIDE",
+  "type": "bar",
+  "x_label": "Carrier type",
+  "y_label": "Net margin %",
+  "data": [
+    {
+      "label": "Airline",
+      "value": 14.3287
+    },
+    {
+      "label": "Own Fleet",
+      "value": 13.01
+    },
+    {
+      "label": "Rail Operator",
+      "value": 17.6563
+    },
+    {
+      "label": "Subcontracted Trucker",
+      "value": 10.2337
+    }
+  ]
+}

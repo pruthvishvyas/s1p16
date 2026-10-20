@@ -1,0 +1,27 @@
+{
+  "id": "lane_segment_sizes",
+  "title": "Lanes by segment",
+  "business_question": "How many lanes drain margin?",
+  "outcome": "UNDERSTAND",
+  "type": "bar",
+  "x_label": "Segment",
+  "y_label": "Lanes",
+  "data": [
+    {
+      "label": "Profit Engine",
+      "value": 34.0
+    },
+    {
+      "label": "Core Lane",
+      "value": 33.0
+    },
+    {
+      "label": "Margin Drain",
+      "value": 16.0
+    },
+    {
+      "label": "Insufficient data",
+      "value": 7.0
+    }
+  ]
+}

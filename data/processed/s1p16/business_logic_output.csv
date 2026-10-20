@@ -1,0 +1,1001 @@
+Shipment_ID,Ship_Date,Lane,Customer,priority,priority_score,alerts,recommendations,net_profit,net_margin_pct
+SH-200001,2025-10-01,Seattle - Houston,Skyline Retail Group,P4_ROUTINE,0,NORMAL,,1124.87,15.240488835898546
+SH-200002,2025-10-01,Chicago - Atlanta,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,471.82000000000016,18.2181138603157
+SH-200003,2025-10-01,Memphis - Dallas,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,365.3399999999999,21.74824092483897
+SH-200004,2025-10-01,New York - Atlanta,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,476.5,16.2500980462369
+SH-200005,2025-10-02,Miami - New York,Atlas Retail Group,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-626.1400000000003,-17.65142011417296
+SH-200006,2025-10-02,Dallas - Los Angeles,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1855.3500000000004,31.568496670194417
+SH-200007,2025-10-03,New York - Los Angeles,Ironbridge Distribution,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Audit rate/cost entry for errors,-663.26,-164.79737620195291
+SH-200008,2025-10-04,Atlanta - Memphis,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,473.0,29.621557981225067
+SH-200009,2025-10-04,Chicago - Los Angeles,Ironbridge Electronics,P4_ROUTINE,0,NORMAL,,622.29,11.36447062046295
+SH-200010,2025-10-05,Seattle - Denver,Pioneer Components,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,444.2699999999995,10.359807853744977
+SH-200011,2025-10-05,Los Angeles - Memphis,Evergreen Brands,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-322.8299999999999,-5.792210308745639
+SH-200012,2025-10-05,Dallas - Denver,Crestview Industries,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,12.860000000000127,0.7212967636995976
+SH-200013,2025-10-06,New York - Los Angeles,Crestview Retail Group,P4_ROUTINE,0,NORMAL,,1351.9700000000003,17.36848731507033
+SH-200014,2025-10-06,Miami - Houston,Cascade Foods,P2_HIGH,4,BELOW_MARGIN_FLOOR|LOW_LOAD|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,137.95999999999998,7.677496187963982
+SH-200015,2025-10-06,Denver - Dallas,Harbor Distribution,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|HIGH_EMPTY_RETURN,Raise rate or cut cost to reach the margin floor; Find a backhaul load for the return leg,225.7800000000002,7.662702614645278
+SH-200016,2025-10-07,Los Angeles - Chicago,Atlas Pharma,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-398.5500000000002,-7.046038360291145
+SH-200017,2025-10-07,Los Angeles - Dallas,Ironbridge Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,124.50999999999999,10.476406838987613
+SH-200018,2025-10-07,New York - Miami,Ironbridge Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,233.54999999999995,12.059982339910253
+SH-200019,2025-10-07,Atlanta - Miami,Orchard Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,642.1700000000001,24.446948556984
+SH-200020,2025-10-07,Chicago - New York,Evergreen Industries,P4_ROUTINE,0,NORMAL,,661.0,19.046795758414014
+SH-200021,2025-10-08,Houston - Los Angeles,Pioneer Components,P4_ROUTINE,0,NORMAL,,635.6600000000003,14.123392493712178
+SH-200022,2025-10-08,Seattle - Memphis,Evergreen Industries,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,179.69000000000005,4.511264981898704
+SH-200023,2025-10-09,Seattle - Chicago,Skyline Distribution,P4_ROUTINE,0,NORMAL,,1121.3200000000006,16.032668141270275
+SH-200024,2025-10-09,Chicago - Atlanta,Atlas Retail Group,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-98.15000000000003,-42.15703118288808
+SH-200025,2025-10-10,Chicago - Memphis,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,501.6500000000003,22.614571781486404
+SH-200026,2025-10-10,Chicago - Seattle,Redwood Electronics,P4_ROUTINE,0,NORMAL,,158.79999999999995,12.06366088046492
+SH-200027,2025-10-13,Dallas - Los Angeles,Titan Motors,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-85.32999999999993,-8.550614265386688
+SH-200028,2025-10-14,Dallas - Los Angeles,Crestview Retail Group,P4_ROUTINE,0,NORMAL,,325.3699999999999,18.010373248753154
+SH-200029,2025-10-15,Denver - Los Angeles,Northstar Brands,P4_ROUTINE,0,NORMAL,,479.46000000000004,19.50475353616715
+SH-200030,2025-10-15,Los Angeles - Chicago,Evergreen Brands,P4_ROUTINE,0,NORMAL,,942.6800000000001,43.80992215638434
+SH-200031,2025-10-15,Seattle - Memphis,Redwood Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,674.7399999999998,15.982471723811212
+SH-200032,2025-10-16,Dallas - Houston,Atlas Electronics,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-75.75,-19.997888011827133
+SH-200033,2025-10-17,Houston - New York,Pioneer Industries,P1_URGENT,5,LOSS_MAKING|LATE_PENALTY,Reprice or decline this lane/shipper combination; Root-cause the delay and agree corrective action with carrier,-280.48000000000013,-26.895526681689613
+SH-200034,2025-10-17,Chicago - Memphis,Skyline Distribution,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-32.110000000000014,-18.926087469055766
+SH-200035,2025-10-17,Chicago - Los Angeles,Redwood Electronics,P4_ROUTINE,0,NORMAL,,777.7599999999993,10.883881566978907
+SH-200036,2025-10-18,New York - Houston,Skyline Distribution,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,832.5699999999999,35.57231360820337
+SH-200037,2025-10-18,Memphis - Dallas,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,351.1099999999999,19.243227245572974
+SH-200038,2025-10-18,Los Angeles - Dallas,Skyline Retail Group,P4_ROUTINE,0,NORMAL,,665.3899999999994,13.765531451836456
+SH-200039,2025-10-18,New York - Seattle,Meridian Components,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,334.3199999999997,6.067921076369914
+SH-200040,2025-10-18,Chicago - New York,Meridian Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,795.5799999999999,25.33355411059667
+SH-200041,2025-10-18,Chicago - Los Angeles,Skyline Distribution,P4_ROUTINE,0,NORMAL,,778.7199999999998,37.90479991822469
+SH-200042,2025-10-20,Houston - Miami,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,1144.4099999999999,25.985694822888277
+SH-200043,2025-10-20,Denver - New York,Meridian Components,P4_ROUTINE,0,NORMAL,,919.6599999999999,15.784469205473057
+SH-200044,2025-10-20,New York - Los Angeles,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,920.4599999999991,9.678375854846434
+SH-200045,2025-10-21,New York - Chicago,Atlas Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,68.69000000000005,4.4446026127974045
+SH-200046,2025-10-21,Denver - Dallas,Titan Foods,P1_URGENT,8,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN|LATE_PENALTY|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,-56.079999999999885,-2.094976240996977
+SH-200047,2025-10-22,New York - Los Angeles,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,254.46000000000095,2.9692156537852186
+SH-200048,2025-10-22,New York - Miami,Pioneer Motors,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,386.7299999999998,15.928121022912137
+SH-200049,2025-10-22,Houston - Atlanta,Northstar Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,460.82000000000016,16.505369026555016
+SH-200050,2025-10-22,Dallas - Houston,Redwood Electronics,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-38.28999999999999,-18.993055555555554
+SH-200051,2025-10-22,New York - Houston,Orchard Supply Co,P2_HIGH,3,BELOW_MARGIN_FLOOR|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Root-cause the delay and agree corrective action with carrier,73.3899999999995,1.3853966096575587
+SH-200052,2025-10-23,Memphis - Miami,Atlas Electronics,P4_ROUTINE,0,NORMAL,,448.16999999999985,20.268546826100323
+SH-200053,2025-10-23,Denver - Miami,Atlas Foods,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-781.79,-13.735711549881756
+SH-200054,2025-10-23,Atlanta - Houston,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-116.35999999999996,-28.66362852568049
+SH-200055,2025-10-23,Los Angeles - New York,Summit Motors,P4_ROUTINE,0,NORMAL,,5118.97,58.00197382360906
+SH-200056,2025-10-24,Chicago - Miami,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,1156.5100000000002,44.64772420182991
+SH-200057,2025-10-24,Denver - Memphis,Atlas Pharma,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-7.350000000000364,-0.2313933025018925
+SH-200058,2025-10-24,Houston - Memphis,Ironbridge Pharma,P3_MEDIUM,1,ANOMALY,Audit rate/cost entry for errors,1053.2199999999998,39.76365764337221
+SH-200059,2025-10-24,Dallas - Chicago,Orchard Brands,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,52.42000000000007,3.1703599767756963
+SH-200060,2025-10-24,New York - Chicago,Skyline Motors,P4_ROUTINE,0,NORMAL,,405.9200000000001,18.37224248897901
+SH-200061,2025-10-24,New York - Denver,Skyline Supply Co,P4_ROUTINE,0,NORMAL,,1213.08,16.10863381766707
+SH-200062,2025-10-25,Chicago - Memphis,Pioneer Industries,P2_HIGH,3,LOW_LOAD|LATE_PENALTY,Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,515.9200000000001,25.607909901771492
+SH-200063,2025-10-25,Atlanta - New York,Ironbridge Distribution,P4_ROUTINE,0,NORMAL,,765.6099999999999,32.66672355676921
+SH-200064,2025-10-25,Los Angeles - Miami,Atlas Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,36.1899999999996,0.6570395276722681
+SH-200065,2025-10-26,Los Angeles - Seattle,Atlas Pharma,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,64.32999999999993,2.0449293191304023
+SH-200066,2025-10-27,Chicago - Miami,Redwood Electronics,P4_ROUTINE,0,NORMAL,,715.02,15.997189942859189
+SH-200067,2025-10-28,Seattle - Chicago,Redwood Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,610.1599999999999,15.04083378320749
+SH-200068,2025-10-28,Dallas - Memphis,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,333.34000000000015,19.988127289844044
+SH-200069,2025-10-28,Los Angeles - Miami,Orchard Electronics,P4_ROUTINE,0,NORMAL,,988.5,10.692867527432586
+SH-200070,2025-10-29,Los Angeles - Atlanta,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,211.23000000000002,13.468724096155075
+SH-200071,2025-10-29,New York - Seattle,Ironbridge Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,424.0899999999983,4.7527950366246
+SH-200072,2025-10-29,Seattle - Denver,Meridian Components,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-89.0,-5.439632305303946
+SH-200073,2025-10-30,Dallas - Houston,Ironbridge Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,196.74,20.977320950664804
+SH-200074,2025-10-30,Chicago - Los Angeles,Evergreen Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,468.1100000000001,14.869745590155242
+SH-200075,2025-10-30,Seattle - Houston,Skyline Supply Co,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-1393.1599999999999,-21.97732163026811
+SH-200076,2025-10-30,Dallas - Chicago,Skyline Distribution,P4_ROUTINE,0,NORMAL,,398.6399999999999,12.277557054421136
+SH-200077,2025-10-31,Atlanta - Chicago,Redwood Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-31.439999999999998,-18.74888186534677
+SH-200078,2025-10-31,Atlanta - Memphis,Meridian Components,P2_HIGH,3,BELOW_MARGIN_FLOOR|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Root-cause the delay and agree corrective action with carrier,103.97999999999999,6.996131202691338
+SH-200079,2025-11-01,Seattle - Los Angeles,Redwood Electronics,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-213.89999999999964,-5.915294312855177
+SH-200080,2025-11-01,New York - Houston,Evergreen Industries,P4_ROUTINE,0,NORMAL,,1506.3700000000001,48.288363952262046
+SH-200081,2025-11-01,Houston - Los Angeles,Meridian Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,332.48,13.434620979473088
+SH-200082,2025-11-03,Chicago - Houston,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-167.95000000000027,-5.732668873946147
+SH-200083,2025-11-03,New York - Houston,Crestview Industries,P4_ROUTINE,0,NORMAL,,1545.9300000000003,24.684484157144777
+SH-200084,2025-11-03,Miami - Los Angeles,Pioneer Motors,P4_ROUTINE,0,NORMAL,,4117.79,43.82063484631134
+SH-200085,2025-11-03,Dallas - Chicago,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,12.329999999999927,0.6122570585840093
+SH-200086,2025-11-03,New York - Dallas,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,575.8800000000001,16.64941628166506
+SH-200087,2025-11-04,Houston - Denver,Redwood Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,283.1600000000003,9.79026781824595
+SH-200088,2025-11-04,Los Angeles - Dallas,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,114.2800000000002,3.6044674200680706
+SH-200089,2025-11-04,Seattle - Chicago,Evergreen Industries,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|CLAIM,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Review packing/handling and insurance recovery,-196.04999999999984,-7.81885618569035
+SH-200090,2025-11-04,Miami - Houston,Atlas Retail Group,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg; Audit rate/cost entry for errors,-591.5899999999999,-110.21088714184582
+SH-200091,2025-11-05,Dallas - Memphis,Orchard Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,581.72,29.346449741455416
+SH-200092,2025-11-05,New York - Dallas,Evergreen Brands,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-39.069999999999936,-3.0246258893112286
+SH-200093,2025-11-05,Denver - Atlanta,Pioneer Industries,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,186.73000000000002,6.909860603840334
+SH-200094,2025-11-06,Houston - Seattle,Evergreen Brands,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,458.8299999999999,7.163085358162073
+SH-200095,2025-11-06,Chicago - New York,Ironbridge Pharma,P2_HIGH,4,BELOW_MARGIN_FLOOR|LOW_LOAD|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,97.99000000000018,5.054574340774985
+SH-200096,2025-11-07,New York - Miami,Pioneer Components,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,163.5,6.686596951566136
+SH-200097,2025-11-07,Seattle - Houston,Atlas Retail Group,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-1615.1999999999998,-27.48850816299092
+SH-200098,2025-11-07,Denver - Chicago,Ironbridge Pharma,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|HIGH_EMPTY_RETURN,Raise rate or cut cost to reach the margin floor; Find a backhaul load for the return leg,235.82999999999993,6.161962170678747
+SH-200099,2025-11-07,Dallas - Denver,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,454.53999999999996,27.328916198698906
+SH-200100,2025-11-07,Atlanta - Chicago,Summit Industries,P3_MEDIUM,1,ANOMALY,Audit rate/cost entry for errors,285.6,22.875816993464053
+SH-200101,2025-11-07,Los Angeles - New York,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,150.63999999999987,12.164868531558877
+SH-200102,2025-11-08,Chicago - New York,Orchard Distribution,P4_ROUTINE,0,NORMAL,,474.8699999999999,12.889925190823115
+SH-200103,2025-11-08,Houston - Dallas,Atlas Pharma,P4_ROUTINE,0,NORMAL,,38.70999999999998,9.229852169766328
+SH-200104,2025-11-08,Atlanta - Houston,Cascade Foods,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,381.73,22.862327737484204
+SH-200105,2025-11-08,Dallas - Memphis,Redwood Electronics,P4_ROUTINE,0,NORMAL,,293.3499999999999,15.535219696127179
+SH-200106,2025-11-09,New York - Atlanta,Crestview Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1144.69,31.649860509355136
+SH-200107,2025-11-09,Atlanta - Memphis,Skyline Retail Group,P3_MEDIUM,2,LOW_LOAD|ANOMALY,Consolidate with other freight before dispatch; Audit rate/cost entry for errors,205.47,49.41439599817224
+SH-200108,2025-11-09,Seattle - Chicago,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,607.1499999999996,11.26665689350907
+SH-200109,2025-11-10,Los Angeles - Houston,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,1294.3000000000002,22.265726470289714
+SH-200110,2025-11-10,Chicago - Dallas,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,1055.0500000000002,26.884501500874023
+SH-200111,2025-11-10,Houston - Memphis,Orchard Brands,P4_ROUTINE,0,NORMAL,,460.8799999999999,22.316698786546446
+SH-200112,2025-11-10,Chicago - Houston,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,1045.4499999999998,25.221710767567977
+SH-200113,2025-11-10,Miami - Houston,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,367.77,12.935528120713306
+SH-200114,2025-11-10,Los Angeles - Houston,Meridian Industries,P4_ROUTINE,0,NORMAL,,1710.4400000000005,25.586544042411884
+SH-200115,2025-11-10,Seattle - Memphis,Northstar Brands,P2_HIGH,3,BELOW_MARGIN_FLOOR|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Root-cause the delay and agree corrective action with carrier,525.4300000000001,5.781681895808025
+SH-200116,2025-11-10,Atlanta - Memphis,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,19.05000000000001,8.81944444444445
+SH-200117,2025-11-11,New York - Dallas,Redwood Electronics,P4_ROUTINE,0,NORMAL,,1928.7300000000005,35.568886790643475
+SH-200118,2025-11-11,Miami - Los Angeles,Meridian Industries,P3_MEDIUM,2,LOW_LOAD|ANOMALY,Consolidate with other freight before dispatch; Audit rate/cost entry for errors,239.23000000000002,17.71562289412688
+SH-200119,2025-11-11,Chicago - New York,Orchard Distribution,P4_ROUTINE,0,NORMAL,,252.6600000000003,8.654132685740523
+SH-200120,2025-11-12,Los Angeles - Atlanta,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-175.2199999999998,-5.010179339372306
+SH-200121,2025-11-12,Atlanta - Houston,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,264.99,14.14403979695865
+SH-200122,2025-11-12,Memphis - Houston,Ironbridge Pharma,P4_ROUTINE,0,NORMAL,,1008.5299999999997,39.27404563208498
+SH-200123,2025-11-12,Denver - Memphis,Atlas Retail Group,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-310.90999999999985,-10.304313819068826
+SH-200124,2025-11-12,Memphis - New York,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-38.53,-21.253240664129297
+SH-200125,2025-11-13,Houston - Chicago,Orchard Distribution,P4_ROUTINE,0,NORMAL,,312.73,9.529976779195135
+SH-200126,2025-11-13,Chicago - Los Angeles,Orchard Electronics,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-147.61,-17.317799990614297
+SH-200127,2025-11-14,New York - Houston,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,985.3899999999994,15.039575822881016
+SH-200128,2025-11-14,Memphis - New York,Skyline Distribution,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|ANOMALY,Raise rate or cut cost to reach the margin floor; Audit rate/cost entry for errors,16.129999999999995,1.733495255188126
+SH-200129,2025-11-15,Houston - Seattle,Skyline Distribution,P4_ROUTINE,0,NORMAL,,1570.4899999999998,26.595350144704682
+SH-200130,2025-11-15,Memphis - Denver,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,289.50999999999976,9.22582248792239
+SH-200131,2025-11-15,Houston - Denver,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,62.57999999999993,1.9871902755329156
+SH-200132,2025-11-15,Chicago - New York,Crestview Retail Group,P4_ROUTINE,0,NORMAL,,1123.46,32.440782995631096
+SH-200133,2025-11-15,Chicago - Los Angeles,Skyline Distribution,P4_ROUTINE,0,NORMAL,,729.0799999999999,23.504985798614356
+SH-200134,2025-11-15,Atlanta - Los Angeles,Redwood Electronics,P4_ROUTINE,0,NORMAL,,793.5299999999997,11.719539211342486
+SH-200135,2025-11-15,Dallas - Atlanta,Evergreen Motors,P4_ROUTINE,0,NORMAL,,598.4699999999998,19.69947333772218
+SH-200136,2025-11-15,Seattle - Dallas,Orchard Supply Co,P2_HIGH,3,LOW_LOAD|LATE_PENALTY,Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,424.83000000000027,11.70872469903427
+SH-200137,2025-11-16,Memphis - Chicago,Redwood Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,3.150000000000091,0.24051309460182413
+SH-200138,2025-11-16,New York - Chicago,Pioneer Components,P4_ROUTINE,0,NORMAL,,357.40999999999985,11.566442075558399
+SH-200139,2025-11-16,Chicago - Houston,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,726.31,18.180293564019383
+SH-200140,2025-11-17,Atlanta - Chicago,Titan Motors,P4_ROUTINE,0,NORMAL,,225.34000000000015,9.548224167591806
+SH-200141,2025-11-17,Chicago - Memphis,Evergreen Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-3.839999999999918,-0.30376622657479196
+SH-200142,2025-11-17,New York - Seattle,Redwood Pharma,P4_ROUTINE,0,NORMAL,,2295.5999999999995,22.533585407942702
+SH-200143,2025-11-18,Seattle - Houston,Pioneer Components,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-704.9899999999998,-11.36374992947927
+SH-200144,2025-11-18,Dallas - Los Angeles,Skyline Motors,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,731.8999999999999,14.577909855575315
+SH-200145,2025-11-18,Miami - Dallas,Pioneer Components,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-689.6100000000006,-18.91072927007181
+SH-200146,2025-11-18,Seattle - New York,Skyline Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,982.8000000000002,16.27152317880795
+SH-200147,2025-11-18,Denver - Memphis,Titan Foods,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-306.03999999999996,-9.14709961264406
+SH-200148,2025-11-18,Houston - Los Angeles,Harbor Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,2692.5600000000004,56.51426520498952
+SH-200149,2025-11-19,Memphis - Atlanta,Harbor Distribution,P4_ROUTINE,0,NORMAL,,263.53,30.121500988695722
+SH-200150,2025-11-19,Memphis - New York,Summit Industries,P4_ROUTINE,0,NORMAL,,325.6999999999998,9.456450100313274
+SH-200151,2025-11-19,Miami - Atlanta,Pioneer Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,442.89999999999964,13.30233759524731
+SH-200152,2025-11-19,Atlanta - Dallas,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1235.6099999999997,33.42657494001065
+SH-200153,2025-11-19,Houston - Chicago,Ironbridge Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,375.34000000000015,22.177578984064343
+SH-200154,2025-11-19,Memphis - Los Angeles,Ironbridge Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,372.14999999999986,16.507059246215324
+SH-200155,2025-11-20,Seattle - New York,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,500.6899999999996,9.874198580469319
+SH-200156,2025-11-20,Miami - Chicago,Atlas Retail Group,P1_URGENT,5,LOSS_MAKING|LATE_PENALTY,Reprice or decline this lane/shipper combination; Root-cause the delay and agree corrective action with carrier,-44.64999999999992,-1.9263790976003277
+SH-200157,2025-11-20,Denver - Seattle,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,136.75,6.702511420001176
+SH-200158,2025-11-20,Los Angeles - Denver,Summit Motors,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,200.94000000000005,11.306613249005455
+SH-200159,2025-11-20,Atlanta - Memphis,Pioneer Components,P4_ROUTINE,0,NORMAL,,125.56999999999994,16.177948414027668
+SH-200160,2025-11-20,Dallas - Chicago,Pioneer Components,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-117.25,-4.437640272957456
+SH-200161,2025-11-20,Houston - Miami,Atlas Retail Group,P3_MEDIUM,2,LOW_LOAD|ANOMALY,Consolidate with other freight before dispatch; Audit rate/cost entry for errors,79.94999999999993,15.296458568504015
+SH-200162,2025-11-20,Chicago - Atlanta,Crestview Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,237.85999999999967,10.680784377118878
+SH-200163,2025-11-21,Dallas - New York,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,2147.5,32.120314696820124
+SH-200164,2025-11-21,Houston - Miami,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,279.1300000000001,12.555382131081918
+SH-200165,2025-11-21,Los Angeles - Miami,Redwood Pharma,P4_ROUTINE,0,NORMAL,,797.4200000000001,17.295850531507632
+SH-200166,2025-11-21,Seattle - Chicago,Bluewave Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|HIGH_EMPTY_RETURN,Raise rate or cut cost to reach the margin floor; Find a backhaul load for the return leg,280.1800000000003,3.8127457130765325
+SH-200167,2025-11-21,Chicago - Denver,Evergreen Motors,P4_ROUTINE,0,NORMAL,,167.74,13.11667696253607
+SH-200168,2025-11-21,Atlanta - Chicago,Harbor Distribution,P2_HIGH,4,LOW_LOAD|LATE_PENALTY|ANOMALY,Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,649.79,49.15018342725313
+SH-200169,2025-11-21,Los Angeles - Memphis,Titan Foods,P4_ROUTINE,0,NORMAL,,950.6100000000001,20.987455347483785
+SH-200170,2025-11-21,Memphis - Chicago,Atlas Foods,P3_MEDIUM,1,ANOMALY,Audit rate/cost entry for errors,240.99999999999994,45.802687344394386
+SH-200171,2025-11-22,Chicago - Dallas,Orchard Electronics,P4_ROUTINE,0,NORMAL,,644.9900000000002,14.435474665908703
+SH-200172,2025-11-22,Dallas - New York,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1164.8099999999995,20.035467702374024
+SH-200173,2025-11-22,Atlanta - New York,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,185.53999999999996,11.269710148448697
+SH-200174,2025-11-24,New York - Chicago,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-0.589999999999975,-0.13344793268795235
+SH-200175,2025-11-24,Atlanta - Chicago,Titan Motors,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,156.30999999999995,7.268745001023044
+SH-200176,2025-11-24,Dallas - Miami,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,704.7399999999998,16.89805157125935
+SH-200177,2025-11-25,Houston - Atlanta,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,381.21000000000004,11.857858735920718
+SH-200178,2025-11-25,Memphis - Atlanta,Evergreen Industries,P3_MEDIUM,1,ANOMALY,Audit rate/cost entry for errors,302.41999999999996,41.941031259534576
+SH-200179,2025-11-25,Seattle - Chicago,Cascade Foods,P2_HIGH,3,BELOW_MARGIN_FLOOR|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Root-cause the delay and agree corrective action with carrier,465.62999999999965,6.797161025114004
+SH-200180,2025-11-25,Atlanta - Dallas,Orchard Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1049.1299999999997,31.41117188973619
+SH-200181,2025-11-26,Dallas - Chicago,Skyline Supply Co,P4_ROUTINE,0,NORMAL,,372.96000000000004,15.77538184325287
+SH-200182,2025-11-26,Chicago - New York,Redwood Electronics,P4_ROUTINE,0,NORMAL,,405.67999999999984,14.76085651390834
+SH-200183,2025-11-27,Chicago - Houston,Ironbridge Pharma,P4_ROUTINE,0,NORMAL,,858.3200000000002,23.229165820931474
+SH-200184,2025-11-27,Houston - Miami,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,437.4699999999998,10.661912549261409
+SH-200185,2025-11-27,Seattle - Memphis,Ironbridge Distribution,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-605.4899999999998,-9.872575635287497
+SH-200186,2025-11-28,Miami - Houston,Titan Foods,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-222.94000000000005,-6.042831625254451
+SH-200187,2025-11-28,New York - Los Angeles,Harbor Distribution,P4_ROUTINE,0,NORMAL,,1829.5699999999997,18.54971986381508
+SH-200188,2025-11-28,Miami - New York,Skyline Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,266.97,14.066007017987545
+SH-200189,2025-11-28,Los Angeles - Houston,Meridian Components,P4_ROUTINE,0,NORMAL,,1150.8899999999999,29.48958413406103
+SH-200190,2025-11-29,Atlanta - Denver,Atlas Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,396.27,10.08795488970635
+SH-200191,2025-11-29,Denver - Miami,Cascade Foods,P2_HIGH,4,HIGH_EMPTY_RETURN|LATE_PENALTY|ANOMALY,Find a backhaul load for the return leg; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,2682.14,37.21839619565142
+SH-200192,2025-11-29,Denver - Memphis,Summit Industries,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,26.37000000000012,1.8958674833922957
+SH-200193,2025-11-29,Chicago - New York,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,407.73000000000013,30.08788824688407
+SH-200194,2025-11-29,Houston - New York,Summit Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1076.62,17.905587450688202
+SH-200195,2025-12-01,Seattle - Chicago,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,158.95000000000005,12.289505017860183
+SH-200196,2025-12-01,Atlanta - Memphis,Titan Motors,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|CLAIM,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Review packing/handling and insurance recovery,-654.7299999999999,-44.80064046858213
+SH-200197,2025-12-01,Seattle - Los Angeles,Evergreen Brands,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,86.18000000000006,6.203436436011319
+SH-200198,2025-12-02,Miami - Houston,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,999.1699999999996,22.18844309821434
+SH-200199,2025-12-02,Los Angeles - Houston,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,800.5,17.441683116973667
+SH-200200,2025-12-02,Dallas - Denver,Summit Industries,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,57.200000000000045,6.508357322470905
+SH-200201,2025-12-02,Memphis - Chicago,Atlas Foods,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,158.88999999999987,8.609357644062738
+SH-200202,2025-12-02,Dallas - Houston,Orchard Supply Co,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|LATE_PENALTY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,-68.46000000000001,-20.477999461577582
+SH-200203,2025-12-02,Atlanta - Seattle,Northstar Brands,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,21.890000000000327,0.285052022970848
+SH-200204,2025-12-02,Los Angeles - Dallas,Skyline Supply Co,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,648.9299999999998,25.859039087623376
+SH-200205,2025-12-03,Miami - Los Angeles,Redwood Retail Group,P3_MEDIUM,2,LOW_LOAD|HIGH_EMPTY_RETURN,Consolidate with other freight before dispatch; Find a backhaul load for the return leg,960.6799999999994,16.228991153013826
+SH-200206,2025-12-03,Memphis - Dallas,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-57.27999999999997,-3.932688412712578
+SH-200207,2025-12-03,New York - Memphis,Atlas Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,720.3400000000001,30.853775019381597
+SH-200208,2025-12-04,Houston - Memphis,Skyline Distribution,P1_URGENT,5,LOSS_MAKING|CLAIM,Reprice or decline this lane/shipper combination; Review packing/handling and insurance recovery,-518.0400000000001,-44.34894272750622
+SH-200209,2025-12-04,Dallas - Houston,Orchard Electronics,P4_ROUTINE,0,NORMAL,,94.32999999999993,8.134561321812313
+SH-200210,2025-12-04,New York - Chicago,Pioneer Components,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-256.32000000000016,-10.778941702376404
+SH-200211,2025-12-05,Chicago - Atlanta,Evergreen Brands,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,169.2800000000002,5.713880666034348
+SH-200212,2025-12-05,Dallas - Memphis,Redwood Retail Group,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,358.2,18.96763534694569
+SH-200213,2025-12-05,Memphis - Chicago,Bluewave Retail Group,P4_ROUTINE,0,NORMAL,,591.6399999999999,24.686639405824913
+SH-200214,2025-12-05,Seattle - New York,Harbor Distribution,P1_URGENT,8,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN|LATE_PENALTY|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,-246.61000000000104,-2.3292649984037817
+SH-200215,2025-12-06,Houston - Chicago,Skyline Distribution,P2_HIGH,4,BELOW_MARGIN_FLOOR|LOW_LOAD|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,256.57,6.911981810148816
+SH-200216,2025-12-06,Miami - Seattle,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1321.75,22.49056051564513
+SH-200217,2025-12-06,Los Angeles - Atlanta,Atlas Retail Group,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-671.5500000000002,-10.843922123345076
+SH-200218,2025-12-06,Los Angeles - New York,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,303.2800000000002,8.444946898860014
+SH-200219,2025-12-06,Chicago - Dallas,Atlas Retail Group,P2_HIGH,4,LOSS_MAKING|ANOMALY,Reprice or decline this lane/shipper combination; Audit rate/cost entry for errors,-297.22,-143.6122922303827
+SH-200220,2025-12-08,Memphis - Dallas,Orchard Supply Co,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-64.78000000000003,-25.547186181330613
+SH-200221,2025-12-08,Miami - Seattle,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,886.96,12.625729179418707
+SH-200222,2025-12-08,Houston - Memphis,Orchard Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,172.81000000000006,15.686470294558166
+SH-200223,2025-12-08,Dallas - Chicago,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-89.75,-3.3270931030008706
+SH-200224,2025-12-08,Atlanta - Chicago,Harbor Distribution,P4_ROUTINE,0,NORMAL,,481.9699999999998,15.270336633663359
+SH-200225,2025-12-08,Houston - Chicago,Summit Industries,P4_ROUTINE,0,NORMAL,,465.27,30.62518101155841
+SH-200226,2025-12-09,Memphis - Los Angeles,Cascade Foods,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,1436.4399999999998,50.23009245660413
+SH-200227,2025-12-09,Houston - Seattle,Meridian Industries,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-433.1700000000001,-6.9282258386980695
+SH-200228,2025-12-09,Memphis - Denver,Atlas Retail Group,P2_HIGH,3,LOW_LOAD|LATE_PENALTY,Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,1261.8000000000002,44.1477469534276
+SH-200229,2025-12-09,Dallas - Los Angeles,Meridian Industries,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,369.4200000000002,8.44041308718699
+SH-200230,2025-12-09,Seattle - Los Angeles,Orchard Electronics,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-598.29,-18.261426936283858
+SH-200231,2025-12-09,Miami - Chicago,Pioneer Components,P1_URGENT,5,LOSS_MAKING|CLAIM,Reprice or decline this lane/shipper combination; Review packing/handling and insurance recovery,-553.8099999999997,-23.01203767955754
+SH-200232,2025-12-09,Dallas - Memphis,Meridian Components,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-44.910000000000025,-12.56012976843048
+SH-200233,2025-12-11,Miami - New York,Evergreen Retail Group,P4_ROUTINE,0,NORMAL,,798.8100000000004,14.911044450708125
+SH-200234,2025-12-11,Miami - Houston,Evergreen Industries,P4_ROUTINE,0,NORMAL,,680.7299999999996,13.825494086800042
+SH-200235,2025-12-12,Chicago - New York,Orchard Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,5.310000000000059,0.7749335979685442
+SH-200236,2025-12-12,Dallas - Los Angeles,Summit Industries,P4_ROUTINE,0,NORMAL,,554.9400000000005,12.467479948776719
+SH-200237,2025-12-12,Dallas - Houston,Bluewave Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,325.1300000000001,28.636227518540053
+SH-200238,2025-12-12,Atlanta - Chicago,Meridian Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,198.05999999999995,9.108929105249842
+SH-200239,2025-12-12,Los Angeles - Miami,Atlas Electronics,P4_ROUTINE,0,NORMAL,,884.2599999999984,8.92759066311282
+SH-200240,2025-12-13,Houston - Seattle,Skyline Distribution,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-553.0599999999995,-8.632053753287385
+SH-200241,2025-12-13,Atlanta - Dallas,Pioneer Components,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-230.78999999999996,-9.175519226487705
+SH-200242,2025-12-13,Atlanta - New York,Summit Motors,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,199.59000000000015,7.48267950332914
+SH-200243,2025-12-13,Houston - Denver,Harbor Distribution,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-127.27999999999997,-37.78985184525399
+SH-200244,2025-12-13,Atlanta - Denver,Atlas Foods,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,465.27999999999975,7.556534336367117
+SH-200245,2025-12-13,Houston - Atlanta,Pioneer Components,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,129.66999999999962,5.23559575241247
+SH-200246,2025-12-13,Houston - New York,Northstar Brands,P4_ROUTINE,0,NORMAL,,2193.0699999999997,39.11021309303225
+SH-200247,2025-12-15,Chicago - Houston,Harbor Distribution,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,22.639999999999873,0.6108781643434914
+SH-200248,2025-12-15,Houston - Denver,Redwood Electronics,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|CLAIM,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Review packing/handling and insurance recovery,-1435.5300000000002,-42.547963638627
+SH-200249,2025-12-15,Los Angeles - Atlanta,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1727.08,35.37039919391174
+SH-200250,2025-12-16,Los Angeles - Houston,Evergreen Industries,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|CLAIM,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Review packing/handling and insurance recovery,-527.8299999999999,-59.477823852880185
+SH-200251,2025-12-16,Seattle - Chicago,Skyline Retail Group,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-434.02,-16.801641375038713
+SH-200252,2025-12-16,Memphis - Chicago,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,246.76999999999998,12.37190414118119
+SH-200253,2025-12-16,New York - Dallas,Pioneer Components,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-230.40999999999985,-5.028173132738879
+SH-200254,2025-12-16,New York - Dallas,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,340.8000000000002,6.969382162635281
+SH-200255,2025-12-16,Memphis - Los Angeles,Orchard Brands,P4_ROUTINE,0,NORMAL,,1841.8199999999997,23.60729616209364
+SH-200256,2025-12-16,Miami - Houston,Meridian Industries,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-297.94000000000005,-8.091995730476846
+SH-200257,2025-12-16,Houston - Chicago,Ironbridge Pharma,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-11.320000000000164,-0.33299700243864894
+SH-200258,2025-12-17,Dallas - Miami,Atlas Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,267.54999999999995,18.88024049284096
+SH-200259,2025-12-17,Atlanta - Memphis,Evergreen Industries,P4_ROUTINE,0,NORMAL,,167.58999999999992,11.543919105086236
+SH-200260,2025-12-17,Los Angeles - Atlanta,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,288.6700000000001,15.369748212355647
+SH-200261,2025-12-17,Seattle - Houston,Redwood Electronics,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,842.8299999999999,10.51880787759279
+SH-200262,2025-12-17,Houston - Dallas,Bluewave Retail Group,P4_ROUTINE,0,NORMAL,,443.81999999999994,34.283727936348534
+SH-200263,2025-12-18,Miami - Atlanta,Ironbridge Pharma,P1_URGENT,5,LOSS_MAKING|HIGH_EMPTY_RETURN|ANOMALY,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg; Audit rate/cost entry for errors,-415.85,-87.56764724462508
+SH-200264,2025-12-18,Atlanta - Miami,Northstar Brands,P4_ROUTINE,0,NORMAL,,393.2199999999998,14.359217805692994
+SH-200265,2025-12-18,Los Angeles - Seattle,Northstar Brands,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,52.45999999999981,2.8183542229647953
+SH-200266,2025-12-18,Dallas - Memphis,Evergreen Brands,P4_ROUTINE,0,NORMAL,,170.66000000000008,9.44161369382528
+SH-200267,2025-12-19,Chicago - Memphis,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,200.6300000000001,8.039993588202297
+SH-200268,2025-12-19,New York - Miami,Pioneer Industries,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-43.02000000000044,-1.030720354211301
+SH-200269,2025-12-20,Denver - Atlanta,Titan Foods,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,337.8699999999999,7.193774352204738
+SH-200270,2025-12-20,Chicago - Denver,Crestview Industries,P4_ROUTINE,0,NORMAL,,1276.92,45.65173090604879
+SH-200271,2025-12-21,Dallas - Seattle,Orchard Distribution,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-347.0699999999997,-5.887391987298006
+SH-200272,2025-12-21,Dallas - Los Angeles,Ironbridge Pharma,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,176.98999999999978,3.659721762720832
+SH-200273,2025-12-22,Denver - Los Angeles,Redwood Electronics,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-2.269999999999982,-0.07669100282776896
+SH-200274,2025-12-22,Atlanta - Seattle,Skyline Distribution,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,534.0,7.229453932538635
+SH-200275,2025-12-22,Atlanta - Los Angeles,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,2875.3900000000003,52.55280612198274
+SH-200276,2025-12-22,Seattle - Memphis,Skyline Retail Group,P4_ROUTINE,0,NORMAL,,707.2699999999995,15.150028703378421
+SH-200277,2025-12-22,New York - Chicago,Skyline Motors,P2_HIGH,3,BELOW_MARGIN_FLOOR|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Root-cause the delay and agree corrective action with carrier,41.89000000000004,2.3544289568345347
+SH-200278,2025-12-22,Houston - Seattle,Ironbridge Distribution,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-73.61000000000013,-2.436513610846313
+SH-200279,2025-12-23,Dallas - Atlanta,Redwood Pharma,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,40.06999999999971,1.708428731618497
+SH-200280,2025-12-23,Houston - Memphis,Pioneer Industries,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-60.350000000000136,-5.141245825666202
+SH-200281,2025-12-23,Memphis - Seattle,Orchard Supply Co,P2_HIGH,4,BELOW_MARGIN_FLOOR|LOW_LOAD|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,70.49000000000001,2.440155776720035
+SH-200282,2025-12-23,Houston - Memphis,Skyline Retail Group,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-115.75,-7.2092328006078805
+SH-200283,2025-12-25,Houston - Seattle,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,558.69,18.775204323045493
+SH-200284,2025-12-25,Atlanta - Chicago,Skyline Motors,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,847.5300000000002,28.456646700153108
+SH-200285,2025-12-25,Los Angeles - Dallas,Summit Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,811.3700000000008,16.223830757233422
+SH-200286,2025-12-27,Los Angeles - Memphis,Harbor Components,P4_ROUTINE,0,NORMAL,,1553.1600000000008,22.0799031029517
+SH-200287,2025-12-27,Chicago - Miami,Ironbridge Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,173.96000000000004,4.980887889937153
+SH-200288,2025-12-29,Atlanta - Seattle,Harbor Distribution,P4_ROUTINE,0,NORMAL,,938.6700000000001,12.596756704528374
+SH-200289,2025-12-29,Los Angeles - Memphis,Ironbridge Electronics,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-358.3199999999997,-6.812011893264787
+SH-200290,2025-12-29,New York - Denver,Summit Motors,P4_ROUTINE,0,NORMAL,,1022.8699999999999,26.837120218292487
+SH-200291,2025-12-29,Atlanta - Los Angeles,Atlas Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,553.5699999999997,7.5403463080812445
+SH-200292,2025-12-29,New York - Seattle,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-1487.38,-19.557202364672964
+SH-200293,2025-12-29,Houston - Dallas,Atlas Retail Group,P1_URGENT,5,LOSS_MAKING|LATE_PENALTY,Reprice or decline this lane/shipper combination; Root-cause the delay and agree corrective action with carrier,-53.17999999999999,-21.409017713365536
+SH-200294,2025-12-30,Los Angeles - Miami,Redwood Electronics,P4_ROUTINE,0,NORMAL,,1281.7399999999998,15.38522478747998
+SH-200295,2025-12-30,Houston - Los Angeles,Evergreen Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,256.8699999999999,5.668842661864468
+SH-200296,2025-12-31,Los Angeles - Dallas,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,713.2599999999998,24.1486717993513
+SH-200297,2025-12-31,Houston - New York,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,449.03999999999996,18.370828577389936
+SH-200298,2025-12-31,New York - Atlanta,Atlas Pharma,P4_ROUTINE,0,NORMAL,,506.3000000000002,14.007857459052683
+SH-200299,2025-12-31,Dallas - Los Angeles,Bluewave Retail Group,P4_ROUTINE,0,NORMAL,,462.6199999999999,10.682510396870661
+SH-200300,2025-12-31,Seattle - Atlanta,Orchard Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1451.3999999999996,32.39558595075263
+SH-200301,2025-12-31,Miami - Seattle,Summit Industries,P4_ROUTINE,0,NORMAL,,3059.630000000001,22.00811665424665
+SH-200302,2025-12-31,Dallas - Miami,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,625.6000000000001,37.92917381577433
+SH-200303,2026-01-01,Memphis - Denver,Redwood Electronics,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,288.8399999999997,7.557102116637443
+SH-200304,2026-01-02,Los Angeles - Dallas,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,116.13999999999999,12.136348436716267
+SH-200305,2026-01-02,Memphis - Dallas,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,239.86000000000013,14.397704626761755
+SH-200306,2026-01-02,Seattle - Denver,Summit Motors,P4_ROUTINE,0,NORMAL,,400.96000000000004,13.853244608442687
+SH-200307,2026-01-02,Seattle - Memphis,Atlas Retail Group,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-499.84999999999945,-11.984597568314708
+SH-200308,2026-01-03,Miami - Chicago,Evergreen Industries,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-190.40000000000055,-4.205420663546481
+SH-200309,2026-01-03,Dallas - Los Angeles,Cascade Foods,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,1260.39,32.30319728327033
+SH-200310,2026-01-04,Chicago - New York,Pioneer Components,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-13.769999999999982,-1.0039443273864626
+SH-200311,2026-01-04,Dallas - Memphis,Bluewave Retail Group,P4_ROUTINE,0,NORMAL,,397.44000000000005,20.13710498715591
+SH-200312,2026-01-05,Denver - Dallas,Evergreen Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,24.289999999999964,2.068695333725096
+SH-200313,2026-01-05,Houston - Miami,Orchard Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,81.2700000000001,9.12428427079826
+SH-200314,2026-01-05,Atlanta - Chicago,Orchard Brands,P4_ROUTINE,0,NORMAL,,291.3499999999999,15.231279145145434
+SH-200315,2026-01-05,Memphis - Chicago,Redwood Electronics,P4_ROUTINE,0,NORMAL,,307.1999999999998,14.379531635437672
+SH-200316,2026-01-06,Miami - Houston,Evergreen Retail Group,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,403.4599999999996,9.620254371867436
+SH-200317,2026-01-06,Miami - Dallas,Skyline Distribution,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-165.10000000000036,-3.7557980559024804
+SH-200318,2026-01-06,Dallas - New York,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-233.57999999999993,-5.288336363368794
+SH-200319,2026-01-06,Miami - Dallas,Ironbridge Pharma,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-840.77,-21.88809805218134
+SH-200320,2026-01-06,Houston - New York,Titan Foods,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|CLAIM,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Review packing/handling and insurance recovery,-1136.5200000000002,-20.023114706732162
+SH-200321,2026-01-06,Chicago - Miami,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,178.34000000000015,4.122696096222445
+SH-200322,2026-01-07,Atlanta - Houston,Ironbridge Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,733.3899999999999,36.549617255402275
+SH-200323,2026-01-07,Atlanta - Houston,Redwood Electronics,P4_ROUTINE,0,NORMAL,,494.3299999999999,13.4515224904079
+SH-200324,2026-01-09,Chicago - Seattle,Harbor Components,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-15.160000000000082,-0.9373415608344617
+SH-200325,2026-01-09,New York - Los Angeles,Bluewave Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1507.96,33.52542041280937
+SH-200326,2026-01-10,Miami - Dallas,Orchard Supply Co,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,33.149999999999636,1.0223025398744137
+SH-200327,2026-01-10,Atlanta - New York,Redwood Retail Group,P2_HIGH,4,BELOW_MARGIN_FLOOR|LOW_LOAD|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,11.520000000000174,1.0459225363621663
+SH-200328,2026-01-10,Houston - Chicago,Skyline Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,143.90999999999985,4.203899802818954
+SH-200329,2026-01-12,Dallas - New York,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,980.8699999999999,42.59059843162456
+SH-200330,2026-01-12,Denver - Memphis,Ironbridge Distribution,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-162.5999999999999,-4.823251274779969
+SH-200331,2026-01-13,Dallas - Seattle,Redwood Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,458.22000000000025,6.876875975507268
+SH-200332,2026-01-14,Atlanta - Los Angeles,Evergreen Motors,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-56.460000000000036,-0.8409506943130826
+SH-200333,2026-01-14,Atlanta - Los Angeles,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,1048.6899999999996,13.710695935256966
+SH-200334,2026-01-14,Miami - Los Angeles,Atlas Retail Group,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-389.72000000000025,-11.622538874010637
+SH-200335,2026-01-15,Dallas - Memphis,Evergreen Industries,P4_ROUTINE,0,NORMAL,,304.05999999999995,15.901804812484635
+SH-200336,2026-01-15,Chicago - Dallas,Atlas Electronics,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-156.98999999999978,-5.74646588138831
+SH-200337,2026-01-16,Atlanta - Miami,Crestview Industries,P4_ROUTINE,0,NORMAL,,420.69000000000005,21.616524933843746
+SH-200338,2026-01-16,Miami - Atlanta,Ironbridge Pharma,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,134.90999999999985,8.957632014023059
+SH-200339,2026-01-16,Atlanta - Dallas,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1069.83,44.181196468246426
+SH-200340,2026-01-17,Chicago - Denver,Skyline Supply Co,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,173.20000000000027,5.266198425005329
+SH-200341,2026-01-17,Dallas - Memphis,Skyline Motors,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,422.8699999999999,22.3178661149697
+SH-200342,2026-01-17,Houston - Dallas,Evergreen Brands,P4_ROUTINE,0,NORMAL,,202.39,19.404043987229514
+SH-200343,2026-01-17,Atlanta - Miami,Skyline Motors,P4_ROUTINE,0,NORMAL,,181.66000000000008,8.169671567150422
+SH-200344,2026-01-17,Atlanta - Houston,Summit Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,422.3399999999999,24.949786148065876
+SH-200345,2026-01-19,Chicago - New York,Bluewave Retail Group,P4_ROUTINE,0,NORMAL,,244.13999999999987,8.666758964419213
+SH-200346,2026-01-19,Houston - New York,Ironbridge Distribution,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,147.23000000000047,2.998904156465283
+SH-200347,2026-01-19,Atlanta - Houston,Northstar Brands,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,184.73000000000002,6.368111525547597
+SH-200348,2026-01-21,Atlanta - Houston,Redwood Electronics,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,139.6899999999996,4.93525764454414
+SH-200349,2026-01-21,Atlanta - Seattle,Crestview Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,836.7300000000005,11.47390592474968
+SH-200350,2026-01-21,Miami - Dallas,Skyline Supply Co,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-16.060000000000002,-5.496423560012322
+SH-200351,2026-01-22,Chicago - New York,Pioneer Components,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,16.54000000000002,3.173141486810555
+SH-200352,2026-01-22,Los Angeles - Houston,Ironbridge Retail Group,P2_HIGH,4,BELOW_MARGIN_FLOOR|LOW_LOAD|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,272.0100000000003,4.890832363893324
+SH-200353,2026-01-23,Los Angeles - Denver,Northstar Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1384.1200000000003,32.7397791675734
+SH-200354,2026-01-24,Denver - Miami,Orchard Brands,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg; Audit rate/cost entry for errors,-934.5500000000002,-63.940202517788734
+SH-200355,2026-01-24,Los Angeles - Memphis,Redwood Electronics,P4_ROUTINE,0,NORMAL,,573.5199999999995,9.057514395181279
+SH-200356,2026-01-24,Chicago - New York,Atlas Pharma,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,102.75,6.1170545266203495
+SH-200357,2026-01-24,Chicago - Houston,Pioneer Motors,P4_ROUTINE,0,NORMAL,,362.1100000000001,10.062915802871233
+SH-200358,2026-01-25,Chicago - Atlanta,Harbor Distribution,P2_HIGH,4,LOSS_MAKING|ANOMALY,Reprice or decline this lane/shipper combination; Audit rate/cost entry for errors,-127.63,-45.75864047038577
+SH-200359,2026-01-25,Chicago - Seattle,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,542.4899999999998,17.741882734622322
+SH-200360,2026-01-26,New York - Miami,Titan Foods,P1_URGENT,6,LOSS_MAKING|LATE_PENALTY|ANOMALY,Reprice or decline this lane/shipper combination; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,-239.67000000000002,-5.553817597864398
+SH-200361,2026-01-26,Houston - Atlanta,Orchard Brands,P4_ROUTINE,0,NORMAL,,327.3599999999997,11.354366103387985
+SH-200362,2026-01-27,New York - Denver,Meridian Components,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,327.77000000000044,5.678906251353593
+SH-200363,2026-01-27,Seattle - Miami,Skyline Distribution,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-1503.33,-15.94605201748059
+SH-200364,2026-01-27,Atlanta - Houston,Northstar Brands,P4_ROUTINE,0,NORMAL,,564.21,14.095418445634172
+SH-200365,2026-01-28,Los Angeles - Houston,Summit Industries,P3_MEDIUM,2,LOW_LOAD|ANOMALY,Consolidate with other freight before dispatch; Audit rate/cost entry for errors,470.6100000000001,39.139221556886234
+SH-200366,2026-01-28,Atlanta - Chicago,Ironbridge Distribution,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-37.039999999999964,-6.406087858872356
+SH-200367,2026-01-28,Seattle - Chicago,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,882.7799999999997,15.812183968575525
+SH-200368,2026-01-29,Dallas - New York,Atlas Electronics,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,35.01999999999953,0.7335137444808333
+SH-200369,2026-01-29,New York - Houston,Crestview Retail Group,P4_ROUTINE,0,NORMAL,,1122.81,29.783469631901028
+SH-200370,2026-01-29,Chicago - Houston,Skyline Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,581.75,15.60195242309652
+SH-200371,2026-01-30,New York - Denver,Orchard Distribution,P3_MEDIUM,2,LOW_LOAD|ANOMALY,Consolidate with other freight before dispatch; Audit rate/cost entry for errors,60.76999999999998,8.430910099889012
+SH-200372,2026-01-30,Dallas - Chicago,Redwood Pharma,P4_ROUTINE,0,NORMAL,,298.55000000000007,30.791047854785486
+SH-200373,2026-01-31,Los Angeles - New York,Evergreen Motors,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,553.5900000000001,6.3466386626877185
+SH-200374,2026-02-02,Los Angeles - Houston,Evergreen Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,757.29,13.958130584800497
+SH-200375,2026-02-02,New York - Dallas,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,923.56,22.27367222809074
+SH-200376,2026-02-02,Dallas - Miami,Orchard Supply Co,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,57.20999999999981,2.8094384560610806
+SH-200377,2026-02-03,Houston - New York,Pioneer Motors,P4_ROUTINE,0,NORMAL,,896.9899999999998,15.983684699148771
+SH-200378,2026-02-03,New York - Houston,Evergreen Brands,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-29.350000000000364,-0.5793159531968048
+SH-200379,2026-02-03,Miami - Atlanta,Redwood Electronics,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,444.78999999999996,15.460631508696798
+SH-200380,2026-02-04,New York - Seattle,Crestview Retail Group,P3_MEDIUM,1,ANOMALY,Audit rate/cost entry for errors,2150.0999999999995,29.84252208937905
+SH-200381,2026-02-04,Chicago - Atlanta,Pioneer Industries,P4_ROUTINE,0,NORMAL,,355.28999999999996,13.746474295729689
+SH-200382,2026-02-06,Houston - Denver,Atlas Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,115.60000000000014,6.509448836633114
+SH-200383,2026-02-07,Atlanta - Los Angeles,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,216.48000000000002,14.516680637049456
+SH-200384,2026-02-07,Los Angeles - Miami,Ironbridge Retail Group,P4_ROUTINE,0,NORMAL,,536.7699999999995,9.895764199224216
+SH-200385,2026-02-07,Atlanta - Houston,Evergreen Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-16.980000000000018,-0.8721781339086225
+SH-200386,2026-02-10,Chicago - Atlanta,Crestview Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,682.1199999999999,23.717663421418635
+SH-200387,2026-02-10,New York - Chicago,Ironbridge Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-239.54000000000002,-67.89297658862877
+SH-200388,2026-02-10,Houston - New York,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,1020.77,20.223439115911766
+SH-200389,2026-02-10,Memphis - New York,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,697.1599999999999,16.560446007995644
+SH-200390,2026-02-10,New York - Dallas,Cascade Foods,P4_ROUTINE,0,NORMAL,,642.7400000000007,10.96410574833426
+SH-200391,2026-02-10,Houston - Dallas,Harbor Distribution,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,151.80999999999992,15.665858314844428
+SH-200392,2026-02-10,Denver - Atlanta,Redwood Retail Group,P1_URGENT,8,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN|LATE_PENALTY|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,-845.3499999999998,-20.13375664198424
+SH-200393,2026-02-11,Memphis - Dallas,Redwood Electronics,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,13.67999999999995,1.3323074825426768
+SH-200394,2026-02-11,Chicago - Houston,Meridian Components,P2_HIGH,3,BELOW_MARGIN_FLOOR|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Root-cause the delay and agree corrective action with carrier,102.10999999999989,7.556315306515103
+SH-200395,2026-02-11,Dallas - Atlanta,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-10.32000000000005,-1.9535464819126678
+SH-200396,2026-02-12,New York - Los Angeles,Ironbridge Pharma,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,194.22999999999956,2.21817180981486
+SH-200397,2026-02-13,Denver - Dallas,Titan Foods,P2_HIGH,4,BELOW_MARGIN_FLOOR|HIGH_EMPTY_RETURN|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Find a backhaul load for the return leg; Root-cause the delay and agree corrective action with carrier,115.62000000000005,7.597481962387145
+SH-200398,2026-02-13,Chicago - Atlanta,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-2.0299999999999727,-0.2840233374840811
+SH-200399,2026-02-13,Chicago - Los Angeles,Summit Industries,P4_ROUTINE,0,NORMAL,,656.7299999999996,10.120946489500396
+SH-200400,2026-02-16,Dallas - Los Angeles,Evergreen Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,646.4200000000001,13.198493980823574
+SH-200401,2026-02-17,Houston - Los Angeles,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,367.2500000000002,16.85143208494316
+SH-200402,2026-02-17,Memphis - Atlanta,Summit Industries,P4_ROUTINE,0,NORMAL,,374.71000000000004,43.027581930505484
+SH-200403,2026-02-17,Los Angeles - Chicago,Meridian Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,912.6800000000003,13.295535329285494
+SH-200404,2026-02-17,Denver - Dallas,Pioneer Components,P1_URGENT,5,LOSS_MAKING|HIGH_EMPTY_RETURN|ANOMALY,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg; Audit rate/cost entry for errors,-66.43000000000006,-5.392132989171907
+SH-200405,2026-02-17,Chicago - Atlanta,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,226.63999999999987,14.391029100814665
+SH-200406,2026-02-17,Atlanta - Houston,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,247.6500000000001,23.157628972985112
+SH-200407,2026-02-17,Houston - Denver,Evergreen Retail Group,P4_ROUTINE,0,NORMAL,,469.9500000000003,13.23031359179296
+SH-200408,2026-02-18,Houston - Atlanta,Northstar Brands,P4_ROUTINE,0,NORMAL,,175.97000000000003,9.719307160373816
+SH-200409,2026-02-18,Los Angeles - Houston,Pioneer Components,P4_ROUTINE,0,NORMAL,,471.4800000000005,9.165986235856769
+SH-200410,2026-02-18,Houston - Chicago,Crestview Retail Group,P1_URGENT,5,LOSS_MAKING|CLAIM,Reprice or decline this lane/shipper combination; Review packing/handling and insurance recovery,-927.3000000000002,-23.907494779178595
+SH-200411,2026-02-18,Denver - New York,Summit Motors,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-884.2299999999996,-14.674384757213712
+SH-200412,2026-02-18,Seattle - Dallas,Skyline Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,864.0799999999999,23.525888333165433
+SH-200413,2026-02-19,Chicago - Memphis,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,202.37999999999988,17.244670154569768
+SH-200414,2026-02-19,Miami - Houston,Ironbridge Distribution,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-89.05999999999995,-2.1830785672964717
+SH-200415,2026-02-19,Dallas - New York,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,602.8800000000001,13.416324886561645
+SH-200416,2026-02-20,Memphis - New York,Northstar Brands,P4_ROUTINE,0,NORMAL,,365.69000000000005,19.320565315017834
+SH-200417,2026-02-20,Atlanta - Los Angeles,Redwood Electronics,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,1373.5,25.721937151204166
+SH-200418,2026-02-21,Atlanta - Memphis,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-29.809999999999945,-2.42474032259376
+SH-200419,2026-02-22,Miami - Memphis,Skyline Supply Co,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-277.28999999999996,-8.726232510715432
+SH-200420,2026-02-22,Houston - Chicago,Crestview Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,153.16999999999985,9.021515699451644
+SH-200421,2026-02-23,Atlanta - Miami,Ironbridge Electronics,P3_MEDIUM,2,LOW_LOAD|ANOMALY,Consolidate with other freight before dispatch; Audit rate/cost entry for errors,269.37,30.61614175465715
+SH-200422,2026-02-24,Dallas - Houston,Meridian Industries,P4_ROUTINE,0,NORMAL,,198.32999999999998,29.1751864546404
+SH-200423,2026-02-24,Chicago - Atlanta,Orchard Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,660.27,24.547999598469723
+SH-200424,2026-02-24,Memphis - Los Angeles,Ironbridge Retail Group,P4_ROUTINE,0,NORMAL,,458.9100000000001,20.119689596212023
+SH-200425,2026-02-24,New York - Miami,Meridian Industries,P1_URGENT,5,LOSS_MAKING|LATE_PENALTY,Reprice or decline this lane/shipper combination; Root-cause the delay and agree corrective action with carrier,-15.719999999999999,-1.3985765124555158
+SH-200426,2026-02-24,Atlanta - New York,Atlas Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,6.2199999999998,0.3035730844879913
+SH-200427,2026-02-24,Atlanta - Chicago,Orchard Distribution,P2_HIGH,3,LATE_PENALTY|ANOMALY,Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,493.58000000000004,23.631758616892412
+SH-200428,2026-02-25,New York - Memphis,Orchard Supply Co,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-0.8900000000000432,-0.17658029443276918
+SH-200429,2026-02-25,Los Angeles - Miami,Crestview Retail Group,P4_ROUTINE,0,NORMAL,,895.1900000000005,10.287447266475676
+SH-200430,2026-02-25,Memphis - Seattle,Atlas Retail Group,P2_HIGH,3,LOW_LOAD|LATE_PENALTY,Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,520.47,17.699629663636642
+SH-200431,2026-02-25,Memphis - New York,Atlas Electronics,P4_ROUTINE,0,NORMAL,,755.56,26.327875364571174
+SH-200432,2026-02-26,Los Angeles - New York,Redwood Retail Group,P2_HIGH,3,BELOW_MARGIN_FLOOR|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Root-cause the delay and agree corrective action with carrier,577.5499999999986,5.917187043762889
+SH-200433,2026-02-26,New York - Atlanta,Titan Motors,P4_ROUTINE,0,NORMAL,,289.5800000000004,10.491838915961681
+SH-200434,2026-02-27,Memphis - Miami,Orchard Brands,P4_ROUTINE,0,NORMAL,,1164.8500000000004,26.415269765248002
+SH-200435,2026-02-27,Chicago - Seattle,Evergreen Brands,P4_ROUTINE,0,NORMAL,,650.1499999999996,10.500143738028553
+SH-200436,2026-02-27,Chicago - Houston,Evergreen Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-99.49000000000024,-3.085640559627088
+SH-200437,2026-02-28,New York - Chicago,Pioneer Components,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-26.61999999999989,-1.380555022533847
+SH-200438,2026-02-28,Atlanta - Chicago,Atlas Retail Group,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,180.32,26.91865585859943
+SH-200439,2026-02-28,Dallas - Miami,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1436.07,44.95276433503828
+SH-200440,2026-03-01,Chicago - Los Angeles,Atlas Retail Group,P1_URGENT,5,LOSS_MAKING|CLAIM,Reprice or decline this lane/shipper combination; Review packing/handling and insurance recovery,-779.2399999999999,-20.791986744187906
+SH-200441,2026-03-02,Dallas - Chicago,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,356.32000000000016,19.33495398506686
+SH-200442,2026-03-02,Los Angeles - Dallas,Harbor Components,P4_ROUTINE,0,NORMAL,,1613.2700000000004,40.32660835743444
+SH-200443,2026-03-03,Seattle - Dallas,Skyline Electronics,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|HIGH_EMPTY_RETURN,Raise rate or cut cost to reach the margin floor; Find a backhaul load for the return leg,83.88000000000011,1.2100665767435836
+SH-200444,2026-03-03,Seattle - Houston,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,766.7399999999998,11.035723538386248
+SH-200445,2026-03-03,Los Angeles - Memphis,Atlas Retail Group,P3_MEDIUM,2,CLAIM,Review packing/handling and insurance recovery,830.8200000000002,25.013849414711697
+SH-200446,2026-03-03,New York - Houston,Skyline Distribution,P4_ROUTINE,0,NORMAL,,729.9699999999993,13.30112991364842
+SH-200447,2026-03-03,New York - Los Angeles,Summit Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,544.8900000000003,15.182011953023789
+SH-200448,2026-03-04,Houston - Dallas,Atlas Foods,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,118.72000000000003,8.675381995951685
+SH-200449,2026-03-04,Memphis - Seattle,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,645.9200000000001,9.486323902622427
+SH-200450,2026-03-04,New York - Chicago,Evergreen Motors,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-127.67000000000007,-8.203378504282572
+SH-200451,2026-03-04,Atlanta - New York,Ironbridge Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,17.62999999999988,1.0291404954818153
+SH-200452,2026-03-04,Denver - Memphis,Redwood Retail Group,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,1167.67,36.674665343325394
+SH-200453,2026-03-05,Memphis - Dallas,Atlas Pharma,P4_ROUTINE,0,NORMAL,,375.0,20.915484709386313
+SH-200454,2026-03-05,Houston - Chicago,Harbor Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,462.5500000000002,10.933980082214646
+SH-200455,2026-03-05,Dallas - Denver,Harbor Distribution,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-18.25999999999999,-1.4649604877853095
+SH-200456,2026-03-05,Chicago - Los Angeles,Pioneer Components,P4_ROUTINE,0,NORMAL,,912.3599999999997,13.481651796400987
+SH-200457,2026-03-05,Memphis - Seattle,Harbor Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,832.0899999999997,18.54950532571815
+SH-200458,2026-03-06,New York - Houston,Skyline Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,908.9200000000001,16.196268293682543
+SH-200459,2026-03-06,New York - Chicago,Orchard Distribution,P4_ROUTINE,0,NORMAL,,537.3899999999999,31.415660185434174
+SH-200460,2026-03-06,Miami - Dallas,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,546.7700000000004,12.811488796361608
+SH-200461,2026-03-07,Dallas - New York,Skyline Distribution,P4_ROUTINE,0,NORMAL,,566.9499999999998,10.306026921643653
+SH-200462,2026-03-07,Atlanta - Memphis,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,250.69000000000005,16.802504055014143
+SH-200463,2026-03-07,Denver - Dallas,Atlas Retail Group,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,378.24000000000024,12.699521216231648
+SH-200464,2026-03-09,Chicago - Dallas,Pioneer Components,P4_ROUTINE,0,NORMAL,,400.80999999999995,40.17017779470424
+SH-200465,2026-03-09,Dallas - Chicago,Evergreen Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,151.7199999999998,4.996788907734609
+SH-200466,2026-03-10,Atlanta - Los Angeles,Cascade Foods,P2_HIGH,3,LATE_PENALTY|ANOMALY,Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,1018.5500000000004,11.166364635990002
+SH-200467,2026-03-10,Chicago - New York,Skyline Electronics,P4_ROUTINE,0,NORMAL,,351.52,12.420279767225754
+SH-200468,2026-03-10,Chicago - Memphis,Ironbridge Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,963.4500000000003,34.9642355554104
+SH-200469,2026-03-10,Memphis - New York,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,206.5999999999999,13.62563148800337
+SH-200470,2026-03-10,Memphis - Miami,Meridian Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,856.5699999999999,36.722628550850146
+SH-200471,2026-03-10,Chicago - Dallas,Atlas Pharma,P4_ROUTINE,0,NORMAL,,465.8499999999999,13.390842428719669
+SH-200472,2026-03-10,Houston - Denver,Meridian Industries,P4_ROUTINE,0,NORMAL,,674.0099999999998,15.55979814116267
+SH-200473,2026-03-11,Atlanta - Chicago,Summit Industries,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,180.26000000000022,6.726320188662356
+SH-200474,2026-03-11,Miami - Houston,Redwood Electronics,P4_ROUTINE,0,NORMAL,,509.71000000000004,12.93903516342922
+SH-200475,2026-03-11,New York - Miami,Harbor Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,514.9499999999999,37.26040679290608
+SH-200476,2026-03-12,Chicago - Seattle,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,718.8999999999996,10.989363751150293
+SH-200477,2026-03-12,Los Angeles - Seattle,Skyline Retail Group,P4_ROUTINE,0,NORMAL,,107.32999999999993,9.083907442828846
+SH-200478,2026-03-12,Atlanta - Seattle,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,987.1000000000004,11.449137690060212
+SH-200479,2026-03-13,Chicago - Dallas,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,450.75,23.792934171562493
+SH-200480,2026-03-13,Houston - Chicago,Redwood Electronics,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Audit rate/cost entry for errors,-339.13,-163.53071655897386
+SH-200481,2026-03-13,Atlanta - Denver,Orchard Distribution,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,254.9900000000007,5.324471394982703
+SH-200482,2026-03-13,Miami - Atlanta,Evergreen Brands,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-32.45000000000027,-1.277257340785652
+SH-200483,2026-03-13,Los Angeles - Miami,Northstar Brands,P4_ROUTINE,0,NORMAL,,1742.7299999999996,25.232309309457136
+SH-200484,2026-03-14,Miami - Houston,Atlas Pharma,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-179.16999999999962,-4.908726777588119
+SH-200485,2026-03-14,Atlanta - Memphis,Skyline Supply Co,P4_ROUTINE,0,NORMAL,,43.81,13.189029713700817
+SH-200486,2026-03-14,Houston - New York,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1013.54,16.46541262628806
+SH-200487,2026-03-14,Miami - Memphis,Orchard Supply Co,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,54.16000000000008,2.595958433989037
+SH-200488,2026-03-16,Los Angeles - Dallas,Orchard Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1702.9399999999996,28.230219500590977
+SH-200489,2026-03-18,Seattle - Atlanta,Summit Industries,P4_ROUTINE,0,NORMAL,,894.8899999999994,10.005679899640192
+SH-200490,2026-03-18,Los Angeles - Chicago,Titan Motors,P4_ROUTINE,0,NORMAL,,912.0100000000002,30.392228739002935
+SH-200491,2026-03-18,Memphis - Atlanta,Evergreen Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,166.0200000000001,23.27002593033851
+SH-200492,2026-03-19,Atlanta - Houston,Ironbridge Electronics,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,483.45000000000016,13.028363538368259
+SH-200493,2026-03-19,New York - Los Angeles,Crestview Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1171.4799999999996,17.995803211802617
+SH-200494,2026-03-20,Los Angeles - New York,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,386.6400000000003,11.424384074886103
+SH-200495,2026-03-20,New York - Dallas,Atlas Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,235.96999999999935,4.269543788290543
+SH-200496,2026-03-20,Dallas - New York,Skyline Motors,P4_ROUTINE,0,NORMAL,,1751.7599999999998,50.310029207939266
+SH-200497,2026-03-20,Denver - Houston,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,599.3199999999997,17.990088221433087
+SH-200498,2026-03-21,Los Angeles - Chicago,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,758.8299999999999,11.536876865280208
+SH-200499,2026-03-23,Houston - Los Angeles,Ironbridge Pharma,P4_ROUTINE,0,NORMAL,,1595.7200000000003,25.00748318829269
+SH-200500,2026-03-23,Los Angeles - Memphis,Skyline Electronics,P4_ROUTINE,0,NORMAL,,548.1900000000005,8.613516019043736
+SH-200501,2026-03-23,Miami - Atlanta,Orchard Distribution,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-91.63,-10.51864266691156
+SH-200502,2026-03-23,Atlanta - New York,Orchard Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,457.8499999999999,12.765215936654862
+SH-200503,2026-03-23,Dallas - Los Angeles,Atlas Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,204.89999999999964,4.582272932609942
+SH-200504,2026-03-23,Los Angeles - Memphis,Evergreen Retail Group,P4_ROUTINE,0,NORMAL,,1350.3400000000001,18.507695892326037
+SH-200505,2026-03-24,Los Angeles - Houston,Ironbridge Retail Group,P4_ROUTINE,0,NORMAL,,607.4900000000002,14.483151585662998
+SH-200506,2026-03-24,Los Angeles - Miami,Meridian Components,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-380.22,-29.2103928829341
+SH-200507,2026-03-24,New York - Memphis,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1323.3899999999999,28.745726337922317
+SH-200508,2026-03-24,Chicago - Denver,Pioneer Motors,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,378.59000000000015,9.78016016533196
+SH-200509,2026-03-25,Chicago - Houston,Summit Motors,P4_ROUTINE,0,NORMAL,,520.1300000000001,13.528845653644076
+SH-200510,2026-03-25,Los Angeles - Denver,Harbor Distribution,P4_ROUTINE,0,NORMAL,,309.55999999999995,8.191693459823494
+SH-200511,2026-03-25,New York - Denver,Crestview Retail Group,P4_ROUTINE,0,NORMAL,,706.6900000000005,10.633681273953213
+SH-200512,2026-03-25,Los Angeles - Dallas,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-239.8499999999999,-9.685000262466128
+SH-200513,2026-03-26,Seattle - Denver,Pioneer Components,P2_HIGH,3,BELOW_MARGIN_FLOOR|LOW_LOAD|HIGH_EMPTY_RETURN,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,158.80999999999995,6.8961773786622755
+SH-200514,2026-03-27,Los Angeles - Denver,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,231.28999999999996,11.150321314763122
+SH-200515,2026-03-27,Chicago - Atlanta,Orchard Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,449.1099999999997,14.596137033582382
+SH-200516,2026-03-27,Denver - Dallas,Ironbridge Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,236.96000000000004,24.835971072214654
+SH-200517,2026-03-27,Memphis - Houston,Redwood Electronics,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-30.680000000000007,-14.79409779149388
+SH-200518,2026-03-27,Los Angeles - Miami,Redwood Electronics,P4_ROUTINE,0,NORMAL,,2746.7700000000004,25.117137778167937
+SH-200519,2026-03-28,New York - Miami,Atlas Pharma,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,115.49000000000024,3.291241689251391
+SH-200520,2026-03-28,Miami - Denver,Atlas Electronics,P4_ROUTINE,0,NORMAL,,341.1100000000001,8.47271968564176
+SH-200521,2026-03-30,New York - Denver,Evergreen Motors,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,172.39999999999986,7.991915370993606
+SH-200522,2026-03-30,Los Angeles - New York,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1734.0699999999997,17.5055674340943
+SH-200523,2026-03-31,New York - Atlanta,Skyline Distribution,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,82.76999999999998,5.219381770944999
+SH-200524,2026-03-31,Memphis - Denver,Summit Industries,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,19.960000000000036,2.028517129587288
+SH-200525,2026-03-31,Denver - New York,Bluewave Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,813.9000000000001,26.50803318145252
+SH-200526,2026-03-31,Denver - Chicago,Titan Foods,P2_HIGH,4,BELOW_MARGIN_FLOOR|LOW_LOAD|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,46.65,3.1736852847132457
+SH-200527,2026-04-01,Dallas - Seattle,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,1083.96,37.64024460116884
+SH-200528,2026-04-01,Miami - New York,Atlas Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,21.769999999999982,3.006241714538221
+SH-200529,2026-04-01,Atlanta - New York,Cascade Foods,P4_ROUTINE,0,NORMAL,,1240.48,49.75014237473029
+SH-200530,2026-04-02,Denver - Memphis,Redwood Retail Group,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,456.6399999999999,10.55102682119817
+SH-200531,2026-04-02,Denver - Chicago,Evergreen Industries,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg; Audit rate/cost entry for errors,-566.62,-121.87997418799743
+SH-200532,2026-04-03,Los Angeles - Houston,Orchard Brands,P4_ROUTINE,0,NORMAL,,1374.2999999999993,21.645144371837205
+SH-200533,2026-04-03,Denver - Memphis,Atlas Pharma,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-56.9399999999996,-1.5612704035886624
+SH-200534,2026-04-03,Miami - Denver,Atlas Retail Group,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-565.0600000000004,-8.659724297525734
+SH-200535,2026-04-04,Chicago - Los Angeles,Redwood Electronics,P4_ROUTINE,0,NORMAL,,912.8000000000002,11.89584101693281
+SH-200536,2026-04-04,Memphis - New York,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1055.81,24.326970931411402
+SH-200537,2026-04-05,Miami - Atlanta,Ironbridge Pharma,P3_MEDIUM,2,LOW_LOAD|HIGH_EMPTY_RETURN,Consolidate with other freight before dispatch; Find a backhaul load for the return leg,428.3000000000002,15.984683366673641
+SH-200538,2026-04-05,Memphis - Atlanta,Skyline Distribution,P4_ROUTINE,0,NORMAL,,307.81999999999994,19.665239890116908
+SH-200539,2026-04-05,Los Angeles - Atlanta,Harbor Distribution,P4_ROUTINE,0,NORMAL,,1015.8000000000002,12.863780441937598
+SH-200540,2026-04-06,Memphis - Chicago,Skyline Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,886.3300000000002,34.43248346030279
+SH-200541,2026-04-06,Dallas - Atlanta,Redwood Electronics,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,136.07000000000016,6.763258611262993
+SH-200542,2026-04-06,Chicago - Denver,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,342.46000000000004,9.862541866700457
+SH-200543,2026-04-06,New York - Chicago,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,802.6199999999999,24.50463762983226
+SH-200544,2026-04-07,Memphis - Houston,Atlas Pharma,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,289.26000000000016,10.76496529651477
+SH-200545,2026-04-07,Denver - Dallas,Pioneer Industries,P1_URGENT,7,LOSS_MAKING|HIGH_EMPTY_RETURN|LATE_PENALTY|ANOMALY,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,-402.53999999999996,-81.29657679491062
+SH-200546,2026-04-07,Miami - Los Angeles,Cascade Foods,P4_ROUTINE,0,NORMAL,,1993.5900000000001,18.277977750191162
+SH-200547,2026-04-07,Miami - Los Angeles,Skyline Retail Group,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,1207.8400000000001,22.108370993928546
+SH-200548,2026-04-08,Houston - Chicago,Harbor Distribution,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-60.150000000000034,-13.579410768709796
+SH-200549,2026-04-08,Denver - Los Angeles,Bluewave Retail Group,P4_ROUTINE,0,NORMAL,,481.5999999999999,23.001791044776116
+SH-200550,2026-04-08,Dallas - Houston,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,252.03999999999996,24.077877661759505
+SH-200551,2026-04-08,Memphis - Houston,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,471.8800000000001,42.00500271499658
+SH-200552,2026-04-08,Dallas - Houston,Skyline Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,435.9000000000001,34.480303749406744
+SH-200553,2026-04-08,Dallas - New York,Skyline Electronics,P4_ROUTINE,0,NORMAL,,2395.95,52.12099458330614
+SH-200554,2026-04-08,Dallas - New York,Atlas Retail Group,P2_HIGH,3,BELOW_MARGIN_FLOOR|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Root-cause the delay and agree corrective action with carrier,447.46999999999997,7.192710041214179
+SH-200555,2026-04-09,Atlanta - Los Angeles,Evergreen Retail Group,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-30.289999999999964,-1.7965279384115327
+SH-200556,2026-04-09,Los Angeles - New York,Evergreen Brands,P4_ROUTINE,0,NORMAL,,3132.8499999999985,27.018088238591563
+SH-200557,2026-04-10,Memphis - Denver,Orchard Electronics,P4_ROUTINE,0,NORMAL,,485.1300000000001,13.142310693077894
+SH-200558,2026-04-10,Miami - Chicago,Meridian Components,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-43.059999999999945,-3.4599407005054075
+SH-200559,2026-04-10,Chicago - Los Angeles,Northstar Brands,P4_ROUTINE,0,NORMAL,,1193.0100000000002,34.22141904393099
+SH-200560,2026-04-10,Chicago - Atlanta,Atlas Electronics,P4_ROUTINE,0,NORMAL,,754.4900000000002,27.310965434610285
+SH-200561,2026-04-10,Dallas - Seattle,Summit Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,524.04,17.919879631371074
+SH-200562,2026-04-11,Miami - Dallas,Evergreen Motors,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-13.050000000000182,-0.2941753284957876
+SH-200563,2026-04-11,Atlanta - Chicago,Ironbridge Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,332.47,36.62572294133848
+SH-200564,2026-04-12,Memphis - Denver,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1042.44,24.24701982903995
+SH-200565,2026-04-12,Memphis - Atlanta,Skyline Distribution,P3_MEDIUM,1,ANOMALY,Audit rate/cost entry for errors,747.0600000000001,60.044366570753425
+SH-200566,2026-04-13,Atlanta - Denver,Ironbridge Electronics,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,339.16999999999973,12.294648165064443
+SH-200567,2026-04-13,Los Angeles - Houston,Summit Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1333.7700000000004,22.645574692347402
+SH-200568,2026-04-14,Atlanta - Chicago,Pioneer Industries,P4_ROUTINE,0,NORMAL,,522.3700000000003,14.826325618887063
+SH-200569,2026-04-14,Chicago - New York,Harbor Components,P4_ROUTINE,0,NORMAL,,611.77,20.222798869477547
+SH-200570,2026-04-14,New York - Houston,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,365.4199999999996,9.265330442830148
+SH-200571,2026-04-15,Atlanta - Denver,Crestview Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,372.2699999999995,7.2835878131432015
+SH-200572,2026-04-15,Los Angeles - Miami,Summit Industries,P4_ROUTINE,0,NORMAL,,211.76,12.18566216667242
+SH-200573,2026-04-15,Chicago - New York,Bluewave Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,899.97,46.32930941288513
+SH-200574,2026-04-15,Dallas - Chicago,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,715.5899999999999,37.921294726131926
+SH-200575,2026-04-16,Dallas - Seattle,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,708.6200000000008,10.566797393417945
+SH-200576,2026-04-16,Houston - Miami,Atlas Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,77.34000000000015,5.546232950389409
+SH-200577,2026-04-16,Chicago - Miami,Orchard Supply Co,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,242.31999999999977,8.105649067408807
+SH-200578,2026-04-17,Denver - New York,Redwood Retail Group,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,371.4499999999998,14.897388695711456
+SH-200579,2026-04-17,Los Angeles - Denver,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,233.33000000000015,11.15253540582267
+SH-200580,2026-04-17,Houston - Denver,Pioneer Components,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,269.6199999999999,7.686956521739127
+SH-200581,2026-04-18,Chicago - Dallas,Evergreen Industries,P4_ROUTINE,0,NORMAL,,1031.3399999999997,26.22293076224837
+SH-200582,2026-04-18,Houston - New York,Ironbridge Electronics,P4_ROUTINE,0,NORMAL,,528.8799999999997,12.012192075151145
+SH-200583,2026-04-18,Atlanta - Memphis,Skyline Supply Co,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,107.24000000000001,5.658266852391204
+SH-200584,2026-04-18,New York - Chicago,Atlas Foods,P4_ROUTINE,0,NORMAL,,943.2400000000002,28.044240946661127
+SH-200585,2026-04-19,Chicago - Dallas,Evergreen Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,401.78999999999996,15.701300528339637
+SH-200586,2026-04-20,Houston - Miami,Redwood Electronics,P4_ROUTINE,0,NORMAL,,560.3400000000001,13.592600408986053
+SH-200587,2026-04-20,Miami - Los Angeles,Redwood Electronics,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-44.25,-0.4446632868907233
+SH-200588,2026-04-21,Chicago - Dallas,Orchard Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,471.28,34.04562726655397
+SH-200589,2026-04-21,Houston - Los Angeles,Summit Industries,P4_ROUTINE,0,NORMAL,,2204.6800000000003,30.866155842810368
+SH-200590,2026-04-22,Chicago - New York,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,730.7999999999997,22.50582047081141
+SH-200591,2026-04-22,Dallas - Atlanta,Ironbridge Pharma,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,101.69999999999982,5.700353119219765
+SH-200592,2026-04-22,Houston - Miami,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,735.9300000000003,17.852022734384672
+SH-200593,2026-04-23,Denver - Houston,Redwood Electronics,P2_HIGH,4,HIGH_EMPTY_RETURN|LATE_PENALTY|ANOMALY,Find a backhaul load for the return leg; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,1215.43,25.51387547755993
+SH-200594,2026-04-23,Dallas - Houston,Skyline Retail Group,P1_URGENT,6,LOSS_MAKING|CLAIM|ANOMALY,Reprice or decline this lane/shipper combination; Review packing/handling and insurance recovery; Audit rate/cost entry for errors,-190.23000000000002,-13.1874302431179
+SH-200595,2026-04-23,Dallas - Atlanta,Pioneer Components,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-34.39999999999998,-5.40795472409998
+SH-200596,2026-04-23,Chicago - Houston,Harbor Distribution,P4_ROUTINE,0,NORMAL,,739.6700000000001,16.280779448891863
+SH-200597,2026-04-24,Houston - Chicago,Summit Industries,P4_ROUTINE,0,NORMAL,,760.23,18.781266907290608
+SH-200598,2026-04-24,Denver - Memphis,Atlas Electronics,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-212.73000000000002,-15.043703326544469
+SH-200599,2026-04-24,New York - Los Angeles,Evergreen Brands,P4_ROUTINE,0,NORMAL,,1537.1399999999994,13.256486635194358
+SH-200600,2026-04-24,Houston - Chicago,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,734.4500000000003,19.26421176600193
+SH-200601,2026-04-24,Dallas - Los Angeles,Orchard Supply Co,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,3.230000000000473,0.05465118836725723
+SH-200602,2026-04-24,Chicago - Los Angeles,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,2743.72,51.18498619506007
+SH-200603,2026-04-24,Atlanta - Miami,Skyline Distribution,P4_ROUTINE,0,NORMAL,,524.7399999999998,19.3883545725613
+SH-200604,2026-04-25,Miami - Houston,Meridian Components,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,136.42999999999984,5.425385539198136
+SH-200605,2026-04-25,Chicago - Dallas,Harbor Distribution,P2_HIGH,3,LOW_LOAD|LATE_PENALTY,Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,432.06999999999994,27.72416359739743
+SH-200606,2026-04-25,Atlanta - New York,Ironbridge Pharma,P4_ROUTINE,0,NORMAL,,952.31,24.529026009818715
+SH-200607,2026-04-26,Seattle - Houston,Skyline Motors,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-433.20000000000005,-27.869812206874816
+SH-200608,2026-04-27,Houston - Memphis,Ironbridge Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,366.26,18.220530806158745
+SH-200609,2026-04-27,New York - Dallas,Cascade Foods,P4_ROUTINE,0,NORMAL,,422.1500000000001,12.156142285752134
+SH-200610,2026-04-28,New York - Miami,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,1091.7700000000004,21.70762889631629
+SH-200611,2026-04-28,Chicago - New York,Ironbridge Pharma,P4_ROUTINE,0,NORMAL,,606.9300000000001,32.483074205892585
+SH-200612,2026-04-28,Dallas - New York,Redwood Electronics,P4_ROUTINE,0,NORMAL,,891.6000000000004,15.264378835996958
+SH-200613,2026-04-28,Houston - Miami,Pioneer Industries,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,213.9699999999998,6.941781432997544
+SH-200614,2026-04-29,Memphis - Dallas,Orchard Supply Co,P1_URGENT,7,LOSS_MAKING|LOW_LOAD|LATE_PENALTY|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,-87.43000000000004,-18.37459543524863
+SH-200615,2026-05-01,Chicago - New York,Meridian Industries,P4_ROUTINE,0,NORMAL,,605.0699999999997,17.216536206028213
+SH-200616,2026-05-02,Memphis - New York,Bluewave Retail Group,P4_ROUTINE,0,NORMAL,,342.02999999999975,8.676472080445652
+SH-200617,2026-05-02,Los Angeles - Denver,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1603.8499999999995,36.72532429616568
+SH-200618,2026-05-02,Chicago - Houston,Meridian Industries,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,103.69999999999982,7.181042601517909
+SH-200619,2026-05-04,Dallas - Memphis,Summit Motors,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,679.3800000000001,31.274109945956894
+SH-200620,2026-05-04,Los Angeles - Dallas,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,455.8699999999999,15.417107723941545
+SH-200621,2026-05-04,New York - Atlanta,Northstar Brands,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,331.43999999999966,10.701347677564742
+SH-200622,2026-05-04,Miami - New York,Skyline Electronics,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-223.46000000000004,-5.063480446028593
+SH-200623,2026-05-04,Los Angeles - Miami,Orchard Supply Co,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,317.77000000000044,6.637645982466446
+SH-200624,2026-05-05,Chicago - Dallas,Meridian Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,889.44,23.41599029072538
+SH-200625,2026-05-05,Seattle - Los Angeles,Meridian Industries,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,866.54,18.556811416677014
+SH-200626,2026-05-05,Chicago - Dallas,Skyline Distribution,P4_ROUTINE,0,NORMAL,,462.95000000000005,20.35150806455158
+SH-200627,2026-05-06,Chicago - Dallas,Evergreen Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,274.17999999999984,12.524667446279777
+SH-200628,2026-05-06,Los Angeles - Houston,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,616.87,39.52369358517645
+SH-200629,2026-05-06,Dallas - Chicago,Meridian Industries,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-139.76,-10.631694255111976
+SH-200630,2026-05-06,New York - Memphis,Orchard Distribution,P4_ROUTINE,0,NORMAL,,612.25,15.782852694234133
+SH-200631,2026-05-06,Houston - Los Angeles,Pioneer Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,700.5199999999995,11.53945623615263
+SH-200632,2026-05-06,Miami - Memphis,Atlas Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,36.81999999999971,1.1455701716177278
+SH-200633,2026-05-06,Dallas - Chicago,Redwood Electronics,P4_ROUTINE,0,NORMAL,,396.5899999999997,9.63027177185927
+SH-200634,2026-05-07,Chicago - Dallas,Redwood Electronics,P4_ROUTINE,0,NORMAL,,149.58999999999992,13.688313827402244
+SH-200635,2026-05-07,Miami - Houston,Titan Foods,P2_HIGH,3,BELOW_MARGIN_FLOOR|LOW_LOAD|HIGH_EMPTY_RETURN,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,223.52999999999975,5.1345956388210565
+SH-200636,2026-05-07,Memphis - Dallas,Pioneer Components,P4_ROUTINE,0,NORMAL,,643.6799999999998,28.26654019445103
+SH-200637,2026-05-08,Chicago - Los Angeles,Meridian Components,P4_ROUTINE,0,NORMAL,,944.4699999999993,13.295952383633836
+SH-200638,2026-05-08,Chicago - Denver,Evergreen Brands,P4_ROUTINE,0,NORMAL,,325.6500000000001,8.865542672485375
+SH-200639,2026-05-08,New York - Los Angeles,Pioneer Industries,P4_ROUTINE,0,NORMAL,,1379.3400000000001,12.733830682721434
+SH-200640,2026-05-08,Chicago - New York,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,619.2799999999997,18.361876749371405
+SH-200641,2026-05-08,Chicago - Denver,Skyline Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,102.92000000000007,6.138320967626504
+SH-200642,2026-05-09,Chicago - Memphis,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,870.56,31.814643594569407
+SH-200643,2026-05-09,Los Angeles - New York,Pioneer Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,269.75,15.190165669944026
+SH-200644,2026-05-10,New York - Dallas,Evergreen Brands,P4_ROUTINE,0,NORMAL,,1336.3799999999992,22.71121285197892
+SH-200645,2026-05-11,Houston - Chicago,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,131.28999999999996,21.48280263114834
+SH-200646,2026-05-11,Atlanta - New York,Ironbridge Pharma,P4_ROUTINE,0,NORMAL,,494.4599999999998,19.784572786709447
+SH-200647,2026-05-11,Memphis - New York,Northstar Brands,P4_ROUTINE,0,NORMAL,,1008.5,29.54999619087803
+SH-200648,2026-05-11,Los Angeles - New York,Redwood Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,356.3800000000001,23.791657765434742
+SH-200649,2026-05-11,Memphis - Houston,Meridian Components,P4_ROUTINE,0,NORMAL,,207.1500000000001,9.230830930747604
+SH-200650,2026-05-13,Chicago - Denver,Pioneer Components,P4_ROUTINE,0,NORMAL,,1031.6599999999999,24.009066875186175
+SH-200651,2026-05-13,Chicago - Memphis,Evergreen Retail Group,P4_ROUTINE,0,NORMAL,,651.5300000000002,25.79417866248595
+SH-200652,2026-05-13,New York - Atlanta,Redwood Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,324.40999999999985,13.780403884220984
+SH-200653,2026-05-13,Atlanta - Chicago,Evergreen Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,326.02,14.324504824337861
+SH-200654,2026-05-13,Memphis - Dallas,Evergreen Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,478.73,41.43987396558291
+SH-200655,2026-05-14,New York - Dallas,Atlas Electronics,P4_ROUTINE,0,NORMAL,,441.7399999999998,15.94142229215234
+SH-200656,2026-05-14,Seattle - Atlanta,Redwood Electronics,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|HIGH_EMPTY_RETURN,Raise rate or cut cost to reach the margin floor; Find a backhaul load for the return leg,314.47999999999956,3.4918632745878293
+SH-200657,2026-05-14,Los Angeles - Memphis,Bluewave Retail Group,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|CLAIM,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Review packing/handling and insurance recovery,-683.5499999999993,-10.532600907571041
+SH-200658,2026-05-14,Memphis - Los Angeles,Northstar Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,963.9000000000005,12.821143780634614
+SH-200659,2026-05-14,Chicago - Houston,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-129.97000000000025,-3.7595746650313635
+SH-200660,2026-05-15,Chicago - Miami,Atlas Pharma,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Audit rate/cost entry for errors,-281.22,-57.01715258910831
+SH-200661,2026-05-15,Miami - Denver,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,612.3000000000002,15.3744171506482
+SH-200662,2026-05-15,Houston - Chicago,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,299.4499999999998,11.558473640735846
+SH-200663,2026-05-15,Atlanta - Houston,Atlas Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,70.68000000000029,2.7474257460380507
+SH-200664,2026-05-15,New York - Memphis,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,433.8000000000002,14.941206455923792
+SH-200665,2026-05-15,Atlanta - Miami,Summit Motors,P4_ROUTINE,0,NORMAL,,412.5300000000002,16.10526808929283
+SH-200666,2026-05-18,Denver - Los Angeles,Atlas Electronics,P4_ROUTINE,0,NORMAL,,285.6500000000001,8.311462340186571
+SH-200667,2026-05-19,Los Angeles - New York,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,920.5,10.255696061500752
+SH-200668,2026-05-19,Atlanta - Denver,Ironbridge Distribution,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Audit rate/cost entry for errors,-426.72,-179.7699793571218
+SH-200669,2026-05-19,Miami - Los Angeles,Skyline Distribution,P2_HIGH,3,BELOW_MARGIN_FLOOR|LOW_LOAD|HIGH_EMPTY_RETURN,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,737.7099999999991,7.649038621055766
+SH-200670,2026-05-19,New York - Memphis,Summit Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,822.4699999999998,38.57865877397475
+SH-200671,2026-05-20,Houston - Chicago,Ironbridge Distribution,P4_ROUTINE,0,NORMAL,,220.21000000000004,8.991759969293842
+SH-200672,2026-05-20,Houston - Denver,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,475.6399999999999,25.825157321489645
+SH-200673,2026-05-20,Memphis - New York,Orchard Brands,P4_ROUTINE,0,NORMAL,,651.1799999999998,15.003870896389005
+SH-200674,2026-05-20,Dallas - Chicago,Ironbridge Pharma,P4_ROUTINE,0,NORMAL,,395.65999999999985,12.026212925306533
+SH-200675,2026-05-22,Los Angeles - Chicago,Evergreen Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,699.0300000000002,24.54778183963507
+SH-200676,2026-05-22,Houston - Miami,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,152.54000000000087,3.5307978436533096
+SH-200677,2026-05-23,New York - Dallas,Bluewave Retail Group,P4_ROUTINE,0,NORMAL,,1359.4099999999999,36.70926068946149
+SH-200678,2026-05-23,Memphis - Atlanta,Evergreen Retail Group,P4_ROUTINE,0,NORMAL,,514.8299999999999,28.873721284996407
+SH-200679,2026-05-23,Los Angeles - Dallas,Atlas Foods,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,494.7399999999998,10.272072685596587
+SH-200680,2026-05-23,Dallas - Chicago,Atlas Retail Group,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Audit rate/cost entry for errors,-17.129999999999995,-6.761130407325543
+SH-200681,2026-05-23,Denver - New York,Northstar Brands,P1_URGENT,7,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN|LATE_PENALTY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg; Root-cause the delay and agree corrective action with carrier,-251.10000000000002,-3.8973435668997416
+SH-200682,2026-05-23,New York - Memphis,Atlas Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1129.2900000000002,37.95103590812092
+SH-200683,2026-05-23,Seattle - Memphis,Evergreen Retail Group,P2_HIGH,3,BELOW_MARGIN_FLOOR|LOW_LOAD|HIGH_EMPTY_RETURN,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,43.649999999999636,0.611317139848069
+SH-200684,2026-05-25,Memphis - New York,Summit Motors,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-16.02000000000001,-7.589179970628647
+SH-200685,2026-05-25,Miami - Los Angeles,Evergreen Brands,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,2010.5000000000002,17.481316598338385
+SH-200686,2026-05-25,Atlanta - Memphis,Meridian Industries,P4_ROUTINE,0,NORMAL,,328.01,20.78604335785758
+SH-200687,2026-05-25,New York - Los Angeles,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,773.6299999999992,8.619352682301813
+SH-200688,2026-05-25,Miami - Houston,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,997.1300000000001,31.26259981878208
+SH-200689,2026-05-26,Dallas - Denver,Evergreen Motors,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,455.9500000000003,14.72416610422366
+SH-200690,2026-05-26,Houston - New York,Ironbridge Retail Group,P4_ROUTINE,0,NORMAL,,1221.6800000000003,17.449355761581085
+SH-200691,2026-05-26,Los Angeles - Memphis,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,910.6999999999998,19.45715665286484
+SH-200692,2026-05-26,Dallas - Chicago,Meridian Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,440.28999999999996,14.87174810341217
+SH-200693,2026-05-27,New York - Los Angeles,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1902.4899999999998,18.813213719231207
+SH-200694,2026-05-27,Memphis - Los Angeles,Summit Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1159.88,17.388514597369266
+SH-200695,2026-05-27,Los Angeles - Miami,Redwood Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,594.4200000000001,6.429999307694971
+SH-200696,2026-05-27,Houston - Dallas,Atlas Pharma,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-50.640000000000015,-25.61068123198302
+SH-200697,2026-05-27,Chicago - Denver,Orchard Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,840.06,21.48106477101286
+SH-200698,2026-05-27,Chicago - Atlanta,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,317.33000000000004,32.356839872746555
+SH-200699,2026-05-27,Dallas - Seattle,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,2549.77,49.79581872686971
+SH-200700,2026-05-28,Chicago - Dallas,Harbor Components,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,89.98000000000002,6.161747586112444
+SH-200701,2026-05-28,Miami - Los Angeles,Orchard Distribution,P4_ROUTINE,0,NORMAL,,1380.2299999999996,18.251602699729176
+SH-200702,2026-05-28,Atlanta - Memphis,Atlas Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,389.30000000000007,37.754330158853314
+SH-200703,2026-05-29,Chicago - Atlanta,Redwood Electronics,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-96.78999999999996,-34.22681141483078
+SH-200704,2026-05-29,Los Angeles - Houston,Ironbridge Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,510.6200000000008,9.326648218672672
+SH-200705,2026-05-30,Dallas - Chicago,Evergreen Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,31.269999999999982,1.0141435238487504
+SH-200706,2026-05-30,Atlanta - Chicago,Meridian Components,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|CLAIM,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Review packing/handling and insurance recovery,-1088.6899999999998,-67.78047565682978
+SH-200707,2026-06-01,Los Angeles - New York,Evergreen Retail Group,P4_ROUTINE,0,NORMAL,,1075.8199999999997,18.997787341047907
+SH-200708,2026-06-01,Memphis - Dallas,Skyline Distribution,P4_ROUTINE,0,NORMAL,,591.4500000000003,27.85575012009835
+SH-200709,2026-06-01,Seattle - Chicago,Summit Industries,P4_ROUTINE,0,NORMAL,,319.37999999999965,10.19416081226439
+SH-200710,2026-06-01,Miami - Dallas,Northstar Brands,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-335.4500000000007,-8.135848910167343
+SH-200711,2026-06-02,Los Angeles - Dallas,Summit Industries,P4_ROUTINE,0,NORMAL,,460.3699999999999,9.821834310816028
+SH-200712,2026-06-02,Houston - Los Angeles,Meridian Industries,P3_MEDIUM,1,ANOMALY,Audit rate/cost entry for errors,416.4200000000001,29.874238652423763
+SH-200713,2026-06-02,Chicago - Houston,Summit Industries,P4_ROUTINE,0,NORMAL,,247.82999999999993,9.521339741594916
+SH-200714,2026-06-02,Los Angeles - Memphis,Meridian Industries,P4_ROUTINE,0,NORMAL,,465.24000000000024,11.107397291670651
+SH-200715,2026-06-02,Memphis - Los Angeles,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,165.93999999999994,14.535611986580351
+SH-200716,2026-06-02,Chicago - Memphis,Bluewave Retail Group,P4_ROUTINE,0,NORMAL,,242.43999999999994,29.947131775285335
+SH-200717,2026-06-03,Houston - Chicago,Harbor Distribution,P2_HIGH,4,BELOW_MARGIN_FLOOR|LOW_LOAD|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,114.77999999999997,7.485229095746759
+SH-200718,2026-06-03,Denver - Seattle,Northstar Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,617.4299999999998,16.460629973739984
+SH-200719,2026-06-03,Dallas - Atlanta,Orchard Distribution,P4_ROUTINE,0,NORMAL,,150.01999999999998,21.05809856683651
+SH-200720,2026-06-03,Dallas - Miami,Evergreen Motors,P4_ROUTINE,0,NORMAL,,1070.4600000000003,42.00237780402344
+SH-200721,2026-06-03,Denver - Chicago,Ironbridge Retail Group,P4_ROUTINE,0,NORMAL,,454.03999999999996,13.544618725724753
+SH-200722,2026-06-04,Chicago - Dallas,Evergreen Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,90.26999999999998,20.23038479639631
+SH-200723,2026-06-04,Houston - Atlanta,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,283.7600000000001,25.887204189245907
+SH-200724,2026-06-04,Houston - Los Angeles,Skyline Distribution,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,222.42000000000007,4.544061584476398
+SH-200725,2026-06-04,Denver - Houston,Atlas Electronics,P4_ROUTINE,0,NORMAL,,297.8299999999999,9.650723083254212
+SH-200726,2026-06-05,Los Angeles - Miami,Summit Industries,P4_ROUTINE,0,NORMAL,,2211.9000000000005,30.270558771605703
+SH-200727,2026-06-06,Dallas - Memphis,Bluewave Retail Group,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-42.28,-17.664508042615417
+SH-200728,2026-06-06,Miami - New York,Skyline Supply Co,P4_ROUTINE,0,NORMAL,,456.40999999999985,16.45106060879124
+SH-200729,2026-06-06,Atlanta - New York,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,1146.58,31.64349801155259
+SH-200730,2026-06-06,Chicago - Houston,Crestview Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,982.6099999999997,23.799501053600398
+SH-200731,2026-06-06,Los Angeles - Seattle,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,536.21,16.279620493358635
+SH-200732,2026-06-07,Atlanta - New York,Skyline Distribution,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,123.65000000000009,7.559547099677204
+SH-200733,2026-06-08,Chicago - Memphis,Ironbridge Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,1.1299999999999955,0.2715171320101868
+SH-200734,2026-06-08,Memphis - Atlanta,Atlas Foods,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,90.88000000000011,6.279799333876926
+SH-200735,2026-06-10,Atlanta - Seattle,Titan Foods,P4_ROUTINE,0,NORMAL,,1623.6800000000003,17.997674472738236
+SH-200736,2026-06-10,Memphis - Denver,Ironbridge Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,729.1700000000001,19.793855291518046
+SH-200737,2026-06-10,Atlanta - Chicago,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,351.8799999999999,32.90658636716447
+SH-200738,2026-06-11,New York - Chicago,Bluewave Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,96.04999999999995,6.177603694342071
+SH-200739,2026-06-11,Seattle - New York,Atlas Foods,P3_MEDIUM,2,LOW_LOAD|HIGH_EMPTY_RETURN,Consolidate with other freight before dispatch; Find a backhaul load for the return leg,1274.79,21.37116512992456
+SH-200740,2026-06-11,New York - Memphis,Titan Motors,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,526.79,36.47978615846987
+SH-200741,2026-06-11,Chicago - Denver,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,3.6000000000000227,0.6900517538815454
+SH-200742,2026-06-11,Chicago - Houston,Redwood Electronics,P4_ROUTINE,0,NORMAL,,2238.3500000000004,58.9980337063844
+SH-200743,2026-06-11,Dallas - Memphis,Redwood Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-53.620000000000005,-7.373487348734874
+SH-200744,2026-06-12,Seattle - Dallas,Redwood Electronics,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,1826.7500000000005,35.89506282004426
+SH-200745,2026-06-12,New York - Los Angeles,Titan Motors,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,525.2600000000002,7.331814654137567
+SH-200746,2026-06-12,Houston - Memphis,Evergreen Retail Group,P4_ROUTINE,0,NORMAL,,62.52000000000004,15.977919190370324
+SH-200747,2026-06-12,Chicago - Memphis,Meridian Industries,P4_ROUTINE,0,NORMAL,,564.5099999999998,26.315028901734095
+SH-200748,2026-06-13,Atlanta - Miami,Skyline Distribution,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-89.74999999999997,-40.14223096878074
+SH-200749,2026-06-13,Miami - Denver,Evergreen Industries,P2_HIGH,3,LOW_LOAD|LATE_PENALTY,Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,252.15999999999977,10.771695251927627
+SH-200750,2026-06-13,Dallas - Atlanta,Ironbridge Electronics,P4_ROUTINE,0,NORMAL,,381.6700000000001,13.319118642648261
+SH-200751,2026-06-14,Atlanta - Dallas,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,84.34000000000003,9.019356218586251
+SH-200752,2026-06-15,Houston - Atlanta,Skyline Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,313.55999999999995,11.574793557746613
+SH-200753,2026-06-16,Dallas - Los Angeles,Pioneer Components,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,87.86999999999989,3.513394642143138
+SH-200754,2026-06-16,Seattle - New York,Evergreen Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,725.1999999999998,15.87579576003292
+SH-200755,2026-06-16,Chicago - Dallas,Ironbridge Pharma,P4_ROUTINE,0,NORMAL,,626.8899999999999,15.141502484173506
+SH-200756,2026-06-16,Miami - Houston,Summit Industries,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-116.23000000000002,-6.964384152625651
+SH-200757,2026-06-17,Los Angeles - Memphis,Orchard Electronics,P4_ROUTINE,0,NORMAL,,544.25,9.473042948522693
+SH-200758,2026-06-17,Chicago - Los Angeles,Atlas Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,96.82000000000062,1.6668990890763296
+SH-200759,2026-06-17,Seattle - New York,Evergreen Industries,P2_HIGH,3,HIGH_EMPTY_RETURN|LATE_PENALTY,Find a backhaul load for the return leg; Root-cause the delay and agree corrective action with carrier,870.1300000000005,14.899894517658025
+SH-200760,2026-06-18,Memphis - New York,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,649.1899999999998,36.30654109435819
+SH-200761,2026-06-18,Houston - Chicago,Summit Motors,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,110.84000000000015,6.598051062867221
+SH-200762,2026-06-18,Miami - Los Angeles,Ironbridge Pharma,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-900.0100000000002,-10.671515433211287
+SH-200763,2026-06-19,Dallas - New York,Skyline Supply Co,P4_ROUTINE,0,NORMAL,,577.3599999999997,11.631036511172525
+SH-200764,2026-06-19,Denver - Atlanta,Harbor Distribution,P4_ROUTINE,0,NORMAL,,316.8899999999999,10.88411775413963
+SH-200765,2026-06-19,Memphis - Houston,Orchard Distribution,P4_ROUTINE,0,NORMAL,,1027.48,53.28976712826099
+SH-200766,2026-06-20,New York - Los Angeles,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,2278.4299999999994,23.53550628975644
+SH-200767,2026-06-20,Memphis - Atlanta,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,218.12000000000012,13.06131247866729
+SH-200768,2026-06-20,Atlanta - Miami,Orchard Distribution,P4_ROUTINE,0,NORMAL,,181.04000000000008,23.485762470000658
+SH-200769,2026-06-21,Los Angeles - Dallas,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-154.8699999999999,-3.754196715350582
+SH-200770,2026-06-22,New York - Houston,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,740.7399999999998,13.059130496103801
+SH-200771,2026-06-23,Los Angeles - Houston,Skyline Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,402.23,12.88855849245233
+SH-200772,2026-06-23,Dallas - New York,Orchard Brands,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,1124.14,32.45638855044262
+SH-200773,2026-06-23,Houston - Chicago,Redwood Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,681.8500000000001,33.32649061325436
+SH-200774,2026-06-23,Miami - Atlanta,Summit Industries,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,64.58999999999992,4.0659721129331725
+SH-200775,2026-06-23,Houston - Denver,Titan Foods,P4_ROUTINE,0,NORMAL,,414.23,16.317004380298116
+SH-200776,2026-06-25,Atlanta - Los Angeles,Harbor Components,P4_ROUTINE,0,NORMAL,,2592.580000000001,27.497443903763514
+SH-200777,2026-06-25,Seattle - Atlanta,Skyline Supply Co,P4_ROUTINE,0,NORMAL,,654.9200000000001,11.492768323114342
+SH-200778,2026-06-26,Dallas - Denver,Ironbridge Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,53.33000000000004,6.350623987806045
+SH-200779,2026-06-26,Houston - Chicago,Harbor Distribution,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,153.3199999999997,4.5178095754461145
+SH-200780,2026-06-26,Seattle - Chicago,Summit Industries,P4_ROUTINE,0,NORMAL,,797.1099999999997,12.14390291093516
+SH-200781,2026-06-26,Chicago - Atlanta,Pioneer Components,P4_ROUTINE,0,NORMAL,,288.3399999999997,10.045044888119357
+SH-200782,2026-06-29,Houston - Chicago,Ironbridge Electronics,P4_ROUTINE,0,NORMAL,,151.28999999999996,8.449264759266601
+SH-200783,2026-06-30,Denver - Atlanta,Orchard Supply Co,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,380.28999999999996,11.880090094874525
+SH-200784,2026-06-30,Miami - Chicago,Skyline Electronics,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,523.4800000000005,10.966078225585152
+SH-200785,2026-06-30,New York - Memphis,Summit Industries,P4_ROUTINE,0,NORMAL,,488.5500000000002,12.585656138904636
+SH-200786,2026-07-01,Chicago - Dallas,Redwood Electronics,P4_ROUTINE,0,NORMAL,,733.3999999999996,14.75719247129651
+SH-200787,2026-07-01,Chicago - Los Angeles,Atlas Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,225.61000000000013,6.267797561334739
+SH-200788,2026-07-02,Chicago - Los Angeles,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-33.409999999999854,-0.6004057815788076
+SH-200789,2026-07-02,Los Angeles - Memphis,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,1499.0499999999997,37.81803045019362
+SH-200790,2026-07-03,Chicago - Dallas,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-92.17999999999984,-3.586672736540243
+SH-200791,2026-07-03,New York - Memphis,Skyline Distribution,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,256.84000000000015,6.805547459181027
+SH-200792,2026-07-03,New York - Chicago,Summit Motors,P4_ROUTINE,0,NORMAL,,346.94000000000005,12.555777923342227
+SH-200793,2026-07-03,Miami - Chicago,Bluewave Retail Group,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg; Audit rate/cost entry for errors,-750.7,-136.80431534059846
+SH-200794,2026-07-03,New York - Denver,Pioneer Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1607.4500000000003,42.85927588900769
+SH-200795,2026-07-04,Denver - Memphis,Redwood Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|HIGH_EMPTY_RETURN,Raise rate or cut cost to reach the margin floor; Find a backhaul load for the return leg,35.24000000000001,2.4399363013224407
+SH-200796,2026-07-04,New York - Chicago,Orchard Distribution,P4_ROUTINE,0,NORMAL,,453.92999999999984,17.007111117771796
+SH-200797,2026-07-04,Chicago - Houston,Redwood Electronics,P4_ROUTINE,0,NORMAL,,440.1199999999999,12.539209960255842
+SH-200798,2026-07-06,Dallas - Miami,Titan Motors,P3_MEDIUM,2,LOW_LOAD|ANOMALY,Consolidate with other freight before dispatch; Audit rate/cost entry for errors,354.56000000000006,27.78814050817437
+SH-200799,2026-07-06,Houston - Dallas,Redwood Retail Group,P4_ROUTINE,0,NORMAL,,88.5,9.273910446509971
+SH-200800,2026-07-06,Chicago - Los Angeles,Orchard Supply Co,P1_URGENT,5,LOSS_MAKING|CLAIM,Reprice or decline this lane/shipper combination; Review packing/handling and insurance recovery,-2742.4199999999996,-40.29853378122217
+SH-200801,2026-07-06,Dallas - Los Angeles,Evergreen Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,327.9900000000007,6.9113965661112235
+SH-200802,2026-07-07,Miami - Memphis,Ironbridge Pharma,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,946.1099999999999,33.170189566979516
+SH-200803,2026-07-07,Memphis - Houston,Bluewave Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,64.75999999999999,7.347818687241163
+SH-200804,2026-07-08,Los Angeles - Memphis,Crestview Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,282.84000000000015,13.722303351979706
+SH-200805,2026-07-08,Chicago - Atlanta,Pioneer Components,P4_ROUTINE,0,NORMAL,,350.6300000000001,10.5444703405759
+SH-200806,2026-07-09,Houston - Chicago,Atlas Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,226.6300000000001,6.549772840248319
+SH-200807,2026-07-09,Miami - Atlanta,Atlas Retail Group,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-138.01,-17.68248151802073
+SH-200808,2026-07-09,Atlanta - Chicago,Pioneer Components,P4_ROUTINE,0,NORMAL,,1227.82,55.37430490098362
+SH-200809,2026-07-09,Houston - New York,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,444.3200000000006,9.392049141690336
+SH-200810,2026-07-10,Atlanta - Houston,Orchard Supply Co,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-140.1300000000001,-5.800082781456958
+SH-200811,2026-07-11,Houston - Chicago,Skyline Distribution,P4_ROUTINE,0,NORMAL,,371.82000000000016,11.123143749476485
+SH-200812,2026-07-11,Los Angeles - Dallas,Evergreen Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1510.3799999999999,49.28505700618029
+SH-200813,2026-07-11,Seattle - Denver,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,792.7299999999996,17.872634958425763
+SH-200814,2026-07-12,Miami - Los Angeles,Evergreen Industries,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-268.3799999999992,-3.229311433986093
+SH-200815,2026-07-12,Los Angeles - New York,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,785.96,15.773429049070705
+SH-200816,2026-07-13,Miami - Los Angeles,Harbor Distribution,P2_HIGH,3,BELOW_MARGIN_FLOOR|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Root-cause the delay and agree corrective action with carrier,567.4399999999999,6.121396624299605
+SH-200817,2026-07-13,Memphis - Seattle,Atlas Electronics,P4_ROUTINE,0,NORMAL,,1287.7499999999998,40.16198902815939
+SH-200818,2026-07-13,Chicago - Los Angeles,Crestview Retail Group,P2_HIGH,3,LOW_LOAD|LATE_PENALTY,Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,555.6100000000002,13.694993628343893
+SH-200819,2026-07-14,Dallas - Denver,Atlas Foods,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,59.04000000000019,3.134739647766561
+SH-200820,2026-07-14,Los Angeles - Atlanta,Evergreen Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1270.0199999999995,16.60439028854576
+SH-200821,2026-07-15,Houston - Dallas,Ironbridge Electronics,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-2.089999999999975,-0.5274847307051574
+SH-200822,2026-07-16,New York - Miami,Meridian Industries,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-247.5699999999997,-6.788691455522641
+SH-200823,2026-07-16,Houston - Chicago,Summit Industries,P4_ROUTINE,0,NORMAL,,117.0200000000001,14.463341078756129
+SH-200824,2026-07-18,Los Angeles - Dallas,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,1623.25,44.1712699665297
+SH-200825,2026-07-19,Memphis - Dallas,Skyline Retail Group,P4_ROUTINE,0,NORMAL,,537.29,27.18803764801133
+SH-200826,2026-07-20,Denver - Los Angeles,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,682.8199999999997,21.914546043911244
+SH-200827,2026-07-20,Dallas - Chicago,Skyline Supply Co,P4_ROUTINE,0,NORMAL,,260.08000000000015,16.4671170515199
+SH-200828,2026-07-20,Atlanta - Houston,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,225.76,19.110825178613755
+SH-200829,2026-07-20,Los Angeles - Houston,Crestview Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,1.8400000000001455,0.03762527273210899
+SH-200830,2026-07-21,Los Angeles - Dallas,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,864.0500000000002,17.64202642883978
+SH-200831,2026-07-21,Atlanta - Chicago,Ironbridge Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,382.90999999999985,35.110031175499714
+SH-200832,2026-07-21,Memphis - Chicago,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,494.8399999999999,22.22901037689232
+SH-200833,2026-07-22,Denver - Atlanta,Ironbridge Electronics,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-422.6300000000001,-8.775120789497183
+SH-200834,2026-07-22,Chicago - Miami,Skyline Motors,P4_ROUTINE,0,NORMAL,,1472.0300000000002,33.141363496162484
+SH-200835,2026-07-22,Los Angeles - Atlanta,Skyline Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,213.44999999999982,7.347802888173629
+SH-200836,2026-07-23,Chicago - Atlanta,Pioneer Industries,P4_ROUTINE,0,NORMAL,,662.72,49.36535367379775
+SH-200837,2026-07-25,New York - Denver,Summit Motors,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1789.9700000000003,41.19049427120369
+SH-200838,2026-07-25,Atlanta - Houston,Harbor Distribution,P4_ROUTINE,0,NORMAL,,622.1800000000003,20.584741921502854
+SH-200839,2026-07-25,Memphis - Houston,Evergreen Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,238.00000000000023,11.297772250202943
+SH-200840,2026-07-25,Denver - Chicago,Redwood Electronics,P1_URGENT,6,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN|ANOMALY,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg; Audit rate/cost entry for errors,-568.06,-83.6255502068336
+SH-200841,2026-07-25,Los Angeles - Denver,Evergreen Brands,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,168.3800000000001,5.827890669075633
+SH-200842,2026-07-26,Los Angeles - Chicago,Skyline Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-131.01000000000022,-4.310546213095829
+SH-200843,2026-07-26,Atlanta - Dallas,Harbor Distribution,P4_ROUTINE,0,NORMAL,,521.9300000000003,14.07741458691273
+SH-200844,2026-07-28,Houston - New York,Redwood Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,182.1300000000001,5.292153734843138
+SH-200845,2026-07-28,Miami - New York,Redwood Electronics,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-276.7900000000004,-7.041264624253057
+SH-200846,2026-07-28,Memphis - Seattle,Crestview Retail Group,P3_MEDIUM,2,CLAIM,Review packing/handling and insurance recovery,2132.2699999999995,38.73199653417956
+SH-200847,2026-07-28,New York - Dallas,Evergreen Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,890.9700000000003,15.882384398730798
+SH-200848,2026-07-28,Houston - Dallas,Orchard Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,621.4,45.20193202979515
+SH-200849,2026-07-29,Memphis - Atlanta,Orchard Distribution,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-23.459999999999923,-2.9040044562728133
+SH-200850,2026-07-30,Dallas - Denver,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,109.25,8.47918041057084
+SH-200851,2026-07-30,Memphis - Dallas,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,328.6299999999999,18.259149576899777
+SH-200852,2026-07-30,Chicago - Memphis,Skyline Distribution,P4_ROUTINE,0,NORMAL,,280.06999999999994,14.763448512163619
+SH-200853,2026-07-30,Los Angeles - Chicago,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,525.25,7.28511174203284
+SH-200854,2026-07-30,Houston - Atlanta,Cascade Foods,P4_ROUTINE,0,NORMAL,,420.28999999999996,14.192178076733459
+SH-200855,2026-07-30,New York - Chicago,Redwood Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,371.47000000000025,13.434914067472956
+SH-200856,2026-07-31,Houston - Chicago,Ironbridge Distribution,P4_ROUTINE,0,NORMAL,,368.73,14.967060533120097
+SH-200857,2026-07-31,Memphis - Seattle,Redwood Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,834.0500000000002,11.510663286359579
+SH-200858,2026-07-31,Los Angeles - Seattle,Bluewave Retail Group,P4_ROUTINE,0,NORMAL,,373.0,8.998272717623106
+SH-200859,2026-07-31,Houston - Memphis,Skyline Supply Co,P4_ROUTINE,0,NORMAL,,982.2000000000003,37.4057430116536
+SH-200860,2026-07-31,Denver - Los Angeles,Skyline Distribution,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-298.4999999999998,-16.377163047414207
+SH-200861,2026-07-31,New York - Denver,Evergreen Industries,P4_ROUTINE,0,NORMAL,,854.5600000000004,13.263695414296473
+SH-200862,2026-08-01,Los Angeles - Houston,Redwood Electronics,P4_ROUTINE,0,NORMAL,,1331.5899999999992,23.462321864031676
+SH-200863,2026-08-01,Atlanta - Miami,Evergreen Industries,P3_MEDIUM,2,LOW_LOAD|ANOMALY,Consolidate with other freight before dispatch; Audit rate/cost entry for errors,52.309999999999974,18.24109913868256
+SH-200864,2026-08-02,Chicago - New York,Skyline Distribution,P4_ROUTINE,0,NORMAL,,697.3200000000002,22.688140556368968
+SH-200865,2026-08-03,Memphis - New York,Redwood Pharma,P4_ROUTINE,0,NORMAL,,829.4300000000003,26.67346289036749
+SH-200866,2026-08-03,Chicago - Atlanta,Northstar Brands,P2_HIGH,4,LOW_LOAD|LATE_PENALTY|ANOMALY,Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,562.4500000000003,19.788133804303477
+SH-200867,2026-08-03,Miami - Atlanta,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,250.70000000000005,25.401232066142505
+SH-200868,2026-08-03,Seattle - Chicago,Evergreen Retail Group,P1_URGENT,5,LOSS_MAKING|HIGH_EMPTY_RETURN|ANOMALY,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg; Audit rate/cost entry for errors,-1449.7800000000002,-411.15680213266785
+SH-200869,2026-08-03,Atlanta - Chicago,Evergreen Industries,P4_ROUTINE,0,NORMAL,,574.2800000000001,40.77505839918774
+SH-200870,2026-08-04,Atlanta - Houston,Atlas Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,33.61999999999989,1.5420886540437349
+SH-200871,2026-08-04,Seattle - Memphis,Northstar Brands,P2_HIGH,3,BELOW_MARGIN_FLOOR|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Root-cause the delay and agree corrective action with carrier,471.07000000000045,7.166361140057968
+SH-200872,2026-08-05,Los Angeles - Chicago,Titan Motors,P4_ROUTINE,0,NORMAL,,424.3000000000002,10.260465408713783
+SH-200873,2026-08-05,Dallas - Seattle,Evergreen Retail Group,P4_ROUTINE,0,NORMAL,,1096.0100000000002,21.075088933756376
+SH-200874,2026-08-05,Chicago - Memphis,Pioneer Components,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,188.55000000000018,8.03787242568539
+SH-200875,2026-08-05,Los Angeles - Houston,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,423.97000000000025,8.288078007279955
+SH-200876,2026-08-05,Chicago - Denver,Skyline Motors,P4_ROUTINE,0,NORMAL,,928.1700000000001,22.207892885683798
+SH-200877,2026-08-05,Chicago - Houston,Summit Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,353.9200000000001,10.27767613936659
+SH-200878,2026-08-06,Los Angeles - Miami,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,2660.5800000000004,44.397757233921844
+SH-200879,2026-08-08,Miami - Chicago,Cascade Foods,P2_HIGH,4,LOW_LOAD|HIGH_EMPTY_RETURN|LATE_PENALTY,Consolidate with other freight before dispatch; Find a backhaul load for the return leg; Root-cause the delay and agree corrective action with carrier,882.41,22.795578369245952
+SH-200880,2026-08-08,Chicago - Dallas,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,381.49000000000024,12.89885209041268
+SH-200881,2026-08-08,New York - Atlanta,Summit Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,210.41000000000008,13.7640725065252
+SH-200882,2026-08-10,Los Angeles - Denver,Atlas Retail Group,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-93.67999999999995,-10.83156044769216
+SH-200883,2026-08-10,Denver - New York,Orchard Brands,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,737.0700000000006,11.391870964152254
+SH-200884,2026-08-10,New York - Atlanta,Crestview Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,492.7399999999998,16.62791521700249
+SH-200885,2026-08-11,Atlanta - Memphis,Skyline Electronics,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-60.369999999999976,-26.309596443824617
+SH-200886,2026-08-12,Miami - New York,Skyline Distribution,P3_MEDIUM,1,HIGH_EMPTY_RETURN,Find a backhaul load for the return leg,203.94999999999982,8.810353839707279
+SH-200887,2026-08-12,Houston - Chicago,Harbor Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,331.0,8.685407203902399
+SH-200888,2026-08-13,Seattle - Chicago,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,462.5,14.64455681613086
+SH-200889,2026-08-13,Atlanta - Los Angeles,Evergreen Industries,P4_ROUTINE,0,NORMAL,,743.5099999999998,19.34053185096935
+SH-200890,2026-08-14,Dallas - Los Angeles,Harbor Distribution,P4_ROUTINE,0,NORMAL,,1014.1499999999996,16.431464679196363
+SH-200891,2026-08-14,Memphis - Miami,Redwood Electronics,P4_ROUTINE,0,NORMAL,,789.9099999999999,30.13324991702875
+SH-200892,2026-08-14,Atlanta - Miami,Cascade Foods,P4_ROUTINE,0,NORMAL,,695.1999999999998,25.234302971346427
+SH-200893,2026-08-16,Seattle - Dallas,Atlas Retail Group,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-1302.5500000000002,-24.937013722967595
+SH-200894,2026-08-18,Denver - New York,Redwood Electronics,P4_ROUTINE,0,NORMAL,,538.3999999999996,9.439768003324252
+SH-200895,2026-08-18,Memphis - Dallas,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,223.01999999999998,22.10175807186887
+SH-200896,2026-08-18,Miami - Houston,Pioneer Industries,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,67.13000000000011,2.68839381184848
+SH-200897,2026-08-18,Atlanta - Chicago,Evergreen Motors,P4_ROUTINE,0,NORMAL,,243.19000000000005,11.07220906938627
+SH-200898,2026-08-19,New York - Los Angeles,Skyline Supply Co,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-174.39999999999964,-2.1768001038473397
+SH-200899,2026-08-19,Houston - Seattle,Summit Industries,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,4.3599999999999,0.32170711371165156
+SH-200900,2026-08-19,Chicago - Seattle,Skyline Supply Co,P4_ROUTINE,0,NORMAL,,1742.8200000000002,37.549284486213274
+SH-200901,2026-08-19,New York - Chicago,Skyline Supply Co,P4_ROUTINE,0,NORMAL,,525.5999999999999,14.35814502382097
+SH-200902,2026-08-19,Denver - Atlanta,Harbor Distribution,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,164.3800000000001,6.0736164583995365
+SH-200903,2026-08-20,Memphis - Chicago,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,524.1399999999999,17.846283755026434
+SH-200904,2026-08-20,Miami - Chicago,Pioneer Motors,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,53.190000000000055,2.329166028069102
+SH-200905,2026-08-20,Dallas - Seattle,Evergreen Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,951.25,13.697121192704277
+SH-200906,2026-08-20,Seattle - Dallas,Atlas Retail Group,P2_HIGH,4,HIGH_EMPTY_RETURN|LATE_PENALTY|ANOMALY,Find a backhaul load for the return leg; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,1229.7400000000002,26.58316778390017
+SH-200907,2026-08-20,Atlanta - New York,Orchard Brands,P1_URGENT,6,LOSS_MAKING|LATE_PENALTY|ANOMALY,Reprice or decline this lane/shipper combination; Root-cause the delay and agree corrective action with carrier; Audit rate/cost entry for errors,-163.89000000000001,-38.248267170762446
+SH-200908,2026-08-20,Houston - Memphis,Orchard Supply Co,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,512.0499999999997,22.859477051236826
+SH-200909,2026-08-20,Memphis - Atlanta,Atlas Retail Group,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,89.25999999999999,6.892983458693065
+SH-200910,2026-08-20,New York - Miami,Harbor Distribution,P4_ROUTINE,0,NORMAL,,1010.4300000000001,37.65891074163937
+SH-200911,2026-08-20,Denver - Los Angeles,Atlas Retail Group,P3_MEDIUM,2,LOW_LOAD|HIGH_EMPTY_RETURN,Consolidate with other freight before dispatch; Find a backhaul load for the return leg,542.1300000000001,15.094512984572209
+SH-200912,2026-08-21,Atlanta - Chicago,Ironbridge Pharma,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,2.4699999999999136,0.43491275333226165
+SH-200913,2026-08-21,Chicago - New York,Summit Industries,P4_ROUTINE,0,NORMAL,,573.0099999999998,20.34959496844624
+SH-200914,2026-08-21,New York - Miami,Atlas Retail Group,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-364.42999999999984,-10.727205828243427
+SH-200915,2026-08-22,Atlanta - New York,Atlas Pharma,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-122.63999999999999,-74.16545718432509
+SH-200916,2026-08-22,Memphis - Dallas,Orchard Supply Co,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-42.620000000000005,-12.43326818168558
+SH-200917,2026-08-22,Los Angeles - Chicago,Redwood Electronics,P4_ROUTINE,0,NORMAL,,1637.2800000000007,22.350114666375458
+SH-200918,2026-08-22,New York - Denver,Redwood Electronics,P4_ROUTINE,0,NORMAL,,667.25,11.207636477854315
+SH-200919,2026-08-22,Denver - New York,Atlas Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,618.5100000000002,15.842778652937339
+SH-200920,2026-08-22,Memphis - Chicago,Ironbridge Pharma,P3_MEDIUM,1,ANOMALY,Audit rate/cost entry for errors,333.56000000000006,39.908114187265205
+SH-200921,2026-08-24,Denver - Dallas,Skyline Distribution,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,441.2199999999998,15.922771562612766
+SH-200922,2026-08-24,Dallas - Atlanta,Crestview Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,486.9499999999998,16.199645367656593
+SH-200923,2026-08-25,Dallas - Atlanta,Atlas Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,89.93000000000029,3.589805001696517
+SH-200924,2026-08-25,Atlanta - Houston,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-167.70000000000027,-7.692095992954659
+SH-200925,2026-08-26,New York - Houston,Skyline Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,87.44999999999982,2.474946298335031
+SH-200926,2026-08-26,Chicago - Atlanta,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,552.4399999999998,23.231579876953866
+SH-200927,2026-08-26,Chicago - Atlanta,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,639.02,23.455956305013324
+SH-200928,2026-08-26,Seattle - Los Angeles,Atlas Retail Group,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-301.0100000000002,-8.76119124957797
+SH-200929,2026-08-26,Los Angeles - Dallas,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,696.8600000000006,14.228369350386316
+SH-200930,2026-08-27,Dallas - Denver,Meridian Components,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,103.76999999999998,6.873642096338295
+SH-200931,2026-08-28,Miami - New York,Harbor Distribution,P2_HIGH,4,LOSS_MAKING|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Find a backhaul load for the return leg,-116.26999999999953,-2.7541494635958035
+SH-200932,2026-08-28,Chicago - Los Angeles,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,1251.4800000000005,18.132319510629642
+SH-200933,2026-08-28,Seattle - New York,Pioneer Components,P2_HIGH,3,BELOW_MARGIN_FLOOR|LOW_LOAD|HIGH_EMPTY_RETURN,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,201.51000000000022,2.112195515659347
+SH-200934,2026-08-28,Chicago - Denver,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,268.0500000000002,8.031990123693552
+SH-200935,2026-08-28,Memphis - Chicago,Ironbridge Pharma,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-38.75,-10.157540171433064
+SH-200936,2026-08-29,Houston - Chicago,Crestview Retail Group,P4_ROUTINE,0,NORMAL,,473.98,19.056847285490853
+SH-200937,2026-08-29,Chicago - Miami,Skyline Supply Co,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,188.19000000000005,4.8210209733241465
+SH-200938,2026-08-31,Memphis - Chicago,Skyline Distribution,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,47.190000000000055,2.6774468085106413
+SH-200939,2026-09-01,Los Angeles - Houston,Harbor Distribution,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,359.65999999999985,6.7289810549791
+SH-200940,2026-09-01,Dallas - Houston,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,75.38000000000011,6.400937468156662
+SH-200941,2026-09-01,New York - Chicago,Skyline Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,634.5700000000002,21.888819134478076
+SH-200942,2026-09-02,Memphis - Chicago,Atlas Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,5.180000000000007,1.0792790915720403
+SH-200943,2026-09-02,Los Angeles - Atlanta,Evergreen Industries,P4_ROUTINE,0,NORMAL,,122.2399999999999,15.219502477651323
+SH-200944,2026-09-02,Houston - New York,Atlas Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,197.9300000000003,4.155434627432215
+SH-200945,2026-09-02,Houston - New York,Summit Motors,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,474.09000000000015,7.346018562994873
+SH-200946,2026-09-03,New York - Miami,Redwood Electronics,P4_ROUTINE,0,NORMAL,,1268.78,49.14056871964492
+SH-200947,2026-09-04,New York - Memphis,Evergreen Industries,P4_ROUTINE,0,NORMAL,,515.6299999999997,19.484278583277582
+SH-200948,2026-09-04,Chicago - Los Angeles,Evergreen Motors,P4_ROUTINE,0,NORMAL,,764.8599999999997,11.09138947618757
+SH-200949,2026-09-05,Chicago - Memphis,Skyline Distribution,P3_MEDIUM,1,ANOMALY,Audit rate/cost entry for errors,604.4399999999999,47.49721039148815
+SH-200950,2026-09-05,Chicago - Seattle,Redwood Electronics,P3_MEDIUM,1,ANOMALY,Audit rate/cost entry for errors,1127.8500000000001,42.8015195042257
+SH-200951,2026-09-05,Chicago - Seattle,Atlas Foods,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,1302.3399999999997,18.81782111264915
+SH-200952,2026-09-05,Dallas - Chicago,Orchard Supply Co,P2_HIGH,3,BELOW_MARGIN_FLOOR|LATE_PENALTY,Raise rate or cut cost to reach the margin floor; Root-cause the delay and agree corrective action with carrier,40.38000000000032,1.7944274096787238
+SH-200953,2026-09-06,Los Angeles - Chicago,Atlas Retail Group,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,146.30999999999995,5.76087127714866
+SH-200954,2026-09-07,Dallas - Miami,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,215.38999999999987,5.485602807618055
+SH-200955,2026-09-07,Memphis - Atlanta,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,665.8699999999999,35.43105558334309
+SH-200956,2026-09-07,Seattle - Chicago,Northstar Brands,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,943.3499999999999,26.677997545290523
+SH-200957,2026-09-08,Seattle - Miami,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,471.96000000000004,10.790000114310537
+SH-200958,2026-09-08,Chicago - New York,Orchard Supply Co,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,217.33999999999992,11.575292125137137
+SH-200959,2026-09-08,New York - Chicago,Pioneer Components,P4_ROUTINE,0,NORMAL,,478.94000000000005,15.659310119339548
+SH-200960,2026-09-08,Dallas - Atlanta,Orchard Supply Co,P4_ROUTINE,0,NORMAL,,113.74000000000001,11.758259934664848
+SH-200961,2026-09-08,Atlanta - Miami,Evergreen Retail Group,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,156.84000000000015,8.384206643644497
+SH-200962,2026-09-08,Atlanta - Miami,Atlas Electronics,P4_ROUTINE,0,NORMAL,,726.4200000000001,25.50372328660354
+SH-200963,2026-09-09,New York - Dallas,Pioneer Components,P4_ROUTINE,0,NORMAL,,775.6199999999999,19.754828423194766
+SH-200964,2026-09-09,Houston - New York,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,443.49,26.47986052232479
+SH-200965,2026-09-10,Los Angeles - New York,Orchard Supply Co,P2_HIGH,3,LOW_LOAD|LATE_PENALTY,Consolidate with other freight before dispatch; Root-cause the delay and agree corrective action with carrier,2384.98,33.77790241007709
+SH-200966,2026-09-10,Memphis - Miami,Pioneer Components,P4_ROUTINE,0,NORMAL,,352.1600000000003,10.341404969841493
+SH-200967,2026-09-10,Dallas - Los Angeles,Atlas Retail Group,P4_ROUTINE,0,NORMAL,,439.1199999999999,11.309335249471385
+SH-200968,2026-09-10,Denver - Chicago,Pioneer Motors,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,102.03999999999996,5.088388560600392
+SH-200969,2026-09-11,Dallas - New York,Redwood Pharma,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1177.08,21.396980631322542
+SH-200970,2026-09-11,Atlanta - Denver,Crestview Retail Group,P4_ROUTINE,0,NORMAL,,316.6999999999998,9.988897720247778
+SH-200971,2026-09-11,Miami - Memphis,Ironbridge Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,263.1199999999999,11.906151722889655
+SH-200972,2026-09-11,Denver - Memphis,Redwood Retail Group,P3_MEDIUM,2,LATE_PENALTY,Root-cause the delay and agree corrective action with carrier,522.5599999999997,13.895137659077728
+SH-200973,2026-09-12,Chicago - Los Angeles,Redwood Electronics,P4_ROUTINE,0,NORMAL,,1117.4300000000003,15.774999823534813
+SH-200974,2026-09-12,Los Angeles - Dallas,Evergreen Motors,P4_ROUTINE,0,NORMAL,,1243.0099999999998,28.247595110455613
+SH-200975,2026-09-12,Houston - Dallas,Harbor Components,P1_URGENT,7,LOSS_MAKING|LATE_PENALTY|CLAIM,Reprice or decline this lane/shipper combination; Root-cause the delay and agree corrective action with carrier; Review packing/handling and insurance recovery,-335.88,-51.725571725571726
+SH-200976,2026-09-12,Dallas - Atlanta,Orchard Brands,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,83.1099999999999,5.725800895625208
+SH-200977,2026-09-12,Los Angeles - Atlanta,Skyline Supply Co,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,237.6199999999999,3.7203869753576404
+SH-200978,2026-09-14,Atlanta - New York,Redwood Electronics,P4_ROUTINE,0,NORMAL,,794.94,23.409367987702527
+SH-200979,2026-09-14,Memphis - Atlanta,Atlas Electronics,P2_HIGH,4,LOSS_MAKING|LOW_LOAD,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch,-9.960000000000036,-1.751024067790657
+SH-200980,2026-09-15,New York - Chicago,Redwood Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,13.779999999999973,2.099009900990095
+SH-200981,2026-09-15,Los Angeles - Memphis,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,634.31,19.678167908618793
+SH-200982,2026-09-15,New York - Seattle,Crestview Retail Group,P4_ROUTINE,0,NORMAL,,1198.6899999999996,17.37831309930091
+SH-200983,2026-09-15,Houston - New York,Skyline Distribution,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-82.14999999999964,-1.723873816213849
+SH-200984,2026-09-15,Houston - Miami,Harbor Components,P3_MEDIUM,2,BELOW_MARGIN_FLOOR|LOW_LOAD,Raise rate or cut cost to reach the margin floor; Consolidate with other freight before dispatch,16.230000000000018,0.8801804830959803
+SH-200985,2026-09-15,Atlanta - Los Angeles,Orchard Brands,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-384.83999999999924,-5.958640679288741
+SH-200986,2026-09-15,Seattle - Denver,Atlas Electronics,P4_ROUTINE,0,NORMAL,,316.27,11.083115481388552
+SH-200987,2026-09-15,Memphis - Los Angeles,Meridian Industries,P4_ROUTINE,0,NORMAL,,960.75,15.172979068158776
+SH-200988,2026-09-15,Chicago - New York,Summit Industries,P4_ROUTINE,0,NORMAL,,802.9000000000001,25.216312557905812
+SH-200989,2026-09-15,Chicago - New York,Harbor Components,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-2.5700000000001637,-0.15287791181860255
+SH-200990,2026-09-16,Chicago - Los Angeles,Redwood Electronics,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,1658.9299999999998,41.7870709024776
+SH-200991,2026-09-16,Memphis - New York,Atlas Electronics,P3_MEDIUM,1,BELOW_MARGIN_FLOOR,Raise rate or cut cost to reach the margin floor,11.660000000000082,2.090242547012545
+SH-200992,2026-09-16,Houston - Chicago,Titan Motors,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,393.44000000000005,11.792351037045918
+SH-200993,2026-09-16,Los Angeles - Houston,Atlas Electronics,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-570.6999999999998,-12.59161853154413
+SH-200994,2026-09-16,Los Angeles - Seattle,Harbor Distribution,P4_ROUTINE,0,NORMAL,,1055.4699999999998,24.13749731289763
+SH-200995,2026-09-16,Seattle - Chicago,Redwood Electronics,P1_URGENT,5,LOSS_MAKING|LOW_LOAD|HIGH_EMPTY_RETURN,Reprice or decline this lane/shipper combination; Consolidate with other freight before dispatch; Find a backhaul load for the return leg,-194.09999999999945,-3.0441233207135174
+SH-200996,2026-09-16,Seattle - Dallas,Atlas Retail Group,P2_HIGH,3,LOSS_MAKING,Reprice or decline this lane/shipper combination,-12.859999999999957,-2.5853403562381803
+SH-200997,2026-09-16,Los Angeles - Dallas,Redwood Electronics,P4_ROUTINE,0,NORMAL,,1916.7399999999998,48.16341094465356
+SH-200998,2026-09-17,New York - Los Angeles,Skyline Retail Group,P4_ROUTINE,0,NORMAL,,1238.3000000000002,14.682778238232613
+SH-200999,2026-09-18,Miami - Chicago,Summit Industries,P3_MEDIUM,1,LOW_LOAD,Consolidate with other freight before dispatch,426.9499999999998,8.738106494585624
+SH-201000,2026-09-18,Memphis - Atlanta,Skyline Electronics,P3_MEDIUM,1,ANOMALY,Audit rate/cost entry for errors,96.01999999999998,21.225518369512354

@@ -1,0 +1,61 @@
+{
+  "as_of": "2026-09-18",
+  "goals": [
+    {
+      "goal": "on_time_target_pct",
+      "label": "On-time delivery (last 30d)",
+      "actual": 84.6939,
+      "target": 95.0,
+      "status": "OFF_TRACK",
+      "gap": -10.3061
+    },
+    {
+      "goal": "margin_floor_pct",
+      "label": "Net margin (last 30d)",
+      "actual": 13.4247,
+      "target": 8.0,
+      "status": "ON_TRACK",
+      "gap": 5.4247
+    },
+    {
+      "goal": "revenue_target",
+      "label": "Revenue (last 30d)",
+      "actual": 327642.37,
+      "target": null,
+      "status": "NOT_SET",
+      "gap": null
+    },
+    {
+      "goal": "revenue_target",
+      "label": "Forecast revenue (next 30d)",
+      "actual": 299964.77,
+      "target": null,
+      "status": "NOT_SET",
+      "gap": null
+    },
+    {
+      "goal": "empty_ratio_max",
+      "label": "Empty-return ratio (last 30d)",
+      "actual": 0.1142,
+      "target": 0.3,
+      "status": "ON_TRACK",
+      "gap": -0.1858
+    },
+    {
+      "goal": "load_factor_min",
+      "label": "Load factor (last 30d)",
+      "actual": 72.4837,
+      "target": 65.0,
+      "status": "ON_TRACK",
+      "gap": 7.4837
+    },
+    {
+      "goal": "overdue_grace_days",
+      "label": "Days paid beyond terms (invoices, last 90d)",
+      "actual": 3.8826,
+      "target": 10,
+      "status": "ON_TRACK",
+      "gap": -6.1174
+    }
+  ]
+}

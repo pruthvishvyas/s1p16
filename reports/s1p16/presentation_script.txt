@@ -1,0 +1,60 @@
+SLIDE 1 -- FREIGHT OPERATIONS: FREIGHT PROFIT AND DELIVERY INTELLIGENCE
+Hook: $3,464,931 revenue, $445,131 net profit, 85.8% on-time - where is the money leaking?
+
+SLIDE 2 -- THE BUSINESS PROBLEM
+Margins in freight are thin. Late penalties, claims, empty miles, under-filled loads and slow-paying shippers erode profit without showing up in one report.
+This pipeline answers: which lanes, shippers and carriers lose money, and what to do about it this week.
+
+SLIDE 3 -- DATASET OVERVIEW
+Shipments: 1,000 | Lanes: 90 | Shippers: 40
+Period: 2025-10-01 to 2026-09-18 | Columns validated: 48
+
+SLIDE 4 -- DELIVERY PERFORMANCE
+On-time delivery 85.8% vs target 95.0%; late shipments: 142
+
+SLIDE 5 -- CORE FINDING
+Late penalties and claims cost $27,952 (0.8% of revenue); 21 lanes earn below the margin floor.
+
+SLIDE 6 -- FEATURE ENGINEERING
+Plain-English features: empty-return ratio, planned km per day, load factor flags, subcontract share, lane late history, payment days over terms, composite ops risk score.
+Stored in data/processed/s1p16/feature_store.csv for reuse by the live API.
+
+SLIDE 7 -- LATE DELIVERY MODEL
+Mode: ml | Best model: RandomForest | Split: time_based: newest 20% of shipments held out
+Held-out recall: 0.7308 | precision: 0.1792 | ROC-AUC: 0.5975
+Rule baseline recall: 0.3873
+
+SLIDE 8 -- LANE SEGMENTATION AND ANOMALIES
+Profit Engine: 34 lanes
+Core Lane: 33 lanes
+Margin Drain: 16 lanes
+Insufficient data: 7 lanes
+Unusual shipments flagged for audit: 50
+
+SLIDE 9 -- REVENUE FORECAST
+Method: GradientBoostingRegressor | Next 30 days: $299,965 vs trailing 30 days $327,642
+Holdout WAPE: 0.5572 vs seasonal-naive 0.6541
+
+SLIDE 10 -- BUSINESS LOGIC
+Rules: loss-making, below margin floor, low load, high empty return, late penalty, claims, overdue invoices, anomalies. P1 urgent shipments: 65
+
+SLIDE 11 -- KEY INSIGHTS
+[HIGH] Revenue Leakage: Fuel surcharges recover 18.1% of own-fleet fuel cost
+[HIGH] Cash Collection: $372,910 is outstanding, $0 of it overdue
+[HIGH] Asset Utilization: Own-fleet empty return km equal 22.7% of loaded km (limit 30%)
+[MEDIUM] Carrier Cost: Subcontracted Trucker earns 10.2% net margin vs 17.7% for Rail Operator
+[MEDIUM] Customer Concentration: Top 3 shippers generate 28.5% of revenue
+
+SLIDE 12 -- RECOMMENDATIONS
+- Index the surcharge table to the fuel price and apply it on every contract
+- Chase the top 3 balances this week and tighten terms for repeat late payers
+- Match backhaul loads on the highest-deadhead lanes
+- Renegotiate purchased-transport rates or shift volume toward Rail Operator
+- Lock in multi-year contracts with the top 3 and build pipeline to dilute dependence
+
+SLIDE 13 -- EXECUTIVE HOOK
+$445,131 net profit on $3,464,931 revenue; $27,952 lost to penalties and claims; $372,910 still uncollected; 21 lanes below floor.
+
+SLIDE 14 -- TECHNICAL ARCHITECTURE
+Pipeline: ingest -> clean -> features -> EDA -> late-risk model -> lane segments + anomalies -> forecast -> business rules -> simulations -> goals/alerts -> insights -> export.
+Outputs organised by outcome (UNDERSTAND / DECIDE / MONITOR) under output/s1p16/ for a Cloudflare-hosted frontend.

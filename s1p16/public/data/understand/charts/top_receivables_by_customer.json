@@ -1,0 +1,51 @@
+{
+  "id": "top_receivables_by_customer",
+  "title": "Top receivables by shipper",
+  "business_question": "Which shippers hold my cash?",
+  "outcome": "DECIDE",
+  "type": "bar",
+  "x_label": "Shipper",
+  "y_label": "Outstanding AR",
+  "data": [
+    {
+      "label": "Redwood Electronics",
+      "value": 78200.65
+    },
+    {
+      "label": "Atlas Retail Group",
+      "value": 60217.5
+    },
+    {
+      "label": "Pioneer Components",
+      "value": 19930.38
+    },
+    {
+      "label": "Skyline Supply Co",
+      "value": 17830.98
+    },
+    {
+      "label": "Harbor Distribution",
+      "value": 16622.42
+    },
+    {
+      "label": "Orchard Supply Co",
+      "value": 16275.34
+    },
+    {
+      "label": "Atlas Electronics",
+      "value": 16124.09
+    },
+    {
+      "label": "Evergreen Motors",
+      "value": 13492.79
+    },
+    {
+      "label": "Skyline Distribution",
+      "value": 12886.4
+    },
+    {
+      "label": "Crestview Retail Group",
+      "value": 12555.33
+    }
+  ]
+}
